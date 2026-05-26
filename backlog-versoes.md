@@ -1,5 +1,20 @@
 # Backlog de Versões — ecossistema-sumario
 
+## v0.3 — 2026-05-26
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Registro da primeira skill do ecossistema.
+A skill-criador-de-skills (S01) foi criada como peça fundacional
+responsável por garantir que todas as skills futuras nasçam em
+conformidade com as matrizes do ecossistema.
+
+### Alterações realizadas
+- Adição da entrada S01 na seção [S] do `sumario.md`
+- Ecossistema passa a ter 2 Matrizes (M) e 1 Skill (S) registradas
+
+---
+
 ## v0.2 — 2026-05-26
 
 **Tipo de alteração:** Adição
