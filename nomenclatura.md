@@ -67,3 +67,38 @@ dia, acrescente ` HH:MM` ao final. Ex: `v1.2 — 2026-05-26 14:30`
 ## 4. Estrutura interna de skills (tipo S)
 
 Todo repositório de skill deve ter esta estrutura:
+
+nome-da-skill/
+├── README.md
+├── SKILL.md
+├── backlog-versoes.md
+└── exemplos/
+└── exemplo-01.md
+
+---
+
+## 5. Estrutura do backlog-versoes.md
+
+Padrão obrigatório para todos os repositórios:
+
+    # Backlog de Versões — [nome-do-repositorio]
+
+    ## vX.Y — AAAA-MM-DD
+
+    **Tipo de alteração:** [Criação | Adição | Correção | Atualização | Remoção]
+    **Autorizado por:** victorarimatea
+    **Exposição de motivos:** [descrição objetiva do porquê da mudança]
+
+    ### Alterações realizadas
+    - item 1
+    - item 2
+
+---
+
+## 6. Regras de atualização do ecossistema
+
+1. Nenhum repositório é criado sem entrada correspondente em `sumario.md`
+2. Nenhum arquivo obrigatório pode ser renomeado sem atualização do `sumario.md`
+3. Toda alteração em Matrizes (tipo M) requer registro em `backlog-versoes.md`
+4. Skills devem verificar sua própria entrada no `sumario.md` a cada execução
+   e solicitar autorização ao mantenedor caso encontrem divergência
