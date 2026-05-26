@@ -1,7 +1,7 @@
 # ecossistema-sumario
 
 **Tipo:** Matriz Central (M)
-**Versão:** v0.1 — 2026-05-26
+**Versão:** v0.3 — 2026-05-26
 **Mantenedor:** victorarimatea
 **Status:** Ativo
 
