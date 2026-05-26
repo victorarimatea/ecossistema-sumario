@@ -32,7 +32,9 @@ Cada repositório tem um **Tipo**, que define seu papel no ecossistema:
 
 ### [S] Skills
 
-*Nenhuma skill registrada ainda.*
+| ID | Nome | URL | Descrição | Versão atual |
+|---|---|---|---|---|
+| S01 | skill-criador-de-skills | https://github.com/victorarimatea/skill-criador-de-skills | Cria novas skills no ecossistema garantindo conformidade com nomenclatura.md e atualização automática do sumario.md | v1.0 — 2026-05-26 |
 
 ### [D] Documentos Institucionais
 
