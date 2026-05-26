@@ -1,5 +1,22 @@
 # Backlog de Versões — ecossistema-sumario
 
+## v0.4 — 2026-05-26
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Registro da segunda skill do ecossistema.
+A skill-iac-pdtic (S02) foi criada via API do GitHub pela própria
+skill-criador-de-skills (S01) — primeiro teste bem-sucedido do
+fluxo automatizado do ecossistema. A skill especializa o modelo
+IAC v0.1 para o contexto do PDTIC 2024–2027 da SES-DF.
+
+### Alterações realizadas
+- Adição da entrada S02 na seção [S] do `sumario.md`
+- Versão do `sumario.md` atualizada para v0.4 — 2026-05-26
+- Ecossistema passa a ter 2 Matrizes (M) e 2 Skills (S) registradas
+
+---
+
 ## v0.3 — 2026-05-26
 
 **Tipo de alteração:** Adição
@@ -22,8 +39,7 @@ conformidade com as matrizes do ecossistema.
 **Exposição de motivos:** O backlog do repositório saude-digital-taxonomia
 demonstrou um padrão mais rico que o mínimo definido inicialmente.
 Adotada a Opção B de padronização: formato mínimo universal com extensões
-por tipo de repositório. Isso preserva a riqueza dos backlogs especializados
-sem sacrificar a consistência do ecossistema.
+por tipo de repositório.
 
 ### Alterações realizadas
 - Adição da seção 7 ao `nomenclatura.md` (extensões de backlog por tipo)
@@ -36,16 +52,10 @@ sem sacrificar a consistência do ecossistema.
 
 **Tipo de alteração:** Criação
 **Autorizado por:** victorarimatea
-**Exposição de motivos:** Fundação do ecossistema DTD/SETIS. O
-repositório ecossistema-sumario foi criado como Matriz Central (M01)
-para servir de âncora a todos os repositórios, skills e documentos
-institucionais que serão desenvolvidos pela Diretoria de Transformação
-Digital da SETIS/SES-DF. Esta versão estabelece as convenções de
-nomenclatura, o sumário inicial do ecossistema e os arquivos obrigatórios
-do repositório M01.
+**Exposição de motivos:** Fundação do ecossistema DTD/SETIS.
 
 ### Alterações realizadas
-- Criação do repositório `ecossistema-sumario` (privado)
+- Criação do repositório `ecossistema-sumario` (privado, depois público)
 - Criação e configuração do `README.md`
 - Criação do `sumario.md` com registro de M01 e M02
 - Criação do `nomenclatura.md` com convenções v0.1
