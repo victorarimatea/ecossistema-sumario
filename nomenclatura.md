@@ -102,3 +102,52 @@ Padrão obrigatório para todos os repositórios:
 3. Toda alteração em Matrizes (tipo M) requer registro em `backlog-versoes.md`
 4. Skills devem verificar sua própria entrada no `sumario.md` a cada execução
    e solicitar autorização ao mantenedor caso encontrem divergência
+
+---
+
+## 7. Extensões de backlog por tipo de repositório
+
+O formato definido na Seção 5 é o mínimo obrigatório para todos os
+repositórios. Cada tipo pode estender esse formato com campos adicionais
+conforme sua natureza.
+
+### 7.1 Matrizes de conhecimento (ex: taxonomias, glossários)
+
+Campos adicionais obrigatórios para este tipo:
+
+| Campo | Valores possíveis |
+|---|---|
+| `**Tópico afetado**` | Código e nome do tópico alterado |
+| `**Fonte**` | Evidência que motivou a mudança |
+| `**Proposto por**` | `sistema` ou `manual` |
+
+Inclui também duas seções fixas ao final do arquivo:
+
+- `## Alterações Pendentes (Backlog)` — propostas geradas por skills
+  aguardando autorização do mantenedor
+- `## Notas de Revisão Futura` — observações para próximas versões
+
+**Repositório de referência:** `saude-digital-taxonomia`
+
+### 7.2 Skills (tipo S)
+
+Campos adicionais obrigatórios para este tipo:
+
+| Campo | Valores possíveis |
+|---|---|
+| `**Impacto**` | `breaking` (incompatível) ou `non-breaking` (compatível) |
+| `**Skills afetadas**` | Lista de skills do ecossistema impactadas pela mudança |
+
+**Repositório de referência:** a ser definido na criação da primeira skill.
+
+### 7.3 Documentos institucionais (tipo D)
+
+Campos adicionais obrigatórios para este tipo:
+
+| Campo | Valores possíveis |
+|---|---|
+| `**Instrumento de aprovação**` | ATA, Despacho, Portaria, etc. |
+| `**Processo SEI**` | Número do processo relacionado |
+| `**IAC gerado**` | Referência ao IAC que documentou a revisão |
+
+**Repositório de referência:** a ser definido na criação do `pdtic-historico`.
