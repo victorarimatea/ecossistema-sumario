@@ -1,7 +1,7 @@
 # ecossistema-sumario
 
 **Tipo:** Matriz Central (M)
-**Versão:** v0.3 — 2026-05-26
+**Versão:** v0.5 — 2026-05-27
 **Mantenedor:** victorarimatea
 **Status:** Ativo
 
@@ -13,9 +13,19 @@
 
 | Arquivo | Função |
 |---|---|
+| `CONTEXTO.md` | Briefing completo do ecossistema — leia primeiro em novas sessões |
 | `sumario.md` | Índice vivo de todos os repositórios do ecossistema |
-| `nomenclatura.md` | Regras de nomes, versões e estrutura de arquivos |
+| `nomenclatura.md` | Regras de nomes, versões, estrutura de arquivos e modelo IAC |
 | `backlog-versoes.md` | Histórico auditável de todas as alterações neste repositório |
+
+## Como iniciar uma nova sessão de trabalho
+
+Cole no início de qualquer conversa com o Claude:
+
+```
+Leia https://raw.githubusercontent.com/victorarimatea/ecossistema-sumario/main/CONTEXTO.md
+e me diga o que entendeu sobre o ecossistema antes de começarmos.
+```
 
 ## Como este repositório é usado
 
