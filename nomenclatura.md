@@ -1,6 +1,6 @@
 # Matriz de Nomenclatura do Ecossistema DTD/SETIS
 
-**Versão:** v0.2 — 2026-05-26
+**Versão:** v0.3 — 2026-05-27
 **Mantenedor:** victorarimatea
 
 > Define as convenções obrigatórias de nomenclatura para todos os
@@ -151,3 +151,44 @@ Campos adicionais obrigatórios para este tipo:
 | `**IAC gerado**` | Referência ao IAC que documentou a revisão |
 
 **Repositório de referência:** a ser definido na criação do `pdtic-historico`.
+---
+
+## 8. Modelo IAC — Instrumento de Análise Comparativa
+
+O IAC é o instrumento padrão de governança documental do ecossistema DTD/SETIS.
+Deve ser utilizado sempre que houver necessidade de análise formal entre documentos.
+
+### 8.1 Versão do modelo
+
+O modelo IAC é versionado independentemente dos documentos que analisa.
+Formato: `IAC vMAJOR.MINOR — AAAA-MM-DD`
+Versão atual: `IAC v0.2 — 2026-05-27`
+
+### 8.2 Modos de análise
+
+| Modo | Sigla | Quando usar |
+|---|---|---|
+| Análise Comparativa Vertical | IAC-V | Comparar versões diferentes do mesmo documento |
+| Análise Comparativa Horizontal | IAC-H | Verificar conformidade entre documentos distintos |
+
+### 8.3 Estrutura obrigatória de todo IAC
+
+Todo IAC deve conter obrigatoriamente, nesta ordem:
+
+1. Capa institucional com ficha técnica completa (tipo, modo, autor, destinatários, processo SEI)
+2. Sumário
+3. Apresentação e objetivo do documento
+4. Contexto normativo
+5. Panorama quantitativo comparativo
+6. Análise detalhada (modificações para IAC-V / convergências e lacunas para IAC-H)
+7. Encaminhamentos ou recomendações
+8. Modelo IAC — padrão para uso futuro
+
+### 8.4 Nomenclatura de arquivos IAC
+
+Formato: `[SIGLA-DOCUMENTO]_IAC-[MODO]_v[VERSAO]_[AAAA-MM-DD].[ext]`
+
+Exemplos:
+- `PDTIC_IAC-V_v02_2026-05-27.pdf` — IAC Vertical do PDTIC, versão 0.2
+- `PDTIC_PTD_IAC-H_v01_2026-05-27.pdf` — IAC Horizontal PDTIC × PTD, versão 0.1
+
