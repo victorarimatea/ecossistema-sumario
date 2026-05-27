@@ -1,3 +1,20 @@
+## v0.6 — 2026-05-27
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Criação do CONTEXTO.md para permitir inicialização
+rápida de novas sessões de trabalho sem necessidade de reexplicar o ecossistema.
+O arquivo consolida em um único documento: identidade do mantenedor, estrutura
+do ecossistema, convenções, modelo IAC, governança SES-DF, histórico de
+produções e próximos passos planejados.
+
+### Alterações realizadas
+- Criação do `CONTEXTO.md` v1.0 com briefing completo do ecossistema
+- Atualização do `README.md` para incluir `CONTEXTO.md` na tabela de arquivos
+- Instrução de inicialização de sessão adicionada ao README
+
+---
+
 # Backlog de Versões — ecossistema-sumario
 
 ## v0.5 — 2026-05-27
