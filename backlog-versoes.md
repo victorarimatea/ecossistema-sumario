@@ -1,3 +1,23 @@
+## v0.7 — 2026-05-27
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Formalização do protocolo de acentuação em português
+como padrão obrigatório do ecossistema. A regra foi descoberta na prática
+durante a geração dos documentos IAC e agora é incorporada permanentemente
+a todas as skills geradoras de documentos DOCX/PDF, garantindo que qualquer
+skill futura criada pelo ecossistema nasça com este padrão.
+
+### Alterações realizadas
+- `nomenclatura.md` atualizado para v0.4: seção 9 adicionada
+  (padrão de acentuação em documentos gerados)
+- `skill-criador-de-skills/SKILL.md`: bloco REGRA DE ACENTUAÇÃO adicionado
+  + instrução para propagar o bloco a toda nova skill criada
+- `skill-iac-pdtic/SKILL.md`: bloco REGRA DE ACENTUAÇÃO adicionado
+  com protocolo completo de 3 etapas (substituição global, títulos, verificação)
+
+---
+
 ## v0.6 — 2026-05-27
 
 **Tipo de alteração:** Adição
