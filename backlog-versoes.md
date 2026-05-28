@@ -1,3 +1,25 @@
+## v0.9 — 2026-05-28
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Criação do protocolo-atualizacoes.md, documento de referência
+que define o protocolo obrigatório de encerramento para qualquer operação realizada
+no ecossistema. O documento nasceu da constatação de que operações de incorporação
+de skills ou documentos sempre deixavam pontos em aberto (backlog, sumário, roadmap,
+contexto) por falta de uma checklist sistemática. O protocolo cobre 6 tipos de
+operação (OP-A a OP-F) com checklists específicas e um modelo de relatório de
+encerramento padronizado. É candidato a skill autônoma quando a lógica estiver
+madura e o ecossistema tiver mais membros ativos.
+
+### Alterações realizadas
+- Criação de `protocolo-atualizacoes.md` v1.0 no ecossistema-sumario
+- `nomenclatura.md` referenciado como base para as regras de atualização
+- Documento cobre: OP-A (criação de repositório), OP-B (atualização de skill),
+  OP-C (atualização de matriz), OP-D (geração de documento institucional),
+  OP-E (correção pontual), OP-F (atualização de planejamento ou visão)
+
+---
+
 ## v0.8 — 2026-05-28
 
 **Tipo de alteração:** Adição
