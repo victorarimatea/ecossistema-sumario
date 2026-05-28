@@ -1,3 +1,21 @@
+## v0.8 — 2026-05-28
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Incorporação da skill-poc-saude-digital (S03) ao ecossistema.
+A skill foi consolidada a partir da experiência acumulada na elaboração da PoC MedNear,
+caso zero do Marco Regulatório Interno de PoCs em Saúde Digital da SES-DF.
+Inclui protocolo completo de 3 etapas de acentuação, conforme padrão do ecossistema.
+O sumario.md foi estruturado pela primeira vez com conteúdo completo (v0.2).
+
+### Alterações realizadas
+- Criação do repositório `skill-poc-saude-digital` (público) com 4 arquivos
+- `sumario.md` atualizado para v0.2: primeira versão com estrutura completa,
+  entrada S03 registrada
+- `backlog-versoes.md` atualizado: esta entrada (v0.8)
+
+---
+
 ## v0.7 — 2026-05-27
 
 **Tipo de alteração:** Adição
