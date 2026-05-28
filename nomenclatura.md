@@ -1,6 +1,6 @@
 # Matriz de Nomenclatura do Ecossistema DTD/SETIS
 
-**Versão:** v0.3 — 2026-05-27
+**Versão:** v0.4 — 2026-05-27
 **Mantenedor:** victorarimatea
 
 > Define as convenções obrigatórias de nomenclatura para todos os
@@ -192,3 +192,36 @@ Exemplos:
 - `PDTIC_IAC-V_v02_2026-05-27.pdf` — IAC Vertical do PDTIC, versão 0.2
 - `PDTIC_PTD_IAC-H_v01_2026-05-27.pdf` — IAC Horizontal PDTIC × PTD, versão 0.1
 
+
+
+---
+
+## 9. Padrão de acentuação em documentos gerados
+
+Todo documento DOCX/PDF produzido por qualquer skill do ecossistema deve
+seguir o protocolo de correção de acentuação em português antes da entrega.
+
+### Protocolo obrigatório (3 etapas)
+
+**Etapa A — Substituição global no script**
+Aplicar substituição global de palavras sem acentuação no código antes
+de executar o script de geração. Ver lista completa de palavras no
+SKILL.md de cada skill geradora.
+
+**Etapa B — Correção individual de títulos**
+Verificar e corrigir cada título de seção individualmente após a
+substituição global, pois títulos usam funções separadas no código.
+
+**Etapa C — Verificação automática do DOCX**
+Executar script Python de verificação no DOCX gerado antes de converter
+para PDF. Se encontrar palavras sem acento, voltar à Etapa A.
+
+### Regra de entrega
+
+Nenhum documento é entregue sem passar pelas 3 etapas com sucesso.
+A conversão para PDF só ocorre após a Etapa C confirmar zero ocorrências
+de palavras sem acentuação.
+
+### Skills que implementam este padrão
+- `skill-criador-de-skills` (S01) — garante que novas skills nasçam com a regra
+- `skill-iac-pdtic` (S02) — aplica nas gerações IAC-V e IAC-H
