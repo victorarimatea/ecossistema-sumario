@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v1.1 — 2026-05-28
+**Versão:** v1.2 — 2026-05-28
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing completo para inicialização de novas sessões de trabalho.
 Leia este arquivo antes de qualquer outra ação.
@@ -77,7 +77,7 @@ MINOR sobe em melhorias e correções.
 ### Arquivos obrigatórios em todo repositório
 `README.md`, `backlog-versoes.md`
 Skills (tipo S) adicionam: `SKILL.md`
-Matrizes M01 adicionam: `sumario.md`, `nomenclatura.md`, `CONTEXTO.md`
+Matrizes M01 adicionam: `sumario.md`, `nomenclatura.md`, `CONTEXTO.md`, `protocolo-atualizacoes.md`
 
 ### Backlogs
 Entrada mais recente sempre no topo.
@@ -189,6 +189,8 @@ Resultado Esperado
 
 ## Próximos passos planejados
 
+0. **Protocolo de encerramento ativo** — `protocolo-atualizacoes.md` publicado no M01;
+   toda skill deve consultá-lo ao final de qualquer operação de escrita no ecossistema
 1. **Criar repositório `governanca-ses-df`** com Portaria 193/2024, PTD-SES,
    base normativa de saúde digital e matriz de competências institucionais
 2. **Atualizar `skill-iac-pdtic`** para consultar `governanca-ses-df` na Etapa 1
