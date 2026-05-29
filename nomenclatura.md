@@ -1,6 +1,6 @@
 # Matriz de Nomenclatura do Ecossistema DTD/SETIS
 
-**Versão:** v0.4 — 2026-05-27
+**Versão:** v0.5 — 2026-05-29
 **Mantenedor:** victorarimatea
 
 > Define as convenções obrigatórias de nomenclatura para todos os
@@ -41,6 +41,9 @@ Todo repositório do ecossistema deve conter estes arquivos na raiz:
 | `SKILL.md` | Skills (tipo S) | Documentação técnica da skill para o Claude |
 | `sumario.md` | Apenas M01 | Índice central do ecossistema |
 | `nomenclatura.md` | Apenas M01 | Este arquivo |
+| `CONTEXTO.md` | Apenas M01 | Briefing de inicialização de sessões |
+| `protocolo-atualizacoes.md` | Apenas M01 | Protocolo obrigatório de encerramento de operações |
+| `backlog-acoes-dtd.md` | Apenas M01 | Histórico retrospectivo de ações e produtos da DTD |
 
 ---
 
@@ -92,6 +95,20 @@ Padrão obrigatório para todos os repositórios:
     ### Alterações realizadas
     - item 1
     - item 2
+
+---
+
+### 5.1 Backlog de ações da DTD (backlog-acoes-dtd.md)
+
+Arquivo obrigatório apenas em M01. Distinto do `backlog-versoes.md`: enquanto o
+backlog de versões registra alterações *no repositório*, o backlog de ações
+registra *ações e produtos institucionais da DTD* (documentos IAC, PoCs,
+articulações, configurações do ecossistema) ao longo do tempo. É a fonte única
+para relatórios de atividade consolidados.
+
+- Entrada mais recente sempre no topo.
+- Itens prospectivos (reuniões, prazos) não entram — viram entrada após executados.
+- O esquema de campos é definido no cabeçalho do próprio arquivo.
 
 ---
 
