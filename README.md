@@ -1,7 +1,7 @@
 # ecossistema-sumario
 
 **Tipo:** Matriz Central (M)
-**Versão:** v0.5 — 2026-05-27
+**Versão:** v0.10 — 2026-05-29
 **Mantenedor:** victorarimatea
 **Status:** Ativo
 
@@ -17,6 +17,8 @@
 | `sumario.md` | Índice vivo de todos os repositórios do ecossistema |
 | `nomenclatura.md` | Regras de nomes, versões, estrutura de arquivos e modelo IAC |
 | `backlog-versoes.md` | Histórico auditável de todas as alterações neste repositório |
+| `protocolo-atualizacoes.md` | Protocolo obrigatório de encerramento de operações |
+| `backlog-acoes-dtd.md` | Histórico retrospectivo de ações e produtos da DTD |
 
 ## Como iniciar uma nova sessão de trabalho
 
