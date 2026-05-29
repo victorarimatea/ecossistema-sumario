@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v0.2 — 2026-05-28
+**Versão:** v0.3 — 2026-05-29
 **Repositório âncora:** ecossistema-sumario
 **Mantenedor:** victorarimatea
 
@@ -8,11 +8,17 @@
 
 ## Repositórios Ativos
 
+### Portfólio público (repositório-mãe)
+
+| ID | Nome | Versão | Descrição |
+|---|---|---|---|
+| — | dtd-setis | v0.9 | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, DECISOES |
+
 ### Matrizes (M)
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | ecossistema-sumario | v0.5 | Âncora do ecossistema: sumário, nomenclatura, contexto |
+| M01 | ecossistema-sumario | v0.10 | Âncora: sumário, nomenclatura, contexto, protocolo de atualizações, histórico de ações |
 | M02 | saude-digital-taxonomia | v1.0 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
@@ -45,6 +51,7 @@
 
 | Repositório | URL |
 |---|---|
+| dtd-setis | https://github.com/victorarimatea/dtd-setis |
 | ecossistema-sumario | https://github.com/victorarimatea/ecossistema-sumario |
 | saude-digital-taxonomia | https://github.com/victorarimatea/saude-digital-taxonomia |
 | skill-criador-de-skills | https://github.com/victorarimatea/skill-criador-de-skills |
