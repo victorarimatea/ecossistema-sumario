@@ -1,3 +1,19 @@
+## v0.10 — 2026-05-29
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Separação entre contexto durável e estado operacional transitório no CONTEXTO.md, que vinha acumulando itens de agenda e status de tramitação impróprios para um arquivo de inicialização. Criação do backlog de ações da DTD como fonte única para relatórios de atividade. Na mesma passada, correção de drift pré-existente: ausência da skill S03 e do repositório-mãe dtd-setis nos índices, e desalinhamento da versão do M01 (índices indicavam v0.5 enquanto o backlog já registrava v0.9).
+
+### Alterações realizadas
+- `CONTEXTO.md` -> v1.1: bloco de escopo; remoção de estado transitório (datas de reunião, versões em tramitação, tabela "o que já foi produzido"); tabela de repositórios completada com S03 e dtd-setis; referências ao protocolo e ao backlog de ações
+- `backlog-acoes-dtd.md` -> criado: histórico retrospectivo de ações e produtos da DTD, com as duas entradas IAC migradas do CONTEXTO
+- `nomenclatura.md` -> v0.5: arquivos obrigatórios do M01 completados (CONTEXTO, protocolo, backlog-acoes); seção 5.1 descrevendo o backlog de ações
+- `README.md` -> tabela de arquivos atualizada (protocolo e backlog-acoes); versão do repo reconciliada para v0.10
+- `sumario.md` -> v0.3: repositório-mãe dtd-setis registrado; versão do M01 reconciliada para v0.10
+- `dtd-setis/CHANGELOG.md` -> entrada [0.9] registrando esta operação no portfólio
+
+---
+
 ## v0.9 — 2026-05-28
 
 **Tipo de alteração:** Adição
