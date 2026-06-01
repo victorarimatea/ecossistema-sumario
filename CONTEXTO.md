@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v1.1 — 2026-05-29
+**Versão:** v1.2 — 2026-05-29
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing completo para inicialização de novas sessões de trabalho.
 Leia este arquivo antes de qualquer outra ação.
@@ -58,6 +58,7 @@ manual do mantenedor.
 | S01 | Skill | skill-criador-de-skills | v1.0 | Cria novos repositórios de skill via API GitHub |
 | S02 | Skill | skill-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | Skill | skill-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
+| S04 | Skill | skill-github-orquestracao | v1.0 | Garante consistência do ecossistema a cada operação |
 
 ### Repositórios planejados (não criados ainda)
 
