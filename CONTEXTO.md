@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v1.2 — 2026-05-29
+**Versão:** v1.3 — 2026-05-29
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing completo para inicialização de novas sessões de trabalho.
 Leia este arquivo antes de qualquer outra ação.
@@ -192,6 +192,52 @@ e me diga o que entendeu sobre o ecossistema antes de começarmos.
 ```
 
 O Claude vai absorver todo o contexto e você continua de onde parou.
+
+---
+
+## Protocolo obrigatório para operações no GitHub
+
+### Regra 1 — Autodescoberta da skill de orquestração
+
+Toda sessão que resulte em criação ou alteração de arquivos nos repositórios
+do ecossistema deve obrigatoriamente seguir a **skill-github-orquestracao (S04)**
+antes de qualquer execução.
+
+**Repositório:** https://github.com/victorarimatea/skill-github-orquestracao
+
+Esta regra se aplica **independentemente de o usuário mencioná-la**. Se o Claude
+identificar que a sessão vai resultar em operações no GitHub e a S04 não foi
+referenciada, deve pausar, informar o usuário e acionar a skill antes de prosseguir.
+
+O fluxo de autodescoberta funciona assim:
+1. Usuário apresenta qualquer link do ecossistema no início da sessão
+2. Claude lê este CONTEXTO.md durante a inicialização
+3. Claude registra internamente que S04 é obrigatória para operações no GitHub
+4. Quando a sessão encaminhar para alterações em repositórios, Claude aciona
+   a S04 automaticamente — sem depender da memória do usuário
+
+### Regra 2 — Aprendizado contínuo e atualização automática da S04
+
+Todo erro, aprendizado ou melhoria identificado durante a execução de uma
+operação no GitHub deve atualizar a skill-github-orquestracao (S04) **na
+mesma sessão**, antes do encerramento.
+
+**O que dispara a atualização:**
+
+| Tipo | Critério |
+|---|---|
+| **Erro** | Qualquer inconsistência encontrada durante a execução que não estava prevista nas verificações existentes da S04 |
+| **Aprendizado** | Qualquer padrão, sequência ou verificação que funcionou bem e merece ser preservado como regra permanente |
+| **Melhoria** | Qualquer ajuste de fluxo que reduziu passos, evitou retrabalho ou aumentou confiabilidade da execução |
+
+**Regra de encerramento:** antes de emitir o relatório final (Etapa 7 da S04),
+o Claude deve verificar se houve qualquer um dos três tipos acima. Se sim,
+propõe atualização da S04 como parte obrigatória do encerramento — não como
+item opcional. A versão da S04 é incrementada (MINOR), o `backlog-versoes.md`
+da skill é atualizado, e o `sumario.md` do M01 reflete a nova versão.
+
+**Objetivo:** garantir que o erro nunca se repita e que o aprendizado nunca
+fique preso em uma única sessão. O ecossistema melhora a cada operação.
 
 ---
 
