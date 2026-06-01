@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v0.3 — 2026-05-29
+**Versão:** v0.4 — 2026-06-01
 **Repositório âncora:** ecossistema-sumario
 **Mantenedor:** victorarimatea
 
@@ -12,13 +12,13 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| — | dtd-setis | v0.9 | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, DECISOES |
+| — | dtd-setis | v0.9 | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, DECISOES, monitoramento de projetos |
 
 ### Matrizes (M)
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | ecossistema-sumario | v0.10 | Âncora: sumário, nomenclatura, contexto, protocolo de atualizações, histórico de ações |
+| M01 | ecossistema-sumario | v0.11 | Âncora: sumário, nomenclatura, contexto, protocolo de atualizações, histórico de ações |
 | M02 | saude-digital-taxonomia | v1.0 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
@@ -35,6 +35,12 @@
 |---|---|---|---|
 | — | — | — | Nenhum repositório de documento criado ainda |
 
+### Projetos (P)
+
+| ID | Nome | Versão | Status | Descrição |
+|---|---|---|---|---|
+| P01 | telessaude-poc-prisional | v0.1 | em_execucao | PoC de totem de telemedicina multiparâmetros no Sistema Prisional do DF — DTD/SETIS/SES-DF |
+
 ---
 
 ## Repositórios Planejados
@@ -49,11 +55,12 @@
 
 ## Links rápidos
 
-| Repositório | URL |
-|---|---|
-| dtd-setis | https://github.com/victorarimatea/dtd-setis |
-| ecossistema-sumario | https://github.com/victorarimatea/ecossistema-sumario |
-| saude-digital-taxonomia | https://github.com/victorarimatea/saude-digital-taxonomia |
-| skill-criador-de-skills | https://github.com/victorarimatea/skill-criador-de-skills |
-| skill-iac-pdtic | https://github.com/victorarimatea/skill-iac-pdtic |
-| skill-poc-saude-digital | https://github.com/victorarimatea/skill-poc-saude-digital |
+| Repositório | Tipo | Visibilidade | URL |
+|---|---|---|---|
+| dtd-setis | Portfólio | Público | https://github.com/victorarimatea/dtd-setis |
+| ecossistema-sumario | M01 | Público | https://github.com/victorarimatea/ecossistema-sumario |
+| saude-digital-taxonomia | M02 | Público | https://github.com/victorarimatea/saude-digital-taxonomia |
+| skill-criador-de-skills | S01 | Público | https://github.com/victorarimatea/skill-criador-de-skills |
+| skill-iac-pdtic | S02 | Privado | https://github.com/victorarimatea/skill-iac-pdtic |
+| skill-poc-saude-digital | S03 | Público | https://github.com/victorarimatea/skill-poc-saude-digital |
+| telessaude-poc-prisional | P01 | Privado | https://github.com/victorarimatea/telessaude-poc-prisional |
