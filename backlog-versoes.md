@@ -1,3 +1,16 @@
+## v0.11 — 2026-06-01
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Criação do tipo P (Projetos) como novo tipo formal de repositório no ecossistema DTD/SETIS, a partir da decisão de estruturar memória institucional permanente para projetos da DTD. O tipo P nasce com estrutura interna padronizada, ciclo de vida controlado e política de visibilidade definida: repositórios privados, com monitoramento público curado no dtd-setis. Primeiro projeto registrado: P01 telessaude-poc-prisional, em decorrência da PoC do Totem Health360 no Sistema Prisional do DF.
+
+### Alterações realizadas
+- `nomenclatura.md` → v0.6: adição da Seção 4-A (estrutura interna de projetos), Seção 7.4 (extensões de backlog para tipo P), atualização dos exemplos da Seção 1 com `telessaude-poc-prisional`
+- `sumario.md` → v0.4: adição da seção "Projetos (P)"; registro de P01 `telessaude-poc-prisional` (v0.1, status: em_execucao); tabela de links rápidos expandida com coluna de visibilidade
+- `backlog-versoes.md` → esta entrada (v0.11)
+
+---
+
 ## v0.10 — 2026-05-29
 
 **Tipo de alteração:** Atualização
