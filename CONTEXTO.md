@@ -23,9 +23,9 @@ Secretaria Executiva de Tecnologia da Informação em Saúde (SETIS)
 Secretaria de Estado de Saúde do Distrito Federal (SES-DF)
 Matrícula: 1657757-4
 
-A DTD foi criada há 6 meses. Victor é o único servidor da unidade no momento —
+A DTD foi criada em outubro de 2025. Victor é o único servidor da unidade no momento —
 toda a construção deste ecossistema é trabalho individual, desenvolvido em
-paralelo com projetos institucionais de alta complexidade.
+paralelo com projetos institucionais de moderada a alta complexidade.
 
 ---
 
