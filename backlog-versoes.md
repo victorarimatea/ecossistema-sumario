@@ -1,3 +1,24 @@
+## v0.12 — 2026-06-01
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Criação da skill de orquestração do ecossistema (S04),
+concebida para garantir que nenhum arquivo fique desatualizado por esquecimento
+a cada operação realizada nos repositórios GitHub. A skill nasceu da identificação
+de dois erros recorrentes em sessões anteriores: README do portfólio não atualizado
+ao criar novos repositórios, e drift de versões entre arquivos do M01. Opera em
+duas fases separadas por aprovação explícita: planejamento (sem token) e execução
+(com token). Incorpora registro permanente de erros aprendidos.
+
+### Alterações realizadas
+- Criação do repositório `skill-github-orquestracao` (público) com 3 arquivos:
+  README.md, SKILL.md v1.0, backlog-versoes.md
+- `sumario.md` → v0.5: S04 registrado na seção Skills; link adicionado na tabela
+- `CONTEXTO.md` → v1.2: S04 adicionado na tabela de repositórios ativos
+- `backlog-versoes.md` → esta entrada (v0.12)
+
+---
+
 ## v0.11 — 2026-06-01
 
 **Tipo de alteração:** Adição
