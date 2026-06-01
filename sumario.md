@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v0.5 — 2026-06-01
+**Versão:** v0.6 — 2026-06-01
 **Repositório âncora:** ecossistema-sumario
 **Mantenedor:** victorarimatea
 
@@ -28,7 +28,7 @@
 | S01 | skill-criador-de-skills | v1.0 | Cria novos repositórios de skill via API GitHub |
 | S02 | skill-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skill-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
-| S04 | skill-github-orquestracao | v1.0 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
+| S04 | skill-github-orquestracao | v1.1 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
 
 ### Documentos (D)
 
