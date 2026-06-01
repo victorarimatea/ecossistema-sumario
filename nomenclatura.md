@@ -1,6 +1,6 @@
 # Matriz de Nomenclatura do Ecossistema DTD/SETIS
 
-**Versão:** v0.5 — 2026-05-29
+**Versão:** v0.6 — 2026-06-01
 **Mantenedor:** victorarimatea
 
 > Define as convenções obrigatórias de nomenclatura para todos os
@@ -21,11 +21,12 @@ O tipo do repositório **não entra no nome** — ele é registrado no
 - `saude-digital-taxonomia`
 - `skill-iac-pdtic`
 - `pdtic-historico`
+- `telessaude-poc-prisional`
 
 **Regras:**
 - Apenas letras minúsculas, números e hífens
 - Sem espaços, underscores ou caracteres especiais
-- Sem prefixos de tipo (não use `matriz-`, `skill-doc-`, etc.)
+- Sem prefixos de tipo (não use `matriz-`, `skill-doc-`, `proj-`, etc.)
 - Nome deve ser autoexplicativo sem precisar abrir o repositório
 
 ---
@@ -77,6 +78,52 @@ nome-da-skill/
 ├── backlog-versoes.md
 └── exemplos/
 └── exemplo-01.md
+
+---
+
+## 4-A. Estrutura interna de projetos (tipo P)
+
+Todo repositório de projeto deve ser **privado** e conter esta estrutura:
+
+```
+nome-do-projeto/
+├── README.md
+├── backlog-versoes.md
+├── stakeholders.md
+├── reunioes/
+│   └── AAAA-MM-DD-[assunto-resumido].md
+└── documentos/
+    └── [artefatos aprovados: PoCs, memorandos, pareceres, relatórios]
+```
+
+### Arquivos obrigatórios de projetos
+
+| Arquivo / Pasta | Função |
+|---|---|
+| `README.md` | Ficha técnica: nome, status, período, responsáveis, processo SEI de referência |
+| `backlog-versoes.md` | Registro histórico de todas as decisões tomadas ao longo do projeto |
+| `stakeholders.md` | Todos os profissionais envolvidos: papel, instituição, período e nível de envolvimento |
+| `reunioes/` | Atas estruturadas — uma por reunião, nomeadas `AAAA-MM-DD-[assunto].md` |
+| `documentos/` | Artefatos produzidos e aprovados pelo projeto |
+
+### Ciclo de vida dos projetos
+
+O campo `status` no `sumario.md` segue vocabulário controlado:
+
+```
+ideia → planejado → em_execucao → entregue
+                              ↘ cancelado
+                              ↘ suspenso
+```
+
+### Visibilidade e monitoramento público
+
+Repositórios de projeto são **sempre privados**. A visibilidade pública
+de um projeto é gerenciada exclusivamente pelo repositório `dtd-setis`,
+na pasta `projetos/monitoramento.md`, mediante autorização explícita do
+Diretor de Transformação Digital. A documentação interna do projeto
+(linguagem técnica, siglas, deliberações em curso) não é exposta
+diretamente ao público — apenas uma visão panorâmica curada.
 
 ---
 
@@ -168,6 +215,17 @@ Campos adicionais obrigatórios para este tipo:
 | `**IAC gerado**` | Referência ao IAC que documentou a revisão |
 
 **Repositório de referência:** a ser definido na criação do `pdtic-historico`.
+
+### 7.4 Projetos (tipo P)
+
+Campos adicionais obrigatórios para este tipo:
+
+| Campo | Valores possíveis |
+|---|---|
+| `**Status**` | `ideia` / `planejado` / `em_execucao` / `entregue` / `cancelado` / `suspenso` |
+| `**Processo SEI**` | Número do processo administrativo de referência |
+| `**Parceiros institucionais**` | Instituições envolvidas na entrega |
+
 ---
 
 ## 8. Modelo IAC — Instrumento de Análise Comparativa
