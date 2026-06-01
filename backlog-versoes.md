@@ -1,3 +1,23 @@
+## v0.13 — 2026-06-01
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Registro no CONTEXTO.md de duas regras que eliminam
+dependência de memória humana para acionar a skill de orquestração do ecossistema.
+A Regra 1 (autodescoberta) garante que o Claude acione a S04 automaticamente ao
+identificar operações no GitHub, sem precisar ser lembrado pelo usuário. A Regra 2
+(aprendizado contínuo) garante que todo erro, aprendizado ou melhoria identificado
+na sessão atualize a S04 antes do encerramento — fechando o ciclo de evolução
+permanente do ecossistema.
+
+### Alterações realizadas
+- `CONTEXTO.md` → v1.3: adição da seção "Protocolo obrigatório para operações
+  no GitHub" com Regra 1 (autodescoberta da S04) e Regra 2 (aprendizado contínuo
+  e atualização automática da S04), incluindo tabela de critérios de disparo
+  (Erro / Aprendizado / Melhoria) e regra de encerramento obrigatória
+
+---
+
 ## v0.12 — 2026-06-01
 
 **Tipo de alteração:** Adição
