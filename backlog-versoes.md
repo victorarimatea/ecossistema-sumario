@@ -1,3 +1,20 @@
+## v0.14 — 2026-06-01
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Atualização da skill S04 para v1.1, incorporando
+o primeiro ciclo completo de aprendizado contínuo: erro identificado na
+própria sessão de criação da skill, corrigido e registrado antes do
+encerramento — exatamente como a Regra 2 do CONTEXTO.md determina.
+
+### Alterações realizadas
+- `skill-github-orquestracao/SKILL.md` → v1.1: padrão Python urllib
+  obrigatório para chamadas à API; Erro #003 registrado
+- `skill-github-orquestracao/backlog-versoes.md` → entrada v1.1
+- `sumario.md` → v0.6: S04 atualizado para v1.1
+
+---
+
 ## v0.13 — 2026-06-01
 
 **Tipo de alteração:** Atualização
