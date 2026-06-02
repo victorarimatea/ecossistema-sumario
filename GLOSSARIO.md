@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.1 — 2026-06-01
+**Versão:** v1.2 — 2026-06-02
 **Repositório:** ecossistema-sumario (M01)
 **Mantenedor:** victorarimatea
 
@@ -192,5 +192,58 @@ repositório âncora é técnico e orientado ao Claude.
 
 ---
 
-*Última revisão: 2026-06-01 — victorarimatea*
+## Categoria 6 — Pipeline de Transcrição Documental
+
+**Artefato de extração**
+Elemento capturado indevidamente pelo extrator de PDF que não faz parte
+do texto normativo do documento. Exemplos típicos: timestamps do DOU
+(`27/04/2026, 23:46`), URLs de acesso, cabeçalhos de página repetidos
+(`DIÁRIO OFICIAL DA UNIÃO`), numerações de página (`3/118`), metadados
+de portais (`Publicado em:`, `Órgão:`, `Edição:`), rodapés de sistemas
+legais (`Saúde Legis - Sistema de Legislação da Saúde`). Artefatos são
+eliminados pelo filtro `SKIP_EXACT` / `SKIP_RE` da Etapa 2 do pipeline
+antes de qualquer processamento do conteúdo. A presença de artefatos no
+arquivo transcrito é critério de falha na auto-verificação (Etapa 5).
+
+**Front Matter YAML**
+Bloco de metadados estruturados em formato YAML colocado no início de cada
+arquivo Markdown transcrito, delimitado por `---`. Contém 13 campos
+obrigatórios que identificam e descrevem o documento: `id_documento`,
+`titulo`, `tipo_documental`, `instituicao_origem`, `autor`, `data_criacao`,
+`data_publicacao`, `idioma`, `status_documental`, `arquivo_original`,
+`fonte_externa`, `data_transcricao` e `versao_transcricao`. Documentos
+bilíngues (Fase 2) recebem 3 campos adicionais: `idioma_original`,
+`versao_idioma` e `documento_par`. O Front Matter é a Seção 1 da estrutura
+obrigatória de 5 seções de cada arquivo transcrito e serve como base para
+indexação, busca e rastreabilidade futura dos documentos do ecossistema.
+
+**Pipeline de transcrição**
+Conjunto estruturado de etapas, filtros, algoritmos e verificações que
+converte documentos PDF regulatórios em arquivos Markdown estruturados,
+auditáveis e reutilizáveis. No ecossistema DTD/SETIS/SES-DF, o pipeline
+é formalizado pela skill S05 (`skill-transcricao-documental`) e especificado
+tecnicamente no `WORKFLOW-ESPECIFICACAO.md` do repositório D01
+(`governanca-ses-df`). Opera em 7 etapas: leitura de contexto, extração do
+PDF, limpeza e reflow, estrutura jurídica, montagem do Markdown,
+auto-verificação e atualização do workflow. Desenvolvido ao longo das
+Fases 1 e 2 Tier 1, com 8 problemas documentados (P01–P08) e roadmap de
+automação progressiva.
+
+**Reflow**
+Operação de processamento de texto que reconstrói parágrafos coerentes a
+partir de blocos de texto fragmentados pela extração de PDF. Durante a
+extração por `get_text("blocks")`, PDFs com justificação extrema ou colunas
+estreitas produzem quebras de linha artificiais dentro de parágrafos —
+cada linha do PDF vira uma linha separada no texto extraído. O reflow
+(`reflow_block_lines()`) resolve isso juntando as linhas de cada bloco com
+espaço, exceto quando a linha seguinte inicia um marcador estrutural jurídico
+(artigo, parágrafo, inciso, etc.) ou quando a linha anterior termina com
+hífen (hifenização — junção sem espaço). Quebras espúrias não corrigidas
+pelo reflow são detectadas na auto-verificação (Etapa 5) como alerta: mais
+de 3 linhas consecutivas com menos de 40 caracteres.
+
+
+---
+
+*Última revisão: 2026-06-02 — victorarimatea*
 *Para propor novos termos: abrir issue ou atualizar diretamente via S04.*
