@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.0 — 2026-06-01
+**Versão:** v1.1 — 2026-06-01
 **Repositório:** ecossistema-sumario (M01)
 **Mantenedor:** victorarimatea
 
@@ -138,6 +138,26 @@ projeto). Cada tipo tem checklist própria de arquivos a atualizar.
 ---
 
 ## Categoria 5 — Conceitos de qualidade e governança
+
+**Auditoria de glossário**
+Verificação obrigatória realizada ao final de toda operação da S04
+(exceto OP-E sem conteúdo novo). Consiste em varrer os arquivos criados
+ou alterados na operação em busca de termos técnicos novos — substantivos
+específicos do ecossistema, siglas, conceitos operacionais — e compará-los
+com o `GLOSSARIO.md`. Termos ausentes são propostos para adição antes do
+encerramento da operação. Implementada como Verificação 4 da Etapa 6 da
+skill-github-orquestracao (S04 v1.5). Garante que o glossário cresça
+naturalmente com o ecossistema sem depender de atualização manual.
+
+**Termo candidato**
+Termo identificado durante uma auditoria de glossário que está em uso em
+documentos do ecossistema mas ainda não possui definição formal no
+`GLOSSARIO.md`. Todo termo candidato deve ser avaliado pelo mantenedor
+antes de ser incorporado: o mantenedor pode aprovar a adição com a
+definição proposta, solicitar ajuste na definição, ou rejeitar a inclusão
+caso o termo seja referência interna de estrutura sem necessidade de
+definição formal (exemplo: "Verificação 4" como referência a etapa
+numerada da S04).
 
 **Drift documental**
 Condição em que dois ou mais arquivos do ecossistema que deveriam estar
