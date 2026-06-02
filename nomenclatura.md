@@ -1,11 +1,15 @@
 # Matriz de Nomenclatura do Ecossistema DTD/SETIS
 
-**Versão:** v0.7 — 2026-06-01
+**Versão:** v0.8 — 2026-06-01
 **Mantenedor:** victorarimatea
 
 > Define as convenções obrigatórias de nomenclatura para todos os
 > repositórios, arquivos e versões do ecossistema. Toda skill e todo
 > repositório criado deve estar em conformidade com este documento.
+>
+> **Nota:** Para definições dos termos utilizados neste documento
+> (matriz, skill, projeto, IAC, PoC, drift, OP-X etc.), consulte o
+> [`GLOSSARIO.md`](./GLOSSARIO.md) do repositório âncora.
 
 ---
 
