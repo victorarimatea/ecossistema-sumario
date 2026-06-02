@@ -59,6 +59,11 @@ manual do mantenedor.
 | S02 | Skill | skill-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | Skill | skill-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
 | S04 | Skill | skill-github-orquestracao | v1.0 | Garante consistência do ecossistema a cada operação |
+| S05 | Skill | skill-transcricao-documental | v1.0 | Converte PDFs regulatórios em Markdown estruturado |
+| D01 | Documento | governanca-ses-df | v1.0 | 28 documentos transcritos — legislação e referências de saúde digital |
+| D02 | Documento | doc-cadastro-ses-setis-dtd | v1.0 | Matriz de Cadastros de referência DTD/SETIS/SES-DF |
+| W01 | Workflow | workflow-transcricao-documental | v1.0 | Processo de transcrição documental — memória organizacional do pipeline |
+| P01 | Projeto | telessaude-poc-prisional | v0.1 | PoC Totem de Telemedicina no Sistema Prisional do DF (privado) |
 
 ### Repositórios planejados (não criados ainda)
 
