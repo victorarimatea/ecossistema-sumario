@@ -1,6 +1,6 @@
 # Matriz de Nomenclatura do Ecossistema DTD/SETIS
 
-**Versão:** v0.6 — 2026-06-01
+**Versão:** v0.7 — 2026-06-01
 **Mantenedor:** victorarimatea
 
 > Define as convenções obrigatórias de nomenclatura para todos os
@@ -158,6 +158,59 @@ para relatórios de atividade consolidados.
 - O esquema de campos é definido no cabeçalho do próprio arquivo.
 
 ---
+
+## 10. Índices locais de repositório
+
+Todo repositório do ecossistema deve conter um **INDICE.md** na raiz,
+independentemente do número de arquivos ou presença de subpastas.
+
+### 10.1 Propósito
+
+O INDICE.md permite que qualquer ferramenta automatizada ou humano
+entenda rapidamente o que existe no repositório e chegue ao recurso
+certo sem precisar ler todos os arquivos. É especialmente importante
+em repositórios com conteúdo rico, subpastas ou muitos artefatos
+acumulados ao longo do tempo — evitando consumo desnecessário de
+créditos e tempo de navegação.
+
+### 10.2 Estrutura obrigatória
+
+```markdown
+# Índice — [nome-do-repositório]
+
+**Última atualização:** AAAA-MM-DD
+**Total de arquivos:** N
+
+## Arquivos na raiz
+
+| Arquivo | Descrição | Função no ecossistema |
+|---|---|---|
+| `README.md` | Apresentação e navegação | Porta de entrada do repositório |
+| `INDICE.md` | Este arquivo | Mapa completo de conteúdo |
+| `backlog-versoes.md` | Histórico de versões | Rastreabilidade e auditoria |
+| ... | ... | ... |
+
+## Subpastas (se existirem)
+
+| Pasta | Conteúdo | Quando consultar |
+|---|---|---|
+| `references/` | Documentos de referência | Ao buscar exemplos e modelos |
+| ... | ... | ... |
+```
+
+### 10.3 Regras de manutenção
+
+- O INDICE.md deve ser **atualizado a cada novo arquivo ou pasta criada**
+- A atualização do INDICE.md é item obrigatório nas checklists OP-A e OP-P da S04
+- A data de "Última atualização" deve refletir a data real da última modificação
+- Arquivos descontinuados permanecem no índice com marcação `~~arquivo~~` e nota
+
+### 10.4 Criação retroativa
+
+Repositórios existentes que ainda não possuem INDICE.md devem recebê-lo
+na primeira operação que os tocar, mesmo que essa não seja a operação principal.
+A criação do INDICE.md em repositório existente é classificada como OP-E.
+
 
 ## 6. Regras de atualização do ecossistema
 
