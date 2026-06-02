@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.2 — 2026-06-02
+**Versão:** v1.3 — 2026-06-02
 **Repositório:** ecossistema-sumario (M01)
 **Mantenedor:** victorarimatea
 
@@ -242,6 +242,54 @@ hífen (hifenização — junção sem espaço). Quebras espúrias não corrigid
 pelo reflow são detectadas na auto-verificação (Etapa 5) como alerta: mais
 de 3 linhas consecutivas com menos de 40 caracteres.
 
+
+---
+
+---
+
+## Categoria 7 — Workflows e Processos Organizacionais
+
+**Estado final esperado**
+Conjunto de critérios verificáveis que define quando uma execução de workflow
+foi bem-sucedida. Distinto de "objetivo" — o estado final esperado é operacional
+e auditável: cada critério é uma condição binária que pode ser checada por um
+agente humano ou de IA ao final da execução. Na estrutura do WORKFLOW.md, ocupa
+a Seção 3 e funciona como o benchmark de qualidade do processo.
+
+**EXECUCOES.md**
+Arquivo obrigatório na raiz de repositórios do tipo P (Projetos) que lista todos
+os workflows acionados no contexto daquele projeto. Não duplica o conteúdo dos
+logs de execução — apenas referencia cada log com link para o repositório W onde
+o log completo reside. Garante que o projeto tenha visão consolidada de todos os
+processos que foram executados em seu contexto, sem criar drift documental.
+
+**Log de execução**
+Arquivo criado em `workflow-[descritor]/execucoes/` a cada execução registrada
+de um workflow. Contém: data e contexto de acionamento, executor, projeto
+associado, resumo de etapas, decisões tomadas, desvios do padrão, artefatos
+gerados, status e lições aprendidas. É a fonte de verdade do histórico de
+execuções — o `EXECUCOES.md` do projeto apenas o referencia. Em sessões
+autenticadas com token, a criação do log é obrigatória antes do encerramento.
+
+**Subprocesso**
+Workflow consumido por outro workflow de nível superior como parte de suas
+etapas. O subprocesso é um workflow completo e autônomo — tem seu próprio
+repositório W, seu próprio WORKFLOW.md e seus próprios logs de execução.
+Quando consumido por um workflow pai, é referenciado na Seção 5 do WORKFLOW.md
+do pai sem duplicar seu conteúdo. Exemplo: `workflow-transcricao-documental`
+pode ser consumido como subprocesso por `workflow-iac-conformidade` quando
+este identifica um gap normativo que requer transcrição antes de prosseguir.
+
+**Workflow**
+Repositório do tipo W que contém a descrição organizacional completa de um
+processo da DTD/SETIS/SES-DF — desde a missão e contexto até o roadmap de
+automação. Distinto de skill (tipo S): enquanto a skill contém as instruções
+técnicas para uma IA executar uma tarefa, o workflow descreve o processo do
+ponto de vista organizacional, incluindo etapas manuais, histórico de problemas,
+memória institucional e log de execuções. Um workflow pode existir sem skill
+associada (processo ainda manual). Uma skill sem workflow é tecnicamente válida
+mas organizacionalmente incompleta. A relação é: o workflow é anterior e superior
+à skill; a skill automatiza uma ou mais etapas do workflow.
 
 ---
 
