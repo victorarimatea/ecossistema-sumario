@@ -1,3 +1,23 @@
+## v0.19 — 2026-06-01
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Atualização da S04 para v1.5 com adição da
+Verificação 4 — auditoria de glossário. O glossário criado nesta mesma
+sessão (v0.18) agora tem mecanismo automático de manutenção: toda operação
+verifica se novos termos foram introduzidos e propõe atualização do
+GLOSSARIO.md antes do encerramento. O ecossistema passa a ter memória
+terminológica viva e autorreprodutiva.
+
+### Alterações realizadas
+- `skill-github-orquestracao/SKILL.md` → v1.5: Verificação 4 adicionada
+- `skill-github-orquestracao/backlog-versoes.md` → entrada v1.5
+- `sumario.md` → S04 v1.5
+- `backlog-versoes.md` → esta entrada (v0.19)
+- `dtd-setis/CHANGELOG.md` → entrada [1.8]
+
+---
+
 ## v0.18 — 2026-06-01
 
 **Tipo de alteração:** Adição + Atualização
