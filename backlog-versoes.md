@@ -1,3 +1,32 @@
+## v0.15 — 2026-06-01
+
+**Tipo de alteração:** Correção + Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Correção de 4 falhas identificadas no diagnóstico
+de maturidade do ecossistema realizado durante rodada de perguntas e respostas
+com o mantenedor. As falhas cobriam: porta de entrada sem instrução para o
+Claude, conflito normativo entre protocolo e S04, drift de versão no sumário,
+e ausência de backlog no portfólio público.
+
+### Alterações realizadas
+- `dtd-setis/README.md`: bloco de instrução obrigatória adicionado ao topo —
+  Claude deve ler o CONTEXTO.md antes de qualquer ação
+- `ecossistema-sumario/protocolo-atualizacoes.md` → v2.0: descontinuado
+  formalmente; conteúdo original preservado; S04 indicada como substituta
+- `ecossistema-sumario/sumario.md` → v0.7: versão do M01 corrigida
+  de v0.11 para v0.14 (drift de versão — Erro #002 recorrente)
+- `dtd-setis/backlog-versoes.md`: criado com histórico retroalimentado
+  (corrige violação da nomenclatura.md — arquivo obrigatório ausente)
+- `dtd-setis/CHANGELOG.md` → entrada [1.4]
+- `ecossistema-sumario/backlog-versoes.md` → esta entrada (v0.15)
+
+### Falso positivo corrigido
+- Item 5 do diagnóstico (M02 backlog incompleto) foi descartado após
+  leitura detalhada: a entrada v1.0 existe e está correta — o script
+  de auditoria usava '## v' mas o M02 usa '### v' (ver Erro #004 S04)
+
+---
+
 ## v0.14 — 2026-06-01
 
 **Tipo de alteração:** Atualização
