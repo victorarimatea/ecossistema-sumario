@@ -1,3 +1,30 @@
+## v0.17 — 2026-06-01
+
+**Tipo de alteração:** Adição + Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Implementação do padrão de índices locais em
+todos os repositórios públicos do ecossistema, conforme proposta aprovada
+durante diagnóstico de maturidade. A proposta resolve a navegação custosa
+em repositórios com conteúdo rico, garantindo que qualquer ferramenta ou
+humano chegue ao recurso certo sem leitura exaustiva. Simultâneo: S04
+atualizada para v1.3 com OP-E clarificado, INDICE.md nas checklists e
+Erro #005 registrado. Nomenclatura atualizada para v0.7 com Seção 10.
+
+### Alterações realizadas
+- `nomenclatura.md` → v0.7: Seção 10 adicionada — padrão obrigatório
+  de INDICE.md em todos os repositórios, sem exceção
+- `INDICE.md` criado em: ecossistema-sumario, saude-digital-taxonomia,
+  skill-criador-de-skills, skill-poc-saude-digital,
+  skill-github-orquestracao, dtd-setis (6 repositórios)
+- `README.md` atualizado com link para INDICE.md em todos os 6 repositórios
+- `skill-github-orquestracao/SKILL.md` → v1.3: OP-E, INDICE.md, Erro #005
+- `skill-github-orquestracao/backlog-versoes.md` → entrada v1.3
+- `sumario.md` → v0.9: S04 v1.3, M01 v0.16
+- `backlog-versoes.md` → esta entrada (v0.17)
+- `dtd-setis/CHANGELOG.md` → entrada [1.6]
+
+---
+
 ## v0.16 — 2026-06-01
 
 **Tipo de alteração:** Atualização
