@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v1.6 — 2026-06-02
+**Versão:** v1.7 — 2026-06-02
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing completo para inicialização de novas sessões de trabalho.
 Leia este arquivo antes de qualquer outra ação.
@@ -53,12 +53,12 @@ manual do mantenedor.
 | ID | Tipo | Nome | Versão | Descrição |
 |---|---|---|---|---|
 | — | Portfólio | dtd-setis | v0.9 | Repositório-mãe público: porta de entrada, MANIFESTO, ROADMAP, CHANGELOG, DECISOES |
-| M01 | Matriz | ecossistema-sumario | v0.10 | Âncora: sumário, nomenclatura, contexto, protocolo de atualizações, histórico de ações |
+| M01 | Matriz | ecossistema-sumario | v0.22 | Âncora: sumário, nomenclatura, contexto, protocolo de atualizações, histórico de ações |
 | M02 | Matriz | saude-digital-taxonomia | v1.0 | Taxonomia estruturada de saúde digital |
 | S01 | Skill | skill-criador-de-skills | v1.0 | Cria novos repositórios de skill via API GitHub |
 | S02 | Skill | skill-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | Skill | skill-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
-| S04 | Skill | skill-github-orquestracao | v1.0 | Garante consistência do ecossistema a cada operação |
+| S04 | Skill | skill-github-orquestracao | v1.6 | Garante consistência do ecossistema a cada operação |
 | S05 | Skill | skill-transcricao-documental | v1.0 | Converte PDFs regulatórios em Markdown estruturado |
 | S06 | Skill | skill-registro-reuniao | v1.0 | Transforma resumos de reunião em registros institucionais padronizados para o SEI |
 | D01 | Documento | governanca-ses-df | v1.0 | 28 documentos transcritos — legislação e referências de saúde digital |
