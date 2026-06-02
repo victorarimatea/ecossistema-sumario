@@ -1,3 +1,21 @@
+## v0.16 — 2026-06-01
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Atualização da S04 para v1.2, incorporando o
+Erro #004 — segundo ciclo completo de aprendizado contínuo da skill na
+mesma sessão de criação. Padrão de busca de entradas em backlog-versoes.md
+ampliado para cobrir '## v' e '### v'.
+
+### Alterações realizadas
+- `skill-github-orquestracao/SKILL.md` → v1.2: Erro #004 + padrão duplo
+- `skill-github-orquestracao/backlog-versoes.md` → entrada v1.2
+- `sumario.md` → v0.8: S04 atualizado para v1.2
+- `backlog-versoes.md` → esta entrada (v0.16)
+- `dtd-setis/CHANGELOG.md` → entrada [1.5]
+
+---
+
 ## v0.15 — 2026-06-01
 
 **Tipo de alteração:** Correção + Atualização
