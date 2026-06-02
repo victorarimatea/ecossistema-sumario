@@ -1,3 +1,25 @@
+## v0.18 — 2026-06-01
+
+**Tipo de alteração:** Adição + Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Criação do GLOSSARIO.md — implementação identificada
+como quase obrigatória em sistema maduro durante diagnóstico de maturidade.
+O glossário formaliza 18 termos em 5 categorias cobrindo toda a terminologia
+do ecossistema. Simultâneo: nomenclatura atualizada com referência ao glossário;
+sumário atualizado para v1.0 refletindo a maturidade do M01; INDICE.md do M01
+atualizado com entrada do glossário; S04 atualizada para v1.4.
+
+### Alterações realizadas
+- `GLOSSARIO.md` → criado (v1.0): 18 termos em 5 categorias
+- `INDICE.md` → atualizado: GLOSSARIO.md adicionado, total 8 arquivos
+- `nomenclatura.md` → v0.8: referência ao GLOSSARIO.md adicionada
+- `sumario.md` → v1.0: GLOSSARIO.md no M01; M01 descrito como v0.18;
+  S04 atualizado para v1.4
+- `backlog-versoes.md` → esta entrada (v0.18)
+- `dtd-setis/CHANGELOG.md` → entrada [1.7]
+
+---
+
 ## v0.17 — 2026-06-01
 
 **Tipo de alteração:** Adição + Atualização
