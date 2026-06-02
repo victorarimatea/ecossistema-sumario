@@ -1,0 +1,176 @@
+# Glossário — Ecossistema DTD/SETIS
+
+**Versão:** v1.0 — 2026-06-01
+**Repositório:** ecossistema-sumario (M01)
+**Mantenedor:** victorarimatea
+
+> Definições formais dos termos utilizados no ecossistema DTD/SETIS.
+> Este glossário é a fonte de verdade para qualquer dúvida de terminologia.
+> Termos em uso nos documentos, skills e matrizes devem estar aqui definidos.
+> Atualizar sempre que um novo termo for introduzido no ecossistema.
+
+---
+
+## Como usar este glossário
+
+- Para entender um termo encontrado em qualquer documento do ecossistema,
+  consulte este arquivo primeiro.
+- Para introduzir um novo termo no ecossistema, defini-lo aqui é obrigatório
+  antes de usá-lo em outras documentações.
+- Os termos estão organizados em ordem alfabética dentro de cada categoria.
+
+---
+
+## Categoria 1 — Tipos de repositório
+
+**Documento (tipo D)**
+Repositório dedicado ao armazenamento e versionamento de documentos
+institucionais: instrumentos normativos, históricos de análise, pareceres
+formais. Exemplo: `pdtic-historico`. Identificado pela letra D no sumário.
+
+**Matriz (tipo M)**
+Repositório que contém conhecimento estrutural do ecossistema — convenções,
+taxonomias, sumários, protocolos. É fonte de verdade consultada por skills
+e por qualquer instância do Claude antes de agir. Exemplo: `ecossistema-sumario`
+(M01), `saude-digital-taxonomia` (M02). Identificado pela letra M no sumário.
+
+**Projeto (tipo P)**
+Repositório privado que registra e acompanha o desenvolvimento de um projeto
+institucional específico da DTD. Contém atas de reunião, stakeholders,
+documentos aprovados e backlog de decisões. Exemplo: `telessaude-poc-prisional`
+(P01). Identificado pela letra P no sumário.
+
+**Skill (tipo S)**
+Repositório que contém instruções estruturadas para o Claude executar uma
+tarefa específica de forma padronizada e repetível. O arquivo principal é
+o `SKILL.md`. Exemplo: `skill-github-orquestracao` (S04). Identificado
+pela letra S no sumário.
+
+---
+
+## Categoria 2 — Arquivos obrigatórios
+
+**backlog-versoes.md**
+Arquivo presente em todo repositório do ecossistema. Registra o histórico
+de decisões e motivações por trás de cada alteração — responde à pergunta
+"por que isso foi mudado?". Complementa o `CHANGELOG.md`, que registra
+o quê foi mudado. Ver distinção completa em `CHANGELOG.md` abaixo.
+
+**CHANGELOG.md**
+Arquivo presente exclusivamente no repositório `dtd-setis` (portfólio público).
+Registra o histórico de entregas e versões do ecossistema como um todo —
+responde à pergunta "o que foi construído e quando?". Não substitui o
+`backlog-versoes.md`: o changelog registra o resultado; o backlog registra
+o raciocínio. Toda entrada do changelog tem uma entrada de backlog
+correspondente em algum repositório, mas o inverso não é verdade.
+
+**CONTEXTO.md**
+Arquivo exclusivo do M01. Briefing completo do ecossistema para inicialização
+de sessões do Claude. Contém: estrutura atual, repositórios ativos, convenções,
+protocolo de operações GitHub (S04), regras de autodescoberta e aprendizado
+contínuo. Leitura obrigatória antes de qualquer sessão de trabalho.
+
+**GLOSSARIO.md**
+Este arquivo. Definições formais de todos os termos do ecossistema. Exclusivo
+do M01. Deve ser atualizado sempre que um novo termo for introduzido.
+
+**INDICE.md**
+Arquivo presente em todo repositório do ecossistema. Mapa completo de
+conteúdo: lista todos os arquivos e pastas com descrição e orientação de
+quando consultar cada um. Permite navegação direta sem leitura exaustiva
+do repositório — essencial para evitar consumo desnecessário de créditos
+e tempo em repositórios com conteúdo rico.
+
+**nomenclatura.md**
+Arquivo exclusivo do M01. Define as convenções obrigatórias do ecossistema:
+nomenclatura de repositórios, arquivos, versões, estrutura interna de cada
+tipo, padrão IAC, padrão de acentuação. Toda criação ou atualização de
+repositório deve verificar conformidade com este arquivo.
+
+**sumario.md**
+Arquivo exclusivo do M01. Índice geral do ecossistema: lista todos os
+repositórios ativos com tipo, versão, status e descrição. É o ponto de
+entrada para saber o que existe no ecossistema. Ver também: repositório âncora.
+
+---
+
+## Categoria 3 — Instrumentos institucionais
+
+**IAC — Instrumento de Análise Comparativa**
+Documento padronizado de governança documental criado pela DTD. Opera em
+dois modos: IAC-V (Vertical) para comparar versões diferentes do mesmo
+documento, e IAC-H (Horizontal) para verificar conformidade entre documentos
+distintos. Gerado pela skill S02 (`skill-iac-pdtic`). Estrutura obrigatória
+de 8 seções definida na `nomenclatura.md`.
+
+**PoC — Prova de Conceito**
+Documento padronizado de avaliação de soluções tecnológicas em saúde,
+criado pela DTD. Estrutura com 11 seções obrigatórias: contexto, objetivos,
+escopo, fluxo operacional, governança, cronograma, métricas, gestão de
+riscos, aspectos regulatórios, deliberações pendentes e resultado esperado.
+Gerado pela skill S03 (`skill-poc-saude-digital`). Não configura pesquisa
+clínica (Resolução CNS nº 466/2012) quando de caráter técnico-operacional.
+
+---
+
+## Categoria 4 — Operações e versionamento
+
+**Breaking / Non-breaking**
+Classificação de impacto de uma atualização de skill. Breaking: a mudança
+torna versões anteriores da skill incompatíveis ou inválidas — requer
+atenção de quem usa a skill. Non-breaking: melhoria compatível com o
+comportamento anterior — pode ser adotada sem ajustes.
+
+**MAJOR / MINOR (versionamento)**
+Componentes do número de versão no formato `vMAJOR.MINOR`. MAJOR é
+incrementado quando a mudança torna versões anteriores incompatíveis
+ou inválidas. MINOR é incrementado para melhorias, adições e correções
+compatíveis com a versão anterior. Exemplo: v1.0 → v1.1 (MINOR);
+v1.3 → v2.0 (MAJOR).
+
+**OP-A, OP-B, OP-C, OP-D, OP-E, OP-F, OP-P**
+Códigos de classificação de operações no ecossistema, definidos na S04:
+OP-A (criação de repositório), OP-B (atualização de skill), OP-C
+(atualização de matriz), OP-D (geração de documento), OP-E (correção
+pontual), OP-F (atualização de planejamento), OP-P (atualização de
+projeto). Cada tipo tem checklist própria de arquivos a atualizar.
+
+---
+
+## Categoria 5 — Conceitos de qualidade e governança
+
+**Drift documental**
+Condição em que dois ou mais arquivos do ecossistema que deveriam estar
+sincronizados passam a apresentar informações divergentes por falta de
+propagação de uma atualização. Exemplo clássico: `sumario.md` registrando
+versão v0.11 de um repositório quando o `backlog-versoes.md` já está em
+v0.14. O drift é detectado na Etapa 6 (Verificação 1) da S04 e corrigido
+imediatamente, ainda com o token ativo.
+
+**Falso positivo (no contexto de auditoria)**
+Resultado incorreto de um script de auditoria que indica ausência de algo
+que na verdade existe. No ecossistema, falsos positivos ocorreram por:
+padrão de busca de texto restrito (Erros #004 e #005), janela de busca
+insuficiente (Erro #005), e leitura de trecho em vez do conteúdo completo
+(Erro #006). A S04 incorpora correções para cada caso identificado.
+
+**Porta de entrada**
+O repositório `dtd-setis` — ponto de acesso público ao ecossistema
+DTD/SETIS. Contém o README com diagrama geral, lista de repositórios,
+skills disponíveis, instrução obrigatória de inicialização para o Claude
+e link para o monitoramento de projetos. Qualquer pessoa ou ferramenta
+que acesse o ecossistema deve começar aqui.
+
+**Repositório âncora**
+O repositório `ecossistema-sumario` (M01) — repositório que contém as
+matrizes de conhecimento que regem todo o ecossistema. É a fonte de
+verdade para convenções (nomenclatura), estrutura (sumário), contexto
+(CONTEXTO.md) e terminologia (GLOSSARIO.md). Toda skill lê o repositório
+âncora antes de executar qualquer tarefa. Distinto da "porta de entrada"
+(`dtd-setis`): a porta de entrada é pública e orientada ao humano; o
+repositório âncora é técnico e orientado ao Claude.
+
+---
+
+*Última revisão: 2026-06-01 — victorarimatea*
+*Para propor novos termos: abrir issue ou atualizar diretamente via S04.*
