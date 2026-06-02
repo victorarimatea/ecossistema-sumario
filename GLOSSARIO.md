@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.3 — 2026-06-02
+**Versão:** v1.4 — 2026-06-02
 **Repositório:** ecossistema-sumario (M01)
 **Mantenedor:** victorarimatea
 
@@ -290,6 +290,61 @@ memória institucional e log de execuções. Um workflow pode existir sem skill
 associada (processo ainda manual). Uma skill sem workflow é tecnicamente válida
 mas organizacionalmente incompleta. A relação é: o workflow é anterior e superior
 à skill; a skill automatiza uma ou mais etapas do workflow.
+
+---
+
+---
+
+## Categoria 8 — Agenda e Registros de Reunião
+
+**Agenda (tipo A)**
+Repositório do tipo A que contém o acervo cronológico de registros de reunião
+de uma unidade organizacional. Distinto de todos os outros tipos do ecossistema
+por ser indexado por tempo de ocorrência dos eventos (não pela ordem de criação
+no ecossistema). A estrutura de pastas `reunioes/AAAA/MM/` e a nomenclatura
+`AAAA-MM-DD-[CLASSIFICACAO]-[descricao].md` garantem ordenação cronológica
+natural. Repositórios do tipo A são nomeados `agenda-[unidade]` e são privados
+por padrão — contêm informações institucionais sensíveis sobre reuniões internas.
+Exemplo: `agenda-dtd` (A01).
+
+**data_registro**
+Campo do Front Matter YAML de registros de reunião que indica quando o arquivo
+foi inserido no repositório A — distinto da `data_reuniao`. Serve para
+rastreabilidade de quando o registro foi formalizado, especialmente em casos
+de registros retroativos (reuniões que ocorreram antes da criação do repositório
+A ou antes da disponibilidade de token para depósito automático). A data de
+commit no git também registra essa informação automaticamente.
+
+**data_reuniao**
+Campo do Front Matter YAML de registros de reunião que indica quando a reunião
+efetivamente aconteceu. Determina a posição do arquivo na estrutura de pastas
+(`reunioes/AAAA/MM/`), no nome do arquivo (`AAAA-MM-DD-...`) e no índice
+cronológico do repositório A. Uma reunião ocorrida em maio aparece em maio no
+índice mesmo que o registro tenha sido criado em junho.
+
+**índice cronológico**
+O INDICE.md de repositórios do tipo A lista as reuniões em ordem de ocorrência
+(`data_reuniao`), não de inserção no repositório. É o único caso no ecossistema
+em que o índice não segue a ordem de criação dos arquivos. Permite que o índice
+funcione como linha do tempo consultável da agenda institucional — mesmo quando
+os registros são inseridos retroativamente ou fora de ordem.
+
+**PLAUD NOTE Pro**
+Dispositivo de hardware de captura e transcrição de reuniões utilizado pelo
+Diretor de Transformação Digital da DTD/SETIS/SES-DF. Grava o áudio das reuniões
+e gera automaticamente sínteses estruturadas que servem como input para o
+workflow W02 (`workflow-registro-reuniao`) e a skill S06 (`skill-registro-reuniao`).
+A aquisição do dispositivo foi uma decisão estratégica de produtividade que
+habilitou a construção do workflow de registro institucional de reunião.
+
+**registro institucional de reunião**
+Documento padronizado produzido pela skill S06 a partir de resumos de reunião,
+com 8 seções obrigatórias: título (com classificação), metadados, contexto,
+principais pontos discutidos, decisões, encaminhamentos, pontos críticos e
+referência. Redigido em linguagem institucional (padrão SES-DF / administração
+pública), diretamente utilizável em processos formais (SEI) sem edição adicional.
+Armazenado no repositório A da unidade responsável e referenciado no projeto P
+quando associado a projeto formal.
 
 ---
 
