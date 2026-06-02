@@ -1,6 +1,6 @@
 # Matriz de Nomenclatura do Ecossistema DTD/SETIS
 
-**Versão:** v0.9 — 2026-06-02
+**Versão:** v1.0 — 2026-06-02
 **Mantenedor:** victorarimatea
 
 > Define as convenções obrigatórias de nomenclatura para todos os
@@ -220,6 +220,78 @@ Este arquivo **não duplica** o log — apenas referencia o log completo no repo
 ```
 
 
+## 4-C. Estrutura interna de agendas (tipo A)
+
+Todo repositório de agenda deve ser **privado** (por padrão) e conter esta estrutura:
+
+```
+agenda-[unidade]/
+├── README.md
+├── INDICE.md              ← índice cronológico por data de reunião
+├── backlog-versoes.md
+└── reunioes/
+    └── AAAA/
+        └── MM/
+            └── AAAA-MM-DD-[CLASSIFICACAO]-[descricao].md
+```
+
+### Diferencial do tipo A: indexação por tempo de ocorrência
+
+O tipo A é o único tipo do ecossistema indexado por **tempo de ocorrência**
+dos eventos — não pela ordem de criação no ecossistema.
+
+- A estrutura de pastas `reunioes/AAAA/MM/` garante ordenação cronológica natural
+- O nome do arquivo começa com `AAAA-MM-DD` — qualquer listagem já é uma linha do tempo
+- O INDICE.md lista reuniões em ordem de ocorrência, não de inserção no repositório
+- O ID sequencial (A01, A02...) é usado apenas no sumário do ecossistema
+
+### Dois campos de data obrigatórios no Front Matter YAML
+
+```yaml
+data_reuniao:    AAAA-MM-DD    # quando a reunião aconteceu
+data_registro:   AAAA-MM-DD    # quando o arquivo foi inserido no repositório
+```
+
+A `data_reuniao` determina a posição no índice e na estrutura de pastas.
+A `data_registro` é informação de rastreabilidade — registrada também
+automaticamente no histórico de commits do git.
+
+### Nomenclatura do repositório A
+
+**Formato:** `agenda-[unidade]` em kebab-case minúsculo.
+
+O prefixo `agenda-` é fixo e obrigatório. A unidade identifica a área
+responsável. Exemplos: `agenda-dtd`, `agenda-gessp`, `agenda-diraps`.
+
+### Nomenclatura dos arquivos de reunião
+
+**Formato:** `AAAA-MM-DD-[CLASSIFICACAO]-[descricao-curta].md`
+
+Classificações possíveis (sem acentos, em maiúsculas):
+- `ALINHAMENTO-ESTRATEGICO`
+- `ALINHAMENTO-TATICO`
+- `ALINHAMENTO-OPERACIONAL`
+- `ALINHAMENTO-TECNICO`
+- `ALINHAMENTO-TECNICO-OPERACIONAL`
+- `ALINHAMENTO-TECNICO-ESTRATEGICO`
+
+Exemplos:
+- `2026-06-02-ALINHAMENTO-ESTRATEGICO-telessaude-poc-prisional.md`
+- `2026-05-05-ALINHAMENTO-TECNICO-OPERACIONAL-totem-health360-seape.md`
+
+### Relação com projetos (tipo P)
+
+Quando uma reunião é associada a um projeto formal, o arquivo fica no
+repositório A e uma referência é criada no `EXECUCOES.md` do projeto P.
+Nunca duplicar o conteúdo — apenas referenciar. Mesma lógica do tipo W.
+
+### Ciclo de vida dos registros de reunião
+
+Registros de reunião não têm ciclo de vida — são imutáveis após criação.
+Correções são feitas via nova versão do arquivo com nota de revisão no
+Front Matter (`versao_registro: 1.1` + nota explicativa).
+
+
 ## 5. Estrutura do backlog-versoes.md
 
 Padrão obrigatório para todos os repositórios:
@@ -381,6 +453,16 @@ Campos adicionais obrigatórios para este tipo:
 | `**Status do workflow**` | `rascunho` / `ativo` / `suspenso` / `descontinuado` |
 | `**Execuções afetadas**` | IDs ou datas das execuções impactadas pela mudança, se aplicável |
 | `**Skills afetadas**` | Skills que consomem este workflow e podem precisar de ajuste |
+
+
+### 7.6 Agendas (tipo A)
+
+Campos adicionais obrigatórios para este tipo:
+
+| Campo | Valores possíveis |
+|---|---|
+| `**Reuniões afetadas**` | Datas das reuniões impactadas pela mudança, se aplicável |
+| `**Motivo de revisão**` | Apenas quando um registro de reunião existente for corrigido |
 
 
 ---
