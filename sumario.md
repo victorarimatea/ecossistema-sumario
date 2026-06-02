@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v1.0 — 2026-06-01
+**Versão:** v1.1 — 2026-06-02
 **Repositório âncora:** ecossistema-sumario
 **Mantenedor:** victorarimatea
 
@@ -29,12 +29,14 @@
 | S02 | skill-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skill-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
 | S04 | skill-github-orquestracao | v1.5 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
+| S05 | skill-transcricao-documental | v1.0 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
 
 ### Documentos (D)
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| — | — | — | Nenhum repositório de documento criado ainda |
+| D01 | governanca-ses-df | v1.0 | Transcrições estruturadas em Markdown de legislações, portarias, resoluções e referências internacionais de saúde digital — 28 documentos (Fase 1 + Fase 2 Tier 1) |
+| D02 | doc-cadastro-ses-setis-dtd | v1.0 | Matriz de Cadastros de referência validada para uso interno da DTD/SETIS/SES-DF |
 
 ### Projetos (P)
 
@@ -65,4 +67,8 @@
 | skill-iac-pdtic | S02 | Privado | https://github.com/victorarimatea/skill-iac-pdtic |
 | skill-poc-saude-digital | S03 | Público | https://github.com/victorarimatea/skill-poc-saude-digital |
 | telessaude-poc-prisional | P01 | Privado | https://github.com/victorarimatea/telessaude-poc-prisional |
+| governanca-ses-df | D01 | Público | https://github.com/victorarimatea/governanca-ses-df |
+| doc-cadastro-ses-setis-dtd | D02 | Público | https://github.com/victorarimatea/doc-cadastro-ses-setis-dtd |
+| skill-transcricao-documental | S05 | Público | https://github.com/victorarimatea/skill-transcricao-documental |
+| skill-iac-pdtic | S02 | Privado | https://github.com/victorarimatea/skill-iac-pdtic |
 | skill-github-orquestracao | S04 | Público | https://github.com/victorarimatea/skill-github-orquestracao |
