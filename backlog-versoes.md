@@ -1,3 +1,22 @@
+## v0.20 — 2026-06-01
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Primeira execução da Verificação 4 (auditoria
+de glossário) em operação real — identificou dois termos introduzidos
+pela própria operação de criação da Verificação 4 que estavam ausentes
+do GLOSSARIO.md: "auditoria de glossário" e "termo candidato". Adição
+aprovada pelo mantenedor. Primeiro ciclo completo do mecanismo de
+manutenção automática do glossário.
+
+### Alterações realizadas
+- `GLOSSARIO.md` → v1.1: 2 termos adicionados na Categoria 5
+  ("auditoria de glossário" e "termo candidato")
+- `backlog-versoes.md` → esta entrada (v0.20)
+- `dtd-setis/CHANGELOG.md` → entrada [1.9]
+
+---
+
 ## v0.19 — 2026-06-01
 
 **Tipo de alteração:** Atualização
