@@ -1,3 +1,26 @@
+## v0.23 — 2026-06-02
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Implementação do tipo W (Workflows) no ecossistema
+DTD/SETIS/SES-DF. O tipo W nasce da visão de que workflows são capital
+organizacional crítico — devem estar escritos, versionados, auditáveis e
+consultáveis por humanos e ferramentas de IA. A estrutura resolve o problema
+dual de memória: o repositório W acumula todas as execuções do processo em
+qualquer contexto; o projeto P vê todos os workflows que foram acionados em
+seu contexto via EXECUCOES.md. Solução: um único log no W, referenciado no P.
+
+### Alterações realizadas
+- `nomenclatura.md` → v0.9: Seção 4-B (estrutura tipo W), Seção 7.5 (backlog
+  tipo W), WORKFLOW.md e EXECUCOES.md na tabela de arquivos obrigatórios
+- `sumario.md` → v1.2: seção Workflows (W) criada; W01 registrado
+- `GLOSSARIO.md` → v1.3: Categoria 7 — 5 novos termos (workflow, subprocesso,
+  log de execução, estado final esperado, EXECUCOES.md)
+- `CONTEXTO.md` → v1.5: W01 adicionado aos repositórios ativos
+- `backlog-versoes.md` → esta entrada (v0.23)
+
+---
+
 ## v0.22 — 2026-06-02
 
 **Tipo de alteração:** Atualização
