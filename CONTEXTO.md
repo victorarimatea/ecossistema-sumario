@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v1.5 — 2026-06-02
+**Versão:** v1.6 — 2026-06-02
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing completo para inicialização de novas sessões de trabalho.
 Leia este arquivo antes de qualquer outra ação.
@@ -60,10 +60,13 @@ manual do mantenedor.
 | S03 | Skill | skill-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
 | S04 | Skill | skill-github-orquestracao | v1.0 | Garante consistência do ecossistema a cada operação |
 | S05 | Skill | skill-transcricao-documental | v1.0 | Converte PDFs regulatórios em Markdown estruturado |
+| S06 | Skill | skill-registro-reuniao | v1.0 | Transforma resumos de reunião em registros institucionais padronizados para o SEI |
 | D01 | Documento | governanca-ses-df | v1.0 | 28 documentos transcritos — legislação e referências de saúde digital |
 | D02 | Documento | doc-cadastro-ses-setis-dtd | v1.0 | Matriz de Cadastros de referência DTD/SETIS/SES-DF |
 | W01 | Workflow | workflow-transcricao-documental | v1.0 | Processo de transcrição documental — memória organizacional do pipeline |
+| W02 | Workflow | workflow-registro-reuniao | v1.0 | Processo de registro institucional de reunião — PLAUD NOTE → Markdown → SEI (privado) |
 | P01 | Projeto | telessaude-poc-prisional | v0.1 | PoC Totem de Telemedicina no Sistema Prisional do DF (privado) |
+| A01 | Agenda | agenda-dtd | v1.0 | Acervo cronológico de registros de reunião da DTD (privado) |
 
 ### Repositórios planejados (não criados ainda)
 
