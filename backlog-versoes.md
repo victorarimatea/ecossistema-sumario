@@ -1,3 +1,24 @@
+## v0.21 — 2026-06-02
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Migração do material produzido no Cowork para
+o ecossistema GitHub. Criação do D01 (governanca-ses-df) com 28 documentos
+transcritos sobre saúde digital, do S05 (skill-transcricao-documental)
+formalizando o pipeline de transcrição, e regularização do D02
+(doc-cadastro-ses-setis-dtd) com estrutura padrão. Primeiro preenchimento
+da seção Documentos (D) do ecossistema. S02 (skill-iac-pdtic) também
+regularizado no sumário — estava ativo mas não registrado.
+
+### Alterações realizadas
+- `sumario.md` → v1.1: D01, D02, S05 adicionados; S02 regularizado
+- `CONTEXTO.md` → v1.4: D01, D02, S05 adicionados aos repositórios ativos
+- `backlog-versoes.md` → esta entrada (v0.21)
+- `dtd-setis/CHANGELOG.md` → entrada [2.0]
+- `dtd-setis/ROADMAP.md` → governanca-ses-df marcado como ✅
+
+---
+
 ## v0.20 — 2026-06-01
 
 **Tipo de alteração:** Atualização
