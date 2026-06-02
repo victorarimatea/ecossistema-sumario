@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v1.1 — 2026-06-02
+**Versão:** v1.2 — 2026-06-02
 **Repositório âncora:** ecossistema-sumario
 **Mantenedor:** victorarimatea
 
@@ -38,6 +38,12 @@
 | D01 | governanca-ses-df | v1.0 | Transcrições estruturadas em Markdown de legislações, portarias, resoluções e referências internacionais de saúde digital — 28 documentos (Fase 1 + Fase 2 Tier 1) |
 | D02 | doc-cadastro-ses-setis-dtd | v1.0 | Matriz de Cadastros de referência validada para uso interno da DTD/SETIS/SES-DF |
 
+### Workflows (W)
+
+| ID | Nome | Versão | Status | Descrição |
+|---|---|---|---|---|
+| W01 | workflow-transcricao-documental | v1.0 | ativo | Processo completo de transcrição de PDFs regulatórios em Markdown estruturado — memória organizacional do pipeline DTD/SETIS/SES-DF |
+
 ### Projetos (P)
 
 | ID | Nome | Versão | Status | Descrição |
@@ -65,10 +71,12 @@
 | saude-digital-taxonomia | M02 | Público | https://github.com/victorarimatea/saude-digital-taxonomia |
 | skill-criador-de-skills | S01 | Público | https://github.com/victorarimatea/skill-criador-de-skills |
 | skill-iac-pdtic | S02 | Privado | https://github.com/victorarimatea/skill-iac-pdtic |
+| workflow-transcricao-documental | W01 | Público | https://github.com/victorarimatea/workflow-transcricao-documental |
 | skill-poc-saude-digital | S03 | Público | https://github.com/victorarimatea/skill-poc-saude-digital |
 | telessaude-poc-prisional | P01 | Privado | https://github.com/victorarimatea/telessaude-poc-prisional |
 | governanca-ses-df | D01 | Público | https://github.com/victorarimatea/governanca-ses-df |
 | doc-cadastro-ses-setis-dtd | D02 | Público | https://github.com/victorarimatea/doc-cadastro-ses-setis-dtd |
 | skill-transcricao-documental | S05 | Público | https://github.com/victorarimatea/skill-transcricao-documental |
 | skill-iac-pdtic | S02 | Privado | https://github.com/victorarimatea/skill-iac-pdtic |
+| workflow-transcricao-documental | W01 | Público | https://github.com/victorarimatea/workflow-transcricao-documental |
 | skill-github-orquestracao | S04 | Público | https://github.com/victorarimatea/skill-github-orquestracao |
