@@ -1,3 +1,22 @@
+## v0.22 — 2026-06-02
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Adição da Categoria 6 ao GLOSSARIO.md com 4 termos
+introduzidos pela migração do pipeline de transcrição documental (D01/S05):
+"artefato de extração", "front matter YAML", "pipeline de transcrição" e
+"reflow". Primeiro ciclo de expansão do glossário por demanda de novo domínio
+técnico incorporado ao ecossistema — confirmando o funcionamento da
+Verificação 4 da S04 como mecanismo de crescimento orgânico do vocabulário.
+
+### Alterações realizadas
+- `GLOSSARIO.md` → v1.2: Categoria 6 adicionada (4 termos — total: 29)
+- `backlog-versoes.md` → esta entrada (v0.22)
+- `sumario.md` → M01 v0.22 atualizado
+- `dtd-setis/CHANGELOG.md` → entrada [2.1]
+
+---
+
 ## v0.21 — 2026-06-02
 
 **Tipo de alteração:** Adição
