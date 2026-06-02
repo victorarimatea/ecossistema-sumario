@@ -1,6 +1,6 @@
 # Matriz de Nomenclatura do Ecossistema DTD/SETIS
 
-**Versão:** v0.8 — 2026-06-01
+**Versão:** v0.9 — 2026-06-02
 **Mantenedor:** victorarimatea
 
 > Define as convenções obrigatórias de nomenclatura para todos os
@@ -44,6 +44,8 @@ Todo repositório do ecossistema deve conter estes arquivos na raiz:
 | `README.md` | Todos | Apresentação pública do repositório |
 | `backlog-versoes.md` | Todos | Histórico auditável de alterações |
 | `SKILL.md` | Skills (tipo S) | Documentação técnica da skill para o Claude |
+| `WORKFLOW.md` | Workflows (tipo W) | Documento principal do processo — 8 seções obrigatórias |
+| `EXECUCOES.md` | Projetos (tipo P) | Índice de workflows acionados no projeto, com links para logs no repositório W |
 | `sumario.md` | Apenas M01 | Índice central do ecossistema |
 | `nomenclatura.md` | Apenas M01 | Este arquivo |
 | `CONTEXTO.md` | Apenas M01 | Briefing de inicialização de sessões |
@@ -130,6 +132,93 @@ Diretor de Transformação Digital. A documentação interna do projeto
 diretamente ao público — apenas uma visão panorâmica curada.
 
 ---
+
+## 4-B. Estrutura interna de workflows (tipo W)
+
+Todo repositório de workflow deve ser **público** (por padrão) e conter esta estrutura:
+
+```
+workflow-[descritor]/
+├── README.md
+├── WORKFLOW.md
+├── INDICE.md
+├── backlog-versoes.md
+└── execucoes/
+    └── AAAA-MM-DD-[contexto].md
+```
+
+### Arquivos obrigatórios de workflows
+
+| Arquivo / Pasta | Função |
+|---|---|
+| `README.md` | Apresentação pública: tipo W, ID, versão, links para skill associada e repositório de saída |
+| `WORKFLOW.md` | Documento principal com 8 seções obrigatórias (ver estrutura abaixo) |
+| `INDICE.md` | Mapa completo de arquivos incluindo pasta execucoes/ |
+| `backlog-versoes.md` | Histórico de evoluções do processo com exposição de motivos |
+| `execucoes/` | Pasta para logs de execução — um arquivo por execução registrada |
+
+### Estrutura obrigatória do WORKFLOW.md (8 seções)
+
+| Seção | Conteúdo |
+|---|---|
+| 1 — Identificação | Nome, ID, versão, status, responsável, skill associada, repositório de saída |
+| 2 — Missão e contexto | Por que existe, problema resolvido, objetivos estratégicos, quem pode acionar |
+| 3 — Estado final esperado | Critérios de qualidade verificáveis — benchmark de execução bem-sucedida |
+| 4 — Etapas do processo | Sequência completa: executor, tipo (manual/auto), entrada, saída, critério de conclusão |
+| 5 — Skills e subprocessos | Lista de skills e workflows consumidos, com links — nunca replicar conteúdo |
+| 6 — Histórico de problemas | Memória institucional: P01, P02... com sintoma, causa raiz, solução, status |
+| 7 — Roadmap de automação | Estado atual de cada etapa e condições para progressão |
+| 8 — Referências e dependências | Documentos normativos, repositórios D e M referenciados |
+
+### Nomenclatura do repositório W
+
+**Formato:** `workflow-[descritor-do-processo]` em kebab-case minúsculo.
+
+O prefixo `workflow-` é fixo e obrigatório. O descritor nomeia o processo,
+não a tecnologia. Exemplos: `workflow-transcricao-documental`,
+`workflow-iac-conformidade`, `workflow-poc-saude-digital`.
+
+### Ciclo de vida dos workflows
+
+```
+rascunho → ativo → suspenso → descontinuado
+```
+
+- `rascunho`: em documentação, ainda não executado formalmente
+- `ativo`: documentado e em uso
+- `suspenso`: pausado temporariamente (motivo registrado no backlog)
+- `descontinuado`: encerrado — arquivo preservado para histórico
+
+### Logs de execução
+
+**Localização:** `workflow-[descritor]/execucoes/AAAA-MM-DD-[contexto].md`
+
+**Conteúdo obrigatório de cada log:**
+- Data, hora e contexto de acionamento
+- Quem/o que acionou (humano, projeto, outro workflow)
+- Projeto associado, se houver (com link para repositório P)
+- Resumo do que foi executado etapa a etapa
+- Decisões tomadas e desvios do padrão
+- Skills e subworkflows consumidos
+- Artefatos gerados (com links)
+- Status: `Completo` / `Parcial` / `Interrompido`
+- Lições aprendidas (candidatas a P0N na Seção 6 do WORKFLOW.md)
+
+**Obrigatoriedade:** logs são obrigatórios em sessões autenticadas com token
+onde o Coordenador estiver presente. Sessões sem token são isentas.
+
+### EXECUCOES.md no projeto associado (tipo P)
+
+Quando um workflow é acionado no contexto de um projeto (tipo P), o repositório
+do projeto deve manter um `EXECUCOES.md` na raiz com uma linha por workflow acionado.
+Este arquivo **não duplica** o log — apenas referencia o log completo no repositório W.
+
+```markdown
+| Data       | Workflow                         | Contexto              | Log completo |
+|------------|----------------------------------|-----------------------|--------------|
+| 2026-06-02 | workflow-transcricao-documental  | Geração PoC v0.1      | → link       |
+```
+
 
 ## 5. Estrutura do backlog-versoes.md
 
@@ -282,6 +371,17 @@ Campos adicionais obrigatórios para este tipo:
 | `**Status**` | `ideia` / `planejado` / `em_execucao` / `entregue` / `cancelado` / `suspenso` |
 | `**Processo SEI**` | Número do processo administrativo de referência |
 | `**Parceiros institucionais**` | Instituições envolvidas na entrega |
+
+### 7.5 Workflows (tipo W)
+
+Campos adicionais obrigatórios para este tipo:
+
+| Campo | Valores possíveis |
+|---|---|
+| `**Status do workflow**` | `rascunho` / `ativo` / `suspenso` / `descontinuado` |
+| `**Execuções afetadas**` | IDs ou datas das execuções impactadas pela mudança, se aplicável |
+| `**Skills afetadas**` | Skills que consomem este workflow e podem precisar de ajuste |
+
 
 ---
 
