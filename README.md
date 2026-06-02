@@ -35,3 +35,10 @@ As skills do ecossistema acessam `sumario.md` para saber quais
 repositórios existem, seus endereços e sua função antes de executar
 qualquer tarefa. Alterações neste repositório requerem autorização
 explícita do mantenedor e devem ser registradas em `backlog-versoes.md`.
+
+---
+
+## Navegação rápida
+
+→ **[INDICE.md](./INDICE.md)** — mapa completo de todos os arquivos deste repositório
+
