@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v1.3 — 2026-05-29
+**Versão:** v1.4 — 2026-06-02
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing completo para inicialização de novas sessões de trabalho.
 Leia este arquivo antes de qualquer outra ação.
