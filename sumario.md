@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v1.2 — 2026-06-02
+**Versão:** v1.3 — 2026-06-02
 **Repositório âncora:** ecossistema-sumario
 **Mantenedor:** victorarimatea
 
@@ -30,6 +30,7 @@
 | S03 | skill-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
 | S04 | skill-github-orquestracao | v1.6 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
 | S05 | skill-transcricao-documental | v1.0 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
+| S06 | skill-registro-reuniao | v1.0 | Transforma resumos de reunião (PLAUD NOTE ou texto) em registros institucionais padronizados para o SEI | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
 
 ### Documentos (D)
 
@@ -42,7 +43,14 @@
 
 | ID | Nome | Versão | Status | Descrição |
 |---|---|---|---|---|
-| W01 | workflow-transcricao-documental | v1.0 | ativo | Processo completo de transcrição de PDFs regulatórios em Markdown estruturado — memória organizacional do pipeline DTD/SETIS/SES-DF |
+| W01 | workflow-transcricao-documental | v1.0 | ativo | Processo completo de transcrição de PDFs regulatórios em Markdown — memória organizacional do pipeline DTD/SETIS/SES-DF |
+| W02 | workflow-registro-reuniao | v1.0 | ativo | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI | Processo completo de transcrição de PDFs regulatórios em Markdown estruturado — memória organizacional do pipeline DTD/SETIS/SES-DF |
+
+### Agendas (A)
+
+| ID | Nome | Versão | Descrição |
+|---|---|---|---|
+| A01 | agenda-dtd | v1.0 | Agenda institucional DTD/SETIS/SES-DF — registros de reunião ordenados cronologicamente por data de ocorrência (privado) |
 
 ### Projetos (P)
 
