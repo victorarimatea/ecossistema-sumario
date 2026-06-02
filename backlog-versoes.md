@@ -1,3 +1,27 @@
+## v0.25 — 2026-06-02
+
+**Tipo de alteração:** Correção + Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Saneamento de drifts identificados em auditoria
+externa por ferramenta LLM. Causa raiz confirmada: S04 não instruía
+atualização dos arquivos de referência central (CONTEXTO.md, ROADMAP.md,
+arquitetura.md) nos tipos de operação OP-C, OP-W e OP-AG. Corrigido com
+blindagem estrutural da S04 v1.8 (Erro #007 + Verificação 5).
+
+### Alterações realizadas
+- `CONTEXTO.md` → v1.7: versões sincronizadas com sumario.md (fonte de verdade)
+- `sumario.md` → v1.4: duplicações removidas; S04 atualizado para v1.7
+- `dtd-setis/docs/arquitetura.md` → v2.0: reescrita com 6 tipos, 4 camadas,
+  relações entre tipos, S04, repositório âncora e porta de entrada
+- `dtd-setis/ROADMAP.md`: reorganizado em concluído/em curso/próximo/médio/longo
+- `dtd-setis/INDICE.md`: contagem, data e docs/arquitetura.md v2.0 atualizados
+- `dtd-setis/backlog-versoes.md`: entradas retroativas v1.1–v2.0 adicionadas
+- `skill-github-orquestracao/SKILL.md` → v1.8: Verificação 5 + Erro #007
+- `backlog-versoes.md` → esta entrada (v0.25)
+- `dtd-setis/CHANGELOG.md` → entrada [2.4]
+
+---
+
 ## v0.24 — 2026-06-02
 
 **Tipo de alteração:** Adição
