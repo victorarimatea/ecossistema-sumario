@@ -1,3 +1,44 @@
+# protocolo-atualizacoes.md — DESCONTINUADO
+
+**Versão:** v2.0 — 2026-06-01
+**Status:** ⛔ DESCONTINUADO
+**Substituído por:** skill-github-orquestracao (S04)
+**Data de descontinuação:** 2026-06-01
+**Motivo:** Este documento foi o embrião da skill de orquestração do ecossistema.
+Com a criação formal da S04 em 2026-06-01, o protocolo foi incorporado,
+expandido e aprimorado na skill — que é agora o instrumento vigente e
+definitivo para todas as operações no GitHub.
+
+---
+
+## ⛔ Instrumento vigente
+
+Para qualquer operação que altere repositórios do ecossistema DTD/SETIS,
+utilize exclusivamente a **skill-github-orquestracao (S04)**:
+
+```
+https://github.com/victorarimatea/skill-github-orquestracao
+```
+
+A S04 substitui integralmente este protocolo com as seguintes melhorias:
+- Etapa 0 obrigatória: leitura do estado real antes de qualquer ação
+- Plano de execução apresentado para aprovação antes de solicitar token
+- Verificação pós-execução automatizada
+- Registro permanente de erros aprendidos
+- Tipo OP-P (projetos) incorporado
+- Padrão Python urllib para chamadas à API (Erro #003)
+- Autodescoberta via CONTEXTO.md (sem dependência de memória humana)
+
+---
+
+## Histórico original (preservado para rastreabilidade)
+
+> O conteúdo abaixo é o texto original do protocolo v1.0 (2026-05-28).
+> Mantido exclusivamente para fins de auditoria histórica.
+> Não deve ser usado como referência operacional.
+
+---
+
 # protocolo-atualizacoes.md — Ecossistema DTD/SETIS
 
 **Versão:** v1.0 — 2026-05-28
