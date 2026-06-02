@@ -1,3 +1,24 @@
+## v0.24 — 2026-06-02
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Implementação do tipo A (Agenda) e dos componentes
+do workflow de registro de reunião (S06 e W02). O tipo A nasce da necessidade
+de um lar para registros de reunião avulsos e introduz o primeiro tipo do
+ecossistema indexado por tempo de ocorrência — não por ordem de criação.
+A skill S06 formaliza o prompt institucional desenvolvido e testado pelo
+Diretor de Transformação Digital com o PLAUD NOTE Pro.
+
+### Alterações realizadas
+- `nomenclatura.md` → v1.0: Seção 4-C (tipo A), Seção 7.6, campos
+  data_reuniao/data_registro, nomenclatura agenda-[unidade]
+- `sumario.md` → v1.3: tipo A, A01, S06, W02 registrados
+- `GLOSSARIO.md` → v1.4: Categoria 8 (6 termos)
+- `CONTEXTO.md` → v1.6: S06, W02, A01 adicionados
+- `backlog-versoes.md` → esta entrada (v0.24)
+
+---
+
 ## v0.23 — 2026-06-02
 
 **Tipo de alteração:** Adição
