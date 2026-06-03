@@ -15,6 +15,22 @@ de 2026-06-02.
 
 ---
 
+## v0.23 — 2026-06-03
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Atualização do CONTEXTO.md para refletir o estado atual do ecossistema após publicação do RESUMO-EXECUTIVO-v2.0 no P02. Duas correções pontuais: (1) versão do P02 atualizada de v0.1 para v0.2 na tabela de repositórios ativos; (2) item 5 dos próximos passos planejados marcado como concluído — o projeto Ecossistema DTD/SETIS já está configurado e ativo no Claude.ai.
+**Tópico afetado:** Estrutura atual do ecossistema — tabela de repositórios ativos; próximos passos planejados
+**Fonte:** Operação OP-P de atualização do P02 em 2026-06-03
+**Proposto por:** sistema
+
+### Alterações realizadas
+- `CONTEXTO.md` v1.8 → v1.9: versão do P02 atualizada (v0.1 → v0.2), item 5 dos próximos passos marcado como concluído
+
+---
+
+
+
 ## v0.25 — 2026-06-02
 
 **Tipo de alteração:** Correção + Atualização
