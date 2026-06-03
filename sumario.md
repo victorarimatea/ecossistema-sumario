@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v1.5 — 2026-06-02
+**Versão:** v1.6 — 2026-06-02
 **Repositório âncora:** ecossistema-sumario
 **Mantenedor:** victorarimatea
 
@@ -44,7 +44,8 @@
 | ID | Nome | Versão | Status | Descrição |
 |---|---|---|---|---|
 | W01 | workflow-transcricao-documental | v1.0 | ativo | Processo completo de transcrição de PDFs regulatórios em Markdown — memória organizacional do pipeline DTD/SETIS/SES-DF |
-| W02 | workflow-registro-reuniao | v1.0 | ativo | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI | Processo completo de transcrição de PDFs regulatórios em Markdown estruturado — memória organizacional do pipeline DTD/SETIS/SES-DF |
+| W02 | workflow-registro-reuniao | v1.0 | ativo | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI |
+| W03 | workflow-registro-sessao | v1.0 | ativo | Registro estruturado de sessões de trabalho intensivo — preserva história da construção do ecossistema | Processo completo de transcrição de PDFs regulatórios em Markdown estruturado — memória organizacional do pipeline DTD/SETIS/SES-DF |
 
 ### Agendas (A)
 
@@ -57,6 +58,7 @@
 | ID | Nome | Versão | Status | Descrição |
 |---|---|---|---|---|
 | P01 | telessaude-poc-prisional | v0.1 | em_execucao | PoC de totem de telemedicina multiparâmetros no Sistema Prisional do DF — DTD/SETIS/SES-DF |
+| P02 | ecossistema-dtd-setis | v0.1 | em_execucao | Projeto do Ecossistema — preserva história da construção, decisões de design e relatórios de sessão (privado) |
 
 ---
 
