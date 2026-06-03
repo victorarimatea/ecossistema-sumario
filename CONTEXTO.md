@@ -58,7 +58,7 @@ manual do mantenedor.
 | S01 | Skill | skill-criador-de-skills | v1.0 | Cria novos repositórios de skill via API GitHub |
 | S02 | Skill | skill-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | Skill | skill-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
-| S04 | Skill | skill-github-orquestracao | v1.9 | Garante consistência do ecossistema a cada operação |
+| S04 | Skill | skill-github-orquestracao | v2.0 | Garante consistência do ecossistema a cada operação |
 | S05 | Skill | skill-transcricao-documental | v1.0 | Converte PDFs regulatórios em Markdown estruturado |
 | S06 | Skill | skill-registro-reuniao | v1.0 | Transforma resumos de reunião em registros institucionais padronizados para o SEI |
 | D01 | Documento | governanca-ses-df | v1.0 | 28 documentos transcritos — legislação e referências de saúde digital |
