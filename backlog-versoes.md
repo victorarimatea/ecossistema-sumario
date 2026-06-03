@@ -1,3 +1,19 @@
+## v0.24 — 2026-06-03
+
+**Tipo de alteração:** Atualização (MAJOR)
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Reescrita completa do CONTEXTO.md (v1.8 → v2.0).
+Higienização estrutural: removidos todos os elementos transitórios acumulados
+desde maio/2026 (datas de reunião, processos SEI, versões específicas do PDTIC,
+próximos passos, documentos IAC produzidos, tokens e arquivos carregados no Claude).
+Adicionada mensagem de boas-vindas do mantenedor para colaboradores e agentes externos.
+Estrutura de repositórios atualizada para refletir o ecossistema completo atual
+(15 repositórios em 6 tipos: M, S, D, W, A, P). ONBOARDING.md registrado nos
+arquivos obrigatórios do M01. Versão MAJOR pois o documento anterior era
+incompatível com o estado real do ecossistema.
+
+---
+
 ## v0.23 — 2026-06-03
 
 **Tipo de alteração:** Adição
