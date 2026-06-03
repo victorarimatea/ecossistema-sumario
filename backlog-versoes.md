@@ -15,6 +15,23 @@ de 2026-06-02.
 
 ---
 
+## v0.24 — 2026-06-03
+
+**Tipo de alteração:** Correção + Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Duas correções na mesma operação: (1) drift no sumario.md — P02 ainda registrado como v0.1 quando o CONTEXTO.md já havia sido atualizado para v0.2 na sessão anterior; (2) atualização da S04 para v2.0 após incorporação da checklist OP-P especial para o P02. A sessão de 2026-06-03 também produziu o mapeamento completo dos 8 arquivos externos que referenciam o P02, formalizado como OP-P especial na S04 v2.0.
+**Tópico afetado:** sumario.md — versões de P02 e S04
+**Fonte:** Operação OP-P + OP-C de 2026-06-03
+**Proposto por:** sistema
+
+### Alterações realizadas
+- `sumario.md` v1.9 → v2.0: P02 corrigido de v0.1 para v0.2 (drift); S04 atualizado de v1.9 para v2.0
+- `CONTEXTO.md` v1.9 → v2.0: S04 atualizado de v1.9 para v2.0
+
+---
+
+
+
 ## v0.23 — 2026-06-03
 
 **Tipo de alteração:** Atualização
