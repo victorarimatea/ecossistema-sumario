@@ -1,3 +1,20 @@
+## v0.26 — 2026-06-02
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Criação do P02 (ecossistema-dtd-setis) para preservar
+a história da construção do ecossistema, e do W03 (workflow-registro-sessao)
+como processo de registro de sessões de trabalho intensivo. O P02 nasce com
+Resumo Executivo técnico completo e relatório narrativo da sessão fundacional
+de 2026-06-02.
+
+### Alterações realizadas
+- `sumario.md` → v1.6: P02 e W03 registrados
+- `CONTEXTO.md` → v1.8: P02 e W03 adicionados
+- `backlog-versoes.md` → esta entrada (v0.26)
+
+---
+
 ## v0.25 — 2026-06-02
 
 **Tipo de alteração:** Correção + Atualização
