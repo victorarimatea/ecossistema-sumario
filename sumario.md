@@ -28,7 +28,7 @@
 | S01 | skill-criador-de-skills | v1.0 | Cria novos repositórios de skill via API GitHub |
 | S02 | skill-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skill-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
-| S04 | skill-github-orquestracao | v1.9 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
+| S04 | skill-github-orquestracao | v2.0 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
 | S05 | skill-transcricao-documental | v1.0 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
 | S06 | skill-registro-reuniao | v1.0 | Transforma resumos de reunião (PLAUD NOTE ou texto) em registros institucionais padronizados para o SEI | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
 
@@ -58,7 +58,7 @@
 | ID | Nome | Versão | Status | Descrição |
 |---|---|---|---|---|
 | P01 | telessaude-poc-prisional | v0.1 | em_execucao | PoC de totem de telemedicina multiparâmetros no Sistema Prisional do DF — DTD/SETIS/SES-DF |
-| P02 | ecossistema-dtd-setis | v0.1 | em_execucao | Projeto do Ecossistema — preserva história da construção, decisões de design e relatórios de sessão (privado) |
+| P02 | ecossistema-dtd-setis | v0.2 | em_execucao | Projeto do Ecossistema — preserva história da construção, decisões de design e relatórios de sessão (privado) |
 
 ---
 
