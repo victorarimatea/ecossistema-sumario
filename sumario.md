@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v1.7 — 2026-06-03
+**Versão:** v1.8 — 2026-06-03
 **Repositório âncora:** ecossistema-sumario
 **Mantenedor:** victorarimatea
 
@@ -18,7 +18,7 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | ecossistema-sumario | v0.22 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
+| M01 | ecossistema-sumario | v0.23 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
 | M02 | saude-digital-taxonomia | v1.0 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
