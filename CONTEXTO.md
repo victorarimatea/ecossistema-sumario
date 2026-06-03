@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v1.7 — 2026-06-02
+**Versão:** v1.8 — 2026-06-02
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing completo para inicialização de novas sessões de trabalho.
 Leia este arquivo antes de qualquer outra ação.
@@ -65,7 +65,9 @@ manual do mantenedor.
 | D02 | Documento | doc-cadastro-ses-setis-dtd | v1.0 | Matriz de Cadastros de referência DTD/SETIS/SES-DF |
 | W01 | Workflow | workflow-transcricao-documental | v1.0 | Processo de transcrição documental — memória organizacional do pipeline |
 | W02 | Workflow | workflow-registro-reuniao | v1.0 | Processo de registro institucional de reunião — PLAUD NOTE → Markdown → SEI (privado) |
+| W03 | Workflow | workflow-registro-sessao | v1.0 | Registro estruturado de sessões de trabalho intensivo |
 | P01 | Projeto | telessaude-poc-prisional | v0.1 | PoC Totem de Telemedicina no Sistema Prisional do DF (privado) |
+| P02 | Projeto | ecossistema-dtd-setis | v0.1 | Projeto do Ecossistema — história da construção (privado) |
 | A01 | Agenda | agenda-dtd | v1.0 | Acervo cronológico de registros de reunião da DTD (privado) |
 
 ### Repositórios planejados (não criados ainda)
