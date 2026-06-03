@@ -14,6 +14,7 @@
 
 | Arquivo | Descrição | Quando consultar |
 |---|---|---|
+| [`ONBOARDING.md`](./ONBOARDING.md) | Porta de entrada para agentes e colaboradores externos — roteamento por propósito |
 | [`CONTEXTO.md`](./CONTEXTO.md) | Briefing completo do ecossistema: estrutura, repositórios, convenções, protocolo de operações GitHub (S04), regra de aprendizado contínuo | **Sempre — obrigatório no início de toda sessão** |
 | [`sumario.md`](./sumario.md) | Índice geral do ecossistema: todos os repositórios ativos (M, S, D, P) com versões e status | Para verificar o que existe no ecossistema e as versões atuais |
 | [`nomenclatura.md`](./nomenclatura.md) | Convenções obrigatórias: nomenclatura de repositórios, arquivos, versões, estrutura interna de cada tipo, IAC, acentuação | Para criar ou atualizar qualquer repositório ou arquivo |
