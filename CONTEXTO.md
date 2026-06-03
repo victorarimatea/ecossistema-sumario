@@ -67,7 +67,7 @@ manual do mantenedor.
 | W02 | Workflow | workflow-registro-reuniao | v1.0 | Processo de registro institucional de reunião — PLAUD NOTE → Markdown → SEI (privado) |
 | W03 | Workflow | workflow-registro-sessao | v1.0 | Registro estruturado de sessões de trabalho intensivo |
 | P01 | Projeto | telessaude-poc-prisional | v0.1 | PoC Totem de Telemedicina no Sistema Prisional do DF (privado) |
-| P02 | Projeto | ecossistema-dtd-setis | v0.1 | Projeto do Ecossistema — história da construção (privado) |
+| P02 | Projeto | ecossistema-dtd-setis | v0.2 | Projeto do Ecossistema — história da construção (privado) |
 | A01 | Agenda | agenda-dtd | v1.0 | Acervo cronológico de registros de reunião da DTD (privado) |
 
 ### Repositórios planejados (não criados ainda)
@@ -185,8 +185,7 @@ esse conteúdo.
 3. **Criar repositório `pdtic-historico`** para registrar versões aprovadas do PDTIC
    com os IACs correspondentes
 4. **Criar `skill-iac-generico`** — versão sem especialização temática do IAC
-5. **Configurar o ecossistema como Projeto no Claude** carregando os SKILL.md
-   para ativação permanente das skills
+5. ~~**Configurar o ecossistema como Projeto no Claude**~~ ✅ Concluído — projeto "Ecossistema DTD/SETIS" ativo no Claude.ai
 6. **Migrar a escrita em repositórios para GitHub MCP** quando disponível
    nativamente no Claude — elimina a necessidade de Personal Access Token
 
