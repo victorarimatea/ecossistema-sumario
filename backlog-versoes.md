@@ -1,3 +1,16 @@
+## v0.23 — 2026-06-03
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Criação do ONBOARDING.md — documento de entrada para
+agentes de IA e colaboradores externos. Organiza o acesso ao ecossistema por
+propósito (entender / agente IA / executar tarefa / contribuir), com links
+diretos para os recursos corretos em cada caso. Permite compartilhar um único
+link com qualquer pessoa ou sistema e garantir navegação produtiva imediata.
+INDICE.md atualizado para refletir o novo arquivo.
+
+---
+
 ## v0.26 — 2026-06-02
 
 **Tipo de alteração:** Adição
