@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.4 — 2026-06-02
+**Versão:** v1.5 — 2026-06-04
 **Repositório:** ecossistema-sumario (M01)
 **Mantenedor:** victorarimatea
 
@@ -20,6 +20,11 @@
 - Os termos estão organizados em ordem alfabética dentro de cada categoria.
 
 ---
+
+
+---
+
+# PARTE I — Ecossistema DTD/SETIS (infraestrutura)
 
 ## Categoria 1 — Tipos de repositório
 
@@ -140,6 +145,7 @@ projeto). Cada tipo tem checklist própria de arquivos a atualizar.
 ## Categoria 5 — Conceitos de qualidade e governança
 
 **Auditoria de glossário**
+*Ver também: Auditabilidade de IA (Parte II, Cat. 11) — conceito distinto, voltado a sistemas de inteligência artificial.*
 Verificação obrigatória realizada ao final de toda operação da S04
 (exceto OP-E sem conteúdo novo). Consiste em varrer os arquivos criados
 ou alterados na operação em busca de termos técnicos novos — substantivos
@@ -348,5 +354,238 @@ quando associado a projeto formal.
 
 ---
 
-*Última revisão: 2026-06-02 — victorarimatea*
+---
+
+# PARTE II — Saúde Digital (domínio normativo)
+
+> Termos extraídos e revisados a partir das fontes normativas e regulatórias
+> que fundamentam a atuação da DTD/SETIS/SES-DF. Incluídos na versão v1.5
+> a partir de análise conduzida no NotebookLM sobre o corpus documental do
+> repositório D01 (`doc-governanca-ses-df`).
+
+---
+
+## Categoria 9 — Modalidades Assistenciais e Atos Remotos
+
+**Telecirurgia**
+Realização de procedimento cirúrgico a distância, com utilização de equipamento
+robótico e mediada por tecnologias interativas seguras.
+
+**Teleconsulta**
+Consulta médica não presencial, mediada por Tecnologias Digitais, de Informação
+e de Comunicação (TDICs), com médico e paciente localizados em diferentes espaços.
+
+**Teleconsultoria**
+Ato de consultoria mediado por TDICs entre médicos, gestores e outros profissionais
+de saúde, com a finalidade de prestar esclarecimentos sobre procedimentos
+administrativos e ações de saúde.
+
+**Telediagnóstico**
+Ato médico realizado à distância, geográfica e/ou temporal, com a transmissão de
+gráficos, imagens e dados para emissão de laudo ou parecer por médico com registro
+de qualificação de especialista (RQE).
+
+**Teleinterconsulta**
+Troca de informações e opiniões entre médicos ou profissionais de saúde, com ou
+sem a presença do paciente, para auxílio diagnóstico ou terapêutico, clínico ou
+cirúrgico.
+
+**Telemedicina**
+Exercício da medicina mediado por TDICs para fins de assistência, educação,
+pesquisa, prevenção de doenças e lesões, gestão e promoção de saúde.
+
+**Telemonitoramento ou Televigilância**
+Ato realizado sob coordenação e supervisão médica para monitoramento ou vigilância
+a distância de parâmetros de saúde e/ou doença, por meio de aquisição direta de
+imagens, sinais e dados.
+
+**Telessaúde**
+Termo de abrangência ampla que se aplica ao uso das TDICs para transferir
+informações e serviços clínicos, administrativos e educacionais, realizados por
+diversos profissionais de saúde, respeitadas suas competências legais.
+
+**Teletriagem**
+Ato realizado por médico com avaliação dos sintomas do paciente, a distância,
+para regulação assistencial, com definição e direcionamento ao tipo adequado de
+assistência ou especialista.
+
+---
+
+## Categoria 10 — Dados, Privacidade e Segurança da Informação
+
+**Anonimização**
+Utilização de meios técnicos razoáveis e disponíveis no momento do tratamento,
+por meio dos quais um dado perde a possibilidade de associação, direta ou
+indireta, a um indivíduo.
+
+**Cibersegurança**
+Estado em que informações e sistemas são protegidos contra atividades não
+autorizadas (acesso, uso, interrupção ou destruição), mantendo a
+confidencialidade, integridade e disponibilidade.
+
+**Dado Pessoal**
+Informação relacionada a pessoa natural identificada ou identificável.
+
+**Dado Pessoal Sensível**
+Dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião
+política, saúde, vida sexual, dado genético ou biométrico, quando vinculado
+a uma pessoa natural.
+
+**Encarregado (DPO)**
+Pessoa indicada pelo controlador e operador para atuar como canal de comunicação
+entre a instituição, os titulares dos dados e a Autoridade Nacional de Proteção
+de Dados (ANPD).
+
+**Pseudonimização**
+Tratamento por meio do qual um dado perde a possibilidade de associação a um
+indivíduo, senão pelo uso de informação adicional mantida separadamente pelo
+controlador.
+
+**Tratamento de Dados**
+Toda operação realizada com dados pessoais, como coleta, recepção, classificação,
+utilização, acesso, processamento, armazenamento, eliminação e transferência.
+
+---
+
+## Categoria 11 — Infraestrutura, Tecnologia e Inteligência Artificial
+
+**Auditabilidade de IA**
+Capacidade de um sistema de IA ser submetido a avaliação independente de seus
+algoritmos, dados, processos de concepção ou resultados para verificar
+conformidade ética e legal.
+*Ver também: Auditoria de glossário (Parte I, Cat. 5) — conceito distinto,
+voltado ao processo interno de verificação terminológica do ecossistema.*
+
+**Inteligência Artificial Generativa (IA Generativa)**
+Sistema de IA destinado a gerar ou modificar significativamente conteúdos
+(texto, imagem, áudio) a partir de entradas (*prompts*) fornecidas pelo usuário.
+
+**Interoperabilidade**
+Capacidade de dois ou mais dispositivos ou sistemas para trocar informações e
+utilizá-las para a correta execução de uma função especificada sem alterar o
+conteúdo dos dados.
+
+**Modelo de Linguagem de Larga Escala (LLM)**
+Subclassificação de IA generativa consistente em modelos de processamento de
+linguagem natural capazes de compreender e gerar linguagem em formato escrito.
+
+**Sistema de Inteligência Artificial (Sistema de IA)**
+Sistema baseado em máquina que, com diferentes níveis de autonomia, processa
+dados para gerar resultados como decisões, recomendações ou predições que
+influenciam ambientes virtuais ou físicos.
+
+**Software como Dispositivo Médico (SaMD)**
+Software destinado a finalidades médicas (diagnóstico, prevenção, tratamento)
+que realiza essas funções sem fazer parte do hardware de um dispositivo médico.
+
+---
+
+## Categoria 12 — Estratégia, Gestão e Governança Digital
+
+**Governança em Saúde Digital**
+Conjunto de lideranças, estratégias, políticas e regras para promover, orientar,
+monitorar e inovar a saúde digital sob os princípios de privacidade e
+planejamento financeiro.
+
+**Índice Nacional de Maturidade em Saúde Digital (INMSD)**
+Representação dos resultados de métricas utilizadas para o diagnóstico,
+monitoramento e avaliação do grau de digitalização de estados e municípios.
+
+**Prontuário Médico / Registro Eletrônico de Saúde (RES)**
+Sistema informatizado para a guarda, o armazenamento e o manuseio do histórico
+clínico do paciente, assegurando integridade, autenticidade e confidencialidade.
+
+**Saúde Digital**
+Campo que norteia as ações relativas ao uso de tecnologias digitais integradas
+ao sistema de saúde para o período de 2020 a 2028, visando a implementação da
+Rede Nacional de Dados em Saúde (RNDS).
+
+---
+
+## Categoria 13 — Monitoramento e Inteligência Organizacional
+
+> Categoria em construção. Termos a serem definidos conforme o ecossistema
+> desenvolve capacidades de monitoramento especializadas.
+> Termos candidatos identificados em 2026-06-04:
+> Monitoramento Estratégico, Monitoramento Operacional, Monitoramento de
+> Desempenho, Monitoramento de Qualidade, Monitoramento Preditivo,
+> Gestão por Exceção.
+
+
+---
+
+## Índice Alfabético Unificado
+
+> Lista de todos os termos definidos neste glossário, com referência à categoria.
+> Atualizado a cada versão.
+
+| Termo | Categoria |
+|---|---|
+| Agenda (tipo A) | Cat. 8 |
+| Anonimização | Cat. 10 |
+| Artefato de extração | Cat. 6 |
+| Auditabilidade de IA | Cat. 11 |
+| Auditoria de glossário | Cat. 5 |
+| backlog-versoes.md | Cat. 2 |
+| Breaking / Non-breaking | Cat. 4 |
+| CHANGELOG.md | Cat. 2 |
+| Cibersegurança | Cat. 10 |
+| CONTEXTO.md | Cat. 2 |
+| Dado Pessoal | Cat. 10 |
+| Dado Pessoal Sensível | Cat. 10 |
+| data_registro | Cat. 8 |
+| data_reuniao | Cat. 8 |
+| Documento (tipo D) | Cat. 1 |
+| Drift documental | Cat. 5 |
+| Encarregado (DPO) | Cat. 10 |
+| Estado final esperado | Cat. 7 |
+| EXECUCOES.md | Cat. 7 |
+| Falso positivo | Cat. 5 |
+| Front Matter YAML | Cat. 6 |
+| GLOSSARIO.md | Cat. 2 |
+| Governança em Saúde Digital | Cat. 12 |
+| IAC — Instrumento de Análise Comparativa | Cat. 3 |
+| Índice cronológico | Cat. 8 |
+| Índice Nacional de Maturidade em Saúde Digital (INMSD) | Cat. 12 |
+| INDICE.md | Cat. 2 |
+| Inteligência Artificial Generativa (IA Generativa) | Cat. 11 |
+| Interoperabilidade | Cat. 11 |
+| Log de execução | Cat. 7 |
+| MAJOR / MINOR (versionamento) | Cat. 4 |
+| Matriz (tipo M) | Cat. 1 |
+| Modelo de Linguagem de Larga Escala (LLM) | Cat. 11 |
+| nomenclatura.md | Cat. 2 |
+| OP-A, OP-B, OP-C, OP-D, OP-E, OP-F, OP-P | Cat. 4 |
+| Pipeline de transcrição | Cat. 6 |
+| PLAUD NOTE Pro | Cat. 8 |
+| PoC — Prova de Conceito | Cat. 3 |
+| Porta de entrada | Cat. 5 |
+| Projeto (tipo P) | Cat. 1 |
+| Prontuário Médico / Registro Eletrônico de Saúde (RES) | Cat. 12 |
+| Pseudonimização | Cat. 10 |
+| Reflow | Cat. 6 |
+| Registro institucional de reunião | Cat. 8 |
+| Repositório âncora | Cat. 5 |
+| Saúde Digital | Cat. 12 |
+| Sistema de Inteligência Artificial (Sistema de IA) | Cat. 11 |
+| Skill (tipo S) | Cat. 1 |
+| Software como Dispositivo Médico (SaMD) | Cat. 11 |
+| Subprocesso | Cat. 7 |
+| sumario.md | Cat. 2 |
+| Telecirurgia | Cat. 9 |
+| Teleconsulta | Cat. 9 |
+| Teleconsultoria | Cat. 9 |
+| Telediagnóstico | Cat. 9 |
+| Teleinterconsulta | Cat. 9 |
+| Telemedicina | Cat. 9 |
+| Telemonitoramento ou Televigilância | Cat. 9 |
+| Telessaúde | Cat. 9 |
+| Teletriagem | Cat. 9 |
+| Termo candidato | Cat. 5 |
+| Tratamento de Dados | Cat. 10 |
+| Workflow | Cat. 7 |
+
+
+
+*Última revisão: 2026-06-04 — victorarimatea*
 *Para propor novos termos: abrir issue ou atualizar diretamente via S04.*
