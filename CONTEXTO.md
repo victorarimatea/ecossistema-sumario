@@ -69,53 +69,53 @@ com mínima intervenção manual do mantenedor.
 
 | Nome | Descrição |
 |---|---|
-| dtd-setis | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, monitoramento de projetos |
+| hub-entrada | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, monitoramento de projetos |
 
 ### Matrizes (M) — fontes de verdade estruturais
 
 | ID | Nome | Descrição |
 |---|---|---|
-| M01 | ecossistema-sumario | Âncora do ecossistema: sumário, nomenclatura, glossário, contexto |
-| M02 | saude-digital-taxonomia | Taxonomia estruturada de saúde digital |
+| M01 | hub-fonte | Âncora do ecossistema: sumário, nomenclatura, glossário, contexto |
+| M02 | mat-saude-digital-taxonomia | Taxonomia estruturada de saúde digital |
 
 ### Skills (S) — agentes de automação especializados
 
 | ID | Nome | Descrição |
 |---|---|---|
-| S01 | skill-criador-de-skills | Cria novos repositórios de skill via API GitHub |
-| S02 | skill-iac-pdtic | Gera IAC-V e IAC-H do PDTIC da SES-DF (privado) |
-| S03 | skill-poc-saude-digital | Gera documentos de PoC em saúde digital no padrão SES-DF |
-| S04 | skill-github-orquestracao | Garante consistência do ecossistema a cada operação |
-| S05 | skill-transcricao-documental | Converte PDFs regulatórios em Markdown estruturado |
-| S06 | skill-registro-reuniao | Transforma resumos de reunião em registros institucionais para o SEI |
+| S01 | skl-criador-de-skills | Cria novos repositórios de skill via API GitHub |
+| S02 | skl-iac-pdtic | Gera IAC-V e IAC-H do PDTIC da SES-DF (privado) |
+| S03 | skl-poc-saude-digital | Gera documentos de PoC em saúde digital no padrão SES-DF |
+| S04 | skl-github-orquestracao | Garante consistência do ecossistema a cada operação |
+| S05 | skl-transcricao-documental | Converte PDFs regulatórios em Markdown estruturado |
+| S06 | skl-registro-reuniao | Transforma resumos de reunião em registros institucionais para o SEI |
 
 ### Documentos (D) — conteúdo institucional estruturado
 
 | ID | Nome | Descrição |
 |---|---|---|
-| D01 | governanca-ses-df | 28 documentos transcritos: legislação, portarias, resoluções e referências internacionais |
-| D02 | doc-cadastro-ses-setis-dtd | Matriz de cadastros de referência da DTD/SETIS/SES-DF |
+| D01 | doc-governanca-ses-df | 28 documentos transcritos: legislação, portarias, resoluções e referências internacionais |
+| D02 | mat-cadastro-ses-setis-dtd | Matriz de cadastros de referência da DTD/SETIS/SES-DF |
 
 ### Workflows (W) — memória organizacional de processos
 
 | ID | Nome | Descrição |
 |---|---|---|
-| W01 | workflow-transcricao-documental | Processo completo de transcrição de PDFs regulatórios |
-| W02 | workflow-registro-reuniao | Processo de registro institucional de reunião (privado) |
-| W03 | workflow-registro-sessao | Registro estruturado de sessões de trabalho intensivo |
+| W01 | wkf-transcricao-documental | Processo completo de transcrição de PDFs regulatórios |
+| W02 | wkf-registro-reuniao | Processo de registro institucional de reunião (privado) |
+| W03 | wkf-registro-sessao | Registro estruturado de sessões de trabalho intensivo |
 
 ### Agendas (A) — acervos cronológicos
 
 | ID | Nome | Descrição |
 |---|---|---|
-| A01 | agenda-dtd | Acervo institucional de reuniões da DTD, ordenado por data de ocorrência (privado) |
+| A01 | agd-dtd | Acervo institucional de reuniões da DTD, ordenado por data de ocorrência (privado) |
 
 ### Projetos (P) — iniciativas formais da DTD
 
 | ID | Nome | Status | Descrição |
 |---|---|---|---|
-| P01 | telessaude-poc-prisional | em_execucao | PoC de totem de telemedicina no Sistema Prisional do DF (privado) |
-| P02 | ecossistema-dtd-setis | em_execucao | Memória viva da construção do próprio ecossistema (privado) |
+| P01 | prj-telessaude-poc-prisional | em_execucao | PoC de totem de telemedicina no Sistema Prisional do DF (privado) |
+| P02 | hub-memoria | em_execucao | Memória viva da construção do próprio ecossistema (privado) |
 
 ---
 
@@ -139,7 +139,7 @@ Projetos (P) adicionam: `stakeholders.md`, `EXECUCOES.md`, pastas `reunioes/` e 
 M01 adiciona: `sumario.md`, `nomenclatura.md`, `CONTEXTO.md`, `GLOSSARIO.md`, `ONBOARDING.md`
 
 ### Toda operação no ecossistema passa pela S04
-A skill de orquestração (`skill-github-orquestracao`) é acionada
+A skill de orquestração (`skl-github-orquestracao`) é acionada
 automaticamente para qualquer alteração nos repositórios. Ela garante
 que nenhum arquivo fique desatualizado por esquecimento.
 
@@ -171,13 +171,13 @@ que nenhum arquivo fique desatualizado por esquecimento.
 Cole no início da conversa:
 
 ```
-Leia https://raw.githubusercontent.com/victorarimatea/ecossistema-sumario/main/CONTEXTO.md
+Leia https://raw.githubusercontent.com/victorarimatea/hub-fonte/main/CONTEXTO.md
 e me diga o que entendeu sobre o ecossistema antes de começarmos.
 ```
 
 Para onboarding de novos colaboradores ou agentes externos:
 
 ```
-Leia https://raw.githubusercontent.com/victorarimatea/ecossistema-sumario/main/ONBOARDING.md
+Leia https://raw.githubusercontent.com/victorarimatea/hub-fonte/main/ONBOARDING.md
 e me diga qual é o seu propósito antes de começarmos.
 ```
