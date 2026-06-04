@@ -1,3 +1,14 @@
+## v2.0 — 2026-06-04
+
+**Tipo de alteração:** Adição + Correção
+**Autorizado por:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
+**Exposição de motivos:** (1) Registro de S07 `skl-briefing-saude-digital` — skill formalizada
+a partir da versão consolidada no projeto Claude; (2) Correção da tabela de Links rápidos:
+duplicatas removidas, todos os 18 repositórios ativos incluídos com ID, tipo e visibilidade.
+Operação conduzida via S04 (OP-A + OP-C + OP-E), sessão de 2026-06-04.
+
+---
+
 ## v0.24 — 2026-06-03
 
 **Tipo de alteração:** Atualização (MAJOR)
