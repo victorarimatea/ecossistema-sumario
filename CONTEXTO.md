@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v2.0 — 2026-06-03
+**Versão:** v2.1 — 2026-06-04
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing estrutural para inicialização de sessões de trabalho.
 Leia este arquivo antes de qualquer ação. Para onboarding externo, leia ONBOARDING.md.
@@ -88,6 +88,7 @@ com mínima intervenção manual do mantenedor.
 | S04 | skl-github-orquestracao | Garante consistência do ecossistema a cada operação |
 | S05 | skl-transcricao-documental | Converte PDFs regulatórios em Markdown estruturado |
 | S06 | skl-registro-reuniao | Transforma resumos de reunião em registros institucionais para o SEI |
+| S07 | skl-briefing-saude-digital | Briefing periódico de saúde digital com classificação taxonômica |
 
 ### Documentos (D) — conteúdo institucional estruturado
 
