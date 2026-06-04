@@ -1,3 +1,18 @@
+## v2.3 — 2026-06-04
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** S04 e W03 atualizados para corrigir drift estrutural
+do ROADMAP — entregáveis não previstos eram implementados mas nunca registrados
+no ROADMAP. Verificação 5-A adicionada à S04 e Etapa 2-A adicionada ao W03.
+Erro #010 documentado. CONTEXTO.md atualizado com versões corretas.
+
+### Alterações realizadas
+- `sumario.md` v2.0 → v2.1: S04 atualizado para v2.2; W03 atualizado para v1.1
+- `CONTEXTO.md` v2.2 → v2.3: notas de versão adicionadas nas tabelas S04 e W03
+
+---
+
 ## v2.2 — 2026-06-04 (CONTEXTO.md)
 
 **Tipo de alteração:** Adição
