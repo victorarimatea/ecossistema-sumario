@@ -15,23 +15,36 @@
 
 ## 1. Nomenclatura de repositórios
 
-**Formato:** `[dominio]-[especificidade]` em kebab-case minúsculo.
+**Formato:** `[prefixo]-[descritor]` em kebab-case minúsculo.
 
-O tipo do repositório **não entra no nome** — ele é registrado no
-`sumario.md`. Isso mantém os nomes curtos e legíveis.
+O prefixo de três letras identifica o tipo do repositório diretamente no nome,
+permitindo triagem visual imediata e agrupamento alfabético natural por tipo.
+
+**Prefixos obrigatórios:**
+
+| Prefixo | Tipo | Descrição |
+|---|---|---|
+| `hub` | Infraestrutura do ecossistema | Repositórios estruturais: entrada, fonte de verdade, memória |
+| `mat` | Matrizes de conhecimento | Fontes de verdade estruturais e cadastros de referência |
+| `doc` | Documentos institucionais | Acervos documentais transcritos e estruturados |
+| `skl` | Skills | Agentes de automação especializados |
+| `wkf` | Workflows | Memória organizacional de processos |
+| `agd` | Agendas | Acervos cronológicos de registros de reunião |
+| `prj` | Projetos | Iniciativas formais da DTD |
 
 **Exemplos corretos:**
-- `ecossistema-sumario`
-- `saude-digital-taxonomia`
-- `skill-iac-pdtic`
-- `pdtic-historico`
-- `telessaude-poc-prisional`
+- `hub-fonte` (ecossistema-sumario — âncora)
+- `hub-entrada` (dtd-setis — porta de entrada pública)
+- `mat-saude-digital-taxonomia`
+- `skl-github-orquestracao`
+- `wkf-transcricao-documental`
+- `prj-telessaude-poc-prisional`
 
 **Regras:**
 - Apenas letras minúsculas, números e hífens
 - Sem espaços, underscores ou caracteres especiais
-- Sem prefixos de tipo (não use `matriz-`, `skill-doc-`, `proj-`, etc.)
-- Nome deve ser autoexplicativo sem precisar abrir o repositório
+- Prefixo sempre separado do descritor por hífen
+- Descritor deve ser autoexplicativo sem precisar abrir o repositório
 
 ---
 
