@@ -1,3 +1,21 @@
+## v1.5 — 2026-06-04 (GLOSSARIO.md)
+
+**Tipo de alteração:** Adição + Reestruturação
+**Autorizado por:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
+**Exposição de motivos:** Incorporação de 26 termos normativos produzidos em análise
+prévia no NotebookLM sobre o corpus documental do D01. O glossário foi reestruturado
+em Parte I (infraestrutura do ecossistema — 8 categorias preexistentes) e Parte II
+(domínio da saúde digital — Cat. 9 a 12). Criada Cat. 13 (Monitoramento e Inteligência
+Organizacional) como placeholder para termos identificados em sessão de 2026-06-04.
+Adicionado Índice Alfabético Unificado com 62 entradas. Adaptação do termo
+"Auditabilidade" para "Auditabilidade de IA" (Cat. 11) para evitar ambiguidade com
+"Auditoria de glossário" (Cat. 5) — aprovada pelo mantenedor em sessão de 2026-06-04.
+Cross-references cruzados entre as duas entradas. Análise de conflitos realizada
+previamente: nenhum conflito de definição identificado entre os 26 termos novos e
+os termos existentes. Operação conduzida via S04 (OP-C), sessão de 2026-06-04.
+
+---
+
 ## v2.0 — 2026-06-04
 
 **Tipo de alteração:** Adição + Correção
