@@ -1,3 +1,16 @@
+## v2.4 — 2026-06-04
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** W04 criado e S04 atualizada para v2.3 com Etapa 6-A.
+Sumario e CONTEXTO sincronizados.
+
+### Alterações realizadas
+- `sumario.md` v2.1 → v2.2: W04 adicionado; S04 → v2.3
+- `CONTEXTO.md` v2.3 → v2.4: W04 adicionado; S04 v2.3 atualizado com Etapa 6-A
+
+---
+
 ## v2.3 — 2026-06-04
 
 **Tipo de alteração:** Atualização
