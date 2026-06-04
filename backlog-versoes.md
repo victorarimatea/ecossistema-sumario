@@ -1,3 +1,21 @@
+## v1.6 — 2026-06-04 (GLOSSARIO.md)
+
+**Tipo de alteração:** Adição
+**Autorizado por:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
+**Exposição de motivos:** Adição de 32 termos distribuídos em 5 novas categorias:
+Cat. 13 (Monitoramento e Inteligência Organizacional — 8 termos, incluindo os
+definidos pelo mantenedor em sessão de 2026-06-04 com pergunta orientadora);
+Cat. 14 (Análise de Dados e BI — 6 termos);
+Cat. 15 (Gestão Orientada a Dados — 5 termos);
+Cat. 16 (Arquitetura de Dados — 5 termos, com cross-reference de Integração → Cat. 11);
+Cat. 17 (Conceitos Proprietários do Ecossistema — 8 termos de autoria DTD/SETIS).
+Índice Alfabético Unificado atualizado de 62 para 91 entradas.
+Análise de conflitos realizada: único ponto identificado foi Interoperabilidade —
+resolvido mantendo definição normativa na Cat. 11 e adicionando cross-reference
+na Cat. 16. Operação conduzida via S04 (OP-C), sessão de 2026-06-04.
+
+---
+
 ## v1.5 — 2026-06-04 (GLOSSARIO.md)
 
 **Tipo de alteração:** Adição + Reestruturação
