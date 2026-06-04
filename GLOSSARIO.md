@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.5 — 2026-06-04
+**Versão:** v1.6 — 2026-06-04
 **Repositório:** ecossistema-sumario (M01)
 **Mantenedor:** victorarimatea
 
@@ -504,12 +504,265 @@ Rede Nacional de Dados em Saúde (RNDS).
 
 ## Categoria 13 — Monitoramento e Inteligência Organizacional
 
-> Categoria em construção. Termos a serem definidos conforme o ecossistema
-> desenvolve capacidades de monitoramento especializadas.
-> Termos candidatos identificados em 2026-06-04:
-> Monitoramento Estratégico, Monitoramento Operacional, Monitoramento de
-> Desempenho, Monitoramento de Qualidade, Monitoramento Preditivo,
-> Gestão por Exceção.
+**Gestão por Exceção**
+Modelo gerencial em que a atenção e o acionamento são direcionados
+prioritariamente para desvios relevantes em relação ao comportamento esperado,
+em vez de acompanhamento contínuo e periódico de todos os indicadores.
+No contexto do ecossistema, a gestão por exceção pode ser aplicada a processos
+estáveis onde o briefing periódico seria redundante — o agente só é acionado
+quando um limiar de desvio é atingido.
+
+**Pergunta orientadora:**
+O que saiu do padrão e exige atenção agora?
+
+**Monitoramento de Conformidade**
+Processo contínuo de verificação da aderência de processos, sistemas, projetos
+e decisões a normas legais, regulatórias, técnicas ou institucionais.
+No contexto do ecossistema, pode acompanhar aderência à LGPD, normas de
+interoperabilidade, requisitos contratuais, diretrizes da SES-DF, resoluções
+profissionais e marcos regulatórios de saúde digital.
+
+**Pergunta orientadora:**
+Estamos atuando dentro das regras aplicáveis?
+
+**Monitoramento de Desempenho**
+Processo contínuo de acompanhamento de indicadores relacionados à eficiência,
+produtividade, efetividade ou alcance de metas institucionais.
+No contexto do ecossistema, o monitoramento de desempenho pode acompanhar
+tempo-resposta, volume de atendimentos, cumprimento de prazos, produtividade
+de equipes, evolução de indicadores estratégicos e aderência a metas pactuadas.
+
+**Pergunta orientadora:**
+Estamos alcançando os resultados esperados?
+
+**Monitoramento de Qualidade**
+Processo contínuo de acompanhamento da conformidade, completude, consistência
+e adequação dos processos, registros ou entregas em relação a padrões
+previamente definidos.
+No contexto do ecossistema, o monitoramento de qualidade pode observar se
+fichas digitais estão completas, se campos obrigatórios foram preenchidos,
+se protocolos foram seguidos, se dados estão consistentes e se produtos
+institucionais atendem aos critérios mínimos de governança.
+
+**Pergunta orientadora:**
+Estamos fazendo da forma correta?
+
+**Monitoramento de Segurança**
+Processo contínuo de identificação de riscos, ameaças, falhas, eventos adversos
+ou violações que possam comprometer pessoas, processos, sistemas, dados ou a
+continuidade dos serviços.
+No contexto do ecossistema, pode envolver segurança da informação, privacidade,
+acessos indevidos, falhas operacionais, eventos adversos assistenciais e riscos
+institucionais.
+
+**Pergunta orientadora:**
+Há algum risco emergente que exige resposta?
+
+**Monitoramento de Tendências**
+Processo de acompanhamento de padrões emergentes, variações progressivas ou
+mudanças de comportamento em dados, processos ou contextos institucionais.
+No contexto do ecossistema, pode apoiar a identificação precoce de aumento de
+demanda, mudança no perfil assistencial, saturação de serviços, riscos sazonais
+ou oportunidades de inovação.
+
+**Pergunta orientadora:**
+Que mudança está começando a aparecer?
+
+**Monitoramento Estratégico**
+Processo contínuo de acompanhamento do ambiente externo e dos objetivos
+institucionais de longo prazo, identificando movimentos relevantes em regulação,
+mercado, tecnologia, política e cenário setorial que possam impactar a direção
+da organização.
+No contexto do ecossistema, o monitoramento estratégico é operacionalizado pela
+skill S07 (`skl-briefing-saude-digital`), que realiza varredura periódica de
+fontes externas classificando os achados pela taxonomia de saúde digital (M02).
+
+**Pergunta orientadora:**
+O que está mudando no ambiente que precisa da nossa atenção?
+
+**Monitoramento Operacional**
+Processo contínuo de acompanhamento do funcionamento cotidiano de processos,
+serviços e sistemas institucionais, verificando se as operações estão ocorrendo
+conforme planejado, dentro dos parâmetros esperados de fluxo, prazo e
+disponibilidade.
+No contexto do ecossistema, o monitoramento operacional pode acompanhar a
+execução de workflows, o status de projetos em andamento, a disponibilidade
+de sistemas de saúde, o cumprimento de etapas de processos institucionais e
+a regularidade de registros operacionais.
+
+**Pergunta orientadora:**
+O que está acontecendo agora?
+
+---
+
+## Categoria 14 — Análise de Dados e Business Intelligence
+
+**Analytics**
+Disciplina dedicada à extração de conhecimento a partir de dados, abrangendo
+desde a análise descritiva de eventos passados até modelos preditivos e
+prescrições de ação. No ecossistema, Analytics é a capacidade analítica que
+sustenta a tomada de decisão baseada em evidências.
+
+**Análise Descritiva**
+Modalidade analítica que organiza e resume dados históricos para responder
+à pergunta: *O que aconteceu?*
+
+**Análise Diagnóstica**
+Modalidade analítica que investiga causas e correlações em dados históricos
+para responder à pergunta: *Por que aconteceu?*
+
+**Análise Preditiva**
+Modalidade analítica que utiliza modelos estatísticos e de aprendizado de
+máquina para antecipar comportamentos futuros e responder à pergunta:
+*O que provavelmente acontecerá?*
+
+**Análise Prescritiva**
+Modalidade analítica que recomenda cursos de ação com base em dados e modelos,
+respondendo à pergunta: *O que devemos fazer?*
+
+**Business Intelligence (BI)**
+Conjunto de processos, metodologias e ferramentas destinados à coleta,
+integração e análise retrospectiva de dados para apoiar decisões gerenciais
+e estratégicas. Distinto de Analytics pela ênfase no histórico e nos relatórios
+estruturados, em oposição à modelagem preditiva.
+
+---
+
+## Categoria 15 — Gestão Orientada a Dados
+
+**Consciência Situacional**
+Capacidade de compreender o estado atual de um sistema, seus riscos, suas
+variáveis em movimento e suas possíveis evoluções — de forma a permitir
+resposta rápida e fundamentada. Precondição para a gestão por exceção e
+para o monitoramento preditivo.
+*Ver também: Sistema de Consciência Situacional (Cat. 17).*
+
+**Gestão Orientada a Dados (Data-Driven Management)**
+Modelo de gestão em que decisões são fundamentadas predominantemente em
+evidências obtidas por meio de coleta, análise e interpretação de dados,
+em substituição à intuição isolada ou à experiência não documentada.
+
+**Maturidade Analítica**
+Grau de capacidade institucional para utilizar dados na operação, gestão e
+estratégia. Organizações com baixa maturidade analítica operam com dados
+fragmentados e análises pontuais; organizações com alta maturidade analítica
+integram dados em tempo real, automatizam análises e orientam decisões
+estratégicas por modelos preditivos.
+
+**Observabilidade Organizacional**
+Capacidade institucional de compreender o comportamento de seus processos,
+sistemas e entregas a partir dos dados gerados pelas próprias operações —
+sem depender exclusivamente de auditorias externas ou relatos manuais.
+No ecossistema, a observabilidade organizacional é construída pela combinação
+de repositórios versionados, logs de execução, backlogs de decisão e
+registros institucionais rastreáveis.
+
+**Tomada de Decisão Baseada em Evidências**
+Processo decisório fundamentado em dados, análises e conhecimento validado,
+em contraposição a decisões baseadas exclusivamente em precedente, pressão
+política ou percepção não verificada.
+
+---
+
+## Categoria 16 — Arquitetura de Dados
+
+**Data Lake**
+Repositório destinado ao armazenamento de grandes volumes de dados em formato
+bruto, preservando a estrutura original das fontes para processamento e análise
+posterior. Distinto do Data Warehouse pela ausência de transformação prévia
+dos dados no momento da ingestão.
+
+**Data Warehouse**
+Repositório estruturado, integrado e orientado a assunto, destinado ao
+armazenamento de dados tratados e consolidados para fins de análise e
+tomada de decisão. Distinto do Data Lake pela ênfase na estruturação e
+na qualidade dos dados para consulta analítica.
+
+**Fonte de Dados**
+Sistema, dispositivo, processo ou repositório responsável pela geração ou
+custódia primária de dados. No ecossistema, fontes de dados incluem sistemas
+assistenciais (prontuários, RNDS), sistemas administrativos (SEI, contratos)
+e repositórios institucionais (GitHub, agendas).
+
+**Integração**
+Processo de intercâmbio estruturado de informações entre sistemas distintos,
+garantindo que dados produzidos em uma fonte sejam disponibilizados,
+compreendidos e utilizáveis em outro sistema receptor.
+*Ver também: Interoperabilidade (Cat. 11) para definição normativa no
+contexto de saúde digital.*
+
+**Pipeline de Dados**
+Fluxo automatizado responsável por coletar, transformar, validar e
+disponibilizar dados de uma ou mais fontes para um destino de consumo
+(análise, relatório, sistema receptor). No ecossistema, o conceito de
+pipeline de dados é análogo ao pipeline de transcrição documental (Cat. 6)
+— uma sequência estruturada de etapas com entradas, saídas e verificações
+definidas.
+
+---
+
+## Categoria 17 — Conceitos Proprietários do Ecossistema
+
+> Esta categoria reúne termos de autoria do ecossistema DTD/SETIS —
+> conceitos que não seguem uma definição de mercado preexistente, mas
+> constituem a identidade conceitual própria deste projeto. Devem ser
+> tratados com atenção especial: qualquer alteração de definição aqui
+> pode impactar documentos, skills e instrumentos que os referenciam.
+
+**Ativo Informacional**
+Qualquer documento, dado, modelo, indicador, regra de negócio ou
+conhecimento institucional considerado relevante para a organização —
+que possui valor, deve ser preservado, pode ser consultado e precisa
+ser gerido ao longo do tempo. No ecossistema, ativos informacionais
+incluem repositórios GitHub, registros de reunião, transcrições
+normativas, IACs produzidos e backlogs de decisão.
+
+**Conhecimento Estratégico**
+Conhecimento utilizado para orientar decisões de gestão, planejamento
+e governança institucional. Distinto do conhecimento operacional pela
+sua orientação para o longo prazo e para a definição de direção —
+não para a execução cotidiana. No ecossistema, o conhecimento estratégico
+está concentrado nas Matrizes (tipo M) e nos instrumentos IAC e PoC.
+
+**Conhecimento Operacional**
+Conhecimento produzido pela execução cotidiana dos processos —
+acumulado em logs de execução, registros de reunião, backlogs de decisão
+e workflows documentados. Distinto do conhecimento estratégico pela
+sua origem na prática e pela sua utilidade imediata para quem executa.
+
+**Mapa Cognitivo Institucional**
+Representação estruturada das relações entre documentos, indicadores,
+processos, sistemas, projetos e decisões de uma organização — permitindo
+que gestores e agentes compreendam como os elementos institucionais se
+conectam e se influenciam mutuamente. No ecossistema, o mapa cognitivo
+institucional é construído progressivamente pela combinação do sumário,
+do glossário, da taxonomia de saúde digital e dos workflows documentados.
+
+**Memória Institucional**
+Conjunto estruturado de conhecimentos, decisões, experiências e documentos
+acumulados ao longo do tempo por uma organização — preservado de forma
+que possa ser consultado, auditado e reutilizado independentemente das
+pessoas que os produziram. No ecossistema, a memória institucional é o
+objetivo central dos repositórios tipo D, W e A, e do projeto P02
+(`hub-memoria`).
+
+**Radar Institucional**
+Camada de monitoramento responsável por identificar continuamente riscos,
+oportunidades, tendências e desvios relevantes no ambiente interno e
+externo da organização — sintetizando sinais dispersos em alertas
+acionáveis para a gestão. No ecossistema, o radar institucional é
+operacionalizado parcialmente pela skill S07 (`skl-briefing-saude-digital`)
+no eixo de monitoramento estratégico externo, com expansão prevista para
+os demais eixos de monitoramento (Cat. 13).
+
+**Sistema de Consciência Situacional**
+Conjunto integrado de capacidades — dados, processos, skills e instrumentos
+— destinado a permitir que gestores compreendam continuamente o estado atual
+da organização: o que está acontecendo, o que está em risco, o que está
+mudando e o que exige decisão. No ecossistema, o Sistema de Consciência
+Situacional é o nome dado à arquitetura de monitoramento que o ecossistema
+DTD/SETIS está construindo progressivamente.
+*Ver também: Consciência Situacional (Cat. 15).*
 
 
 ---
@@ -522,40 +775,68 @@ Rede Nacional de Dados em Saúde (RNDS).
 | Termo | Categoria |
 |---|---|
 | Agenda (tipo A) | Cat. 8 |
+| Analytics | Cat. 14 |
+| Análise Descritiva | Cat. 14 |
+| Análise Diagnóstica | Cat. 14 |
+| Análise Preditiva | Cat. 14 |
+| Análise Prescritiva | Cat. 14 |
 | Anonimização | Cat. 10 |
 | Artefato de extração | Cat. 6 |
+| Ativo Informacional | Cat. 17 |
 | Auditabilidade de IA | Cat. 11 |
 | Auditoria de glossário | Cat. 5 |
 | backlog-versoes.md | Cat. 2 |
 | Breaking / Non-breaking | Cat. 4 |
+| Business Intelligence (BI) | Cat. 14 |
 | CHANGELOG.md | Cat. 2 |
 | Cibersegurança | Cat. 10 |
+| Conhecimento Estratégico | Cat. 17 |
+| Conhecimento Operacional | Cat. 17 |
+| Consciência Situacional | Cat. 15 |
 | CONTEXTO.md | Cat. 2 |
 | Dado Pessoal | Cat. 10 |
 | Dado Pessoal Sensível | Cat. 10 |
 | data_registro | Cat. 8 |
 | data_reuniao | Cat. 8 |
+| Data Lake | Cat. 16 |
+| Data Warehouse | Cat. 16 |
 | Documento (tipo D) | Cat. 1 |
 | Drift documental | Cat. 5 |
 | Encarregado (DPO) | Cat. 10 |
 | Estado final esperado | Cat. 7 |
 | EXECUCOES.md | Cat. 7 |
 | Falso positivo | Cat. 5 |
+| Fonte de Dados | Cat. 16 |
 | Front Matter YAML | Cat. 6 |
+| Gestão por Exceção | Cat. 13 |
+| Gestão Orientada a Dados (Data-Driven Management) | Cat. 15 |
 | GLOSSARIO.md | Cat. 2 |
 | Governança em Saúde Digital | Cat. 12 |
 | IAC — Instrumento de Análise Comparativa | Cat. 3 |
 | Índice cronológico | Cat. 8 |
 | Índice Nacional de Maturidade em Saúde Digital (INMSD) | Cat. 12 |
 | INDICE.md | Cat. 2 |
+| Integração | Cat. 16 |
 | Inteligência Artificial Generativa (IA Generativa) | Cat. 11 |
 | Interoperabilidade | Cat. 11 |
 | Log de execução | Cat. 7 |
 | MAJOR / MINOR (versionamento) | Cat. 4 |
+| Mapa Cognitivo Institucional | Cat. 17 |
 | Matriz (tipo M) | Cat. 1 |
+| Maturidade Analítica | Cat. 15 |
+| Memória Institucional | Cat. 17 |
 | Modelo de Linguagem de Larga Escala (LLM) | Cat. 11 |
+| Monitoramento de Conformidade | Cat. 13 |
+| Monitoramento de Desempenho | Cat. 13 |
+| Monitoramento de Qualidade | Cat. 13 |
+| Monitoramento de Segurança | Cat. 13 |
+| Monitoramento de Tendências | Cat. 13 |
+| Monitoramento Estratégico | Cat. 13 |
+| Monitoramento Operacional | Cat. 13 |
 | nomenclatura.md | Cat. 2 |
+| Observabilidade Organizacional | Cat. 15 |
 | OP-A, OP-B, OP-C, OP-D, OP-E, OP-F, OP-P | Cat. 4 |
+| Pipeline de Dados | Cat. 16 |
 | Pipeline de transcrição | Cat. 6 |
 | PLAUD NOTE Pro | Cat. 8 |
 | PoC — Prova de Conceito | Cat. 3 |
@@ -563,10 +844,12 @@ Rede Nacional de Dados em Saúde (RNDS).
 | Projeto (tipo P) | Cat. 1 |
 | Prontuário Médico / Registro Eletrônico de Saúde (RES) | Cat. 12 |
 | Pseudonimização | Cat. 10 |
+| Radar Institucional | Cat. 17 |
 | Reflow | Cat. 6 |
 | Registro institucional de reunião | Cat. 8 |
 | Repositório âncora | Cat. 5 |
 | Saúde Digital | Cat. 12 |
+| Sistema de Consciência Situacional | Cat. 17 |
 | Sistema de Inteligência Artificial (Sistema de IA) | Cat. 11 |
 | Skill (tipo S) | Cat. 1 |
 | Software como Dispositivo Médico (SaMD) | Cat. 11 |
@@ -576,12 +859,13 @@ Rede Nacional de Dados em Saúde (RNDS).
 | Teleconsulta | Cat. 9 |
 | Teleconsultoria | Cat. 9 |
 | Telediagnóstico | Cat. 9 |
+| Telemonitoramento ou Televigilância | Cat. 9 |
 | Teleinterconsulta | Cat. 9 |
 | Telemedicina | Cat. 9 |
-| Telemonitoramento ou Televigilância | Cat. 9 |
 | Telessaúde | Cat. 9 |
 | Teletriagem | Cat. 9 |
 | Termo candidato | Cat. 5 |
+| Tomada de Decisão Baseada em Evidências | Cat. 15 |
 | Tratamento de Dados | Cat. 10 |
 | Workflow | Cat. 7 |
 
