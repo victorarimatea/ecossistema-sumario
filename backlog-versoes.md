@@ -1,3 +1,18 @@
+## v2.2 — 2026-06-04 (CONTEXTO.md)
+
+**Tipo de alteração:** Adição
+**Autorizado por:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
+**Exposição de motivos:** Adição da seção "Taxonomia e Glossário — distinção essencial"
+ao CONTEXTO.md. A seção explica com exemplos concretos a diferença de propósito entre
+M02 (taxonomia — mapa de navegação temática) e M01/GLOSSARIO.md (dicionário de
+definições), inclui tabela de coexistência com 4 termos exemplo e regra explícita de
+uso para agentes de IA. Motivação: risco identificado de confusão entre os dois
+instrumentos por novos colaboradores e agentes, dado que nenhum documento do
+ecossistema explicava a distinção. Operação conduzida via S04 (OP-C), sessão
+de 2026-06-04.
+
+---
+
 ## v1.6 — 2026-06-04 (GLOSSARIO.md)
 
 **Tipo de alteração:** Adição
