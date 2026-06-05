@@ -1,3 +1,18 @@
+## v0.29 — 2026-06-05
+
+**Tipo de alteração:** Atualização
+**Proposto por:** Victor Leonardo Arimatea Queiroz
+**Tópico afetado:** Versões da S04 e W03
+**Exposição de motivos:** Sincronização após Ajustes 1, 2 e 3 da sessão de
+2026-06-05. S04 v2.7 (Etapa 6-A expandida). W03 v1.2 (Etapa 2-B adicionada).
+staging.md reformulada com painel dinâmico, alertas e Seção E.
+
+### Alterações realizadas
+- `sumario.md`: S04 v2.6→v2.7; W03 v1.1→v1.2
+- `CONTEXTO.md` v2.8→v2.9: S04 v2.6→v2.7; W03 v1.1→v1.2
+
+---
+
 ## v0.28 — 2026-06-05
 
 **Tipo de alteração:** Adição
