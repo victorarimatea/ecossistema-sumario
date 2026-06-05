@@ -1,3 +1,19 @@
+## v0.28 — 2026-06-05
+
+**Tipo de alteração:** Adição
+**Proposto por:** Victor Leonardo Arimatea Queiroz
+**Tópico afetado:** Novo repositório de infraestrutura de conhecimento
+**Exposição de motivos:** Criação do hub-aprendizagem na sessão de 2026-06-05.
+Repositório de memória intelectual identificado como lacuna estrutural do
+ecossistema: backlogs e changelogs registram o quê e o quando, mas não o
+raciocínio por trás das escolhas nem o diálogo com benchmarks de mercado.
+
+### Alterações realizadas
+- `sumario.md`: nova seção "Infraestrutura de conhecimento" + hub-aprendizagem v1.0
+- `CONTEXTO.md` v2.7 → v2.8: hub-aprendizagem adicionado na tabela de estrutura
+
+---
+
 ## v0.27 — 2026-06-05
 
 **Tipo de alteração:** Atualização
