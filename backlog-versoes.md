@@ -1,3 +1,17 @@
+## v0.27 — 2026-06-05
+
+**Tipo de alteração:** Atualização
+**Proposto por:** Victor Leonardo Arimatea Queiroz
+**Tópico afetado:** Referências à versão da S04 (skl-github-orquestracao)
+**Exposição de motivos:** Sincronização após Execução 2 da sessão de 2026-06-05.
+S04 atualizada para v2.6 com verificações embutidas obrigatórias (Nível B Estrutural).
+
+### Alterações realizadas
+- `sumario.md`: S04 v2.5 → v2.6
+- `CONTEXTO.md` v2.6 → v2.7: S04 v2.5 → v2.6, descrição atualizada
+
+---
+
 ## v0.26 — 2026-06-05
 
 **Tipo de alteração:** Atualização
