@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v2.8 — 2026-06-05
+**Versão:** v2.9 — 2026-06-05
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing estrutural para inicialização de sessões de trabalho.
 Leia este arquivo antes de qualquer ação. Para onboarding externo, leia ONBOARDING.md.
@@ -86,7 +86,7 @@ com mínima intervenção manual do mantenedor.
 | S01 | skl-criador-de-skills | Cria novos repositórios de skill via API GitHub |
 | S02 | skl-iac-pdtic | Gera IAC-V e IAC-H do PDTIC da SES-DF (privado) |
 | S03 | skl-poc-saude-digital | Gera documentos de PoC em saúde digital no padrão SES-DF |
-| S04 | skl-github-orquestracao | v2.6 — Garante consistência; verificações embutidas CONFIRMAR; escala SEV1–SEV4; Verificação 5-A; Etapa 6-A |
+| S04 | skl-github-orquestracao | v2.7 — Garante consistência; verificações CONFIRMAR; escala SEV1–SEV4; 6-A expandida (ideias + conhecimento consolidado) |
 | S05 | skl-transcricao-documental | Converte PDFs regulatórios em Markdown estruturado |
 | S06 | skl-registro-reuniao | Transforma resumos de reunião em registros institucionais para o SEI |
 | S07 | skl-briefing-saude-digital | Briefing periódico de saúde digital com classificação taxonômica |
@@ -104,7 +104,7 @@ com mínima intervenção manual do mantenedor.
 |---|---|---|
 | W01 | wkf-transcricao-documental | Processo completo de transcrição de PDFs regulatórios |
 | W02 | wkf-registro-reuniao | Processo de registro institucional de reunião (privado) |
-| W03 | wkf-registro-sessao | v1.1 — Registro estruturado de sessões; inclui reconciliação com ROADMAP (Etapa 2-A) |
+| W03 | wkf-registro-sessao | v1.2 — Registro estruturado de sessões; inclui reconciliação com ROADMAP (Etapa 2-A) |
 | W04 | wkf-roadmap-geral | v1.0 — Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico, três camadas de curadoria |
 
 ### Agendas (A) — acervos cronológicos
