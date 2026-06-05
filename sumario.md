@@ -54,6 +54,7 @@
 | W02 | wkf-registro-reuniao | v1.0 | ativo | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI |
 | W03 | wkf-registro-sessao | v1.2 |
 | W04 | wkf-roadmap-geral | v1.0 | ativo | Registro estruturado de sessões de trabalho intensivo — preserva história da construção do ecossistema |
+| W05 | wkf-auditoria-consistencia | v1.0 | ativo | Auditoria de consistência do ecossistema — verifica estado declarado vs real em 5 camadas; independente da S04 |
 
 ### Agendas (A)
 
