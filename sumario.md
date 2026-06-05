@@ -28,7 +28,7 @@
 | S01 | skl-criador-de-skills | v1.0 | Cria novos repositórios de skill via API GitHub |
 | S02 | skl-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skl-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
-| S04 | skl-github-orquestracao | v2.5 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
+| S04 | skl-github-orquestracao | v2.6 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
 | S05 | skl-transcricao-documental | v1.0 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
 | S06 | skl-registro-reuniao | v1.0 | Transforma resumos de reunião (PLAUD NOTE ou texto) em registros institucionais padronizados para o SEI |
 | S07 | skl-briefing-saude-digital | v1.0 | Briefing periódico de saúde digital — monitoramento de notícias, regulações, mercado e tecnologia com classificação taxonômica |
