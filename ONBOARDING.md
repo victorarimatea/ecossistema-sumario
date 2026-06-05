@@ -1,7 +1,7 @@
 # ONBOARDING — Ecossistema DTD/SETIS
 
-**Versão:** v1.0 — 2026-06-03
-**Repositório:** ecossistema-sumario
+**Versão:** v1.1 — 2026-06-05
+**Repositório:** hub-fonte
 **Mantenedor:** victorarimatea
 
 Este documento orienta qualquer pessoa ou agente de IA que chegue ao ecossistema
