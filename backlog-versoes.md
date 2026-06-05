@@ -1,3 +1,19 @@
+## v0.30 — 2026-06-05
+
+**Tipo de alteração:** Adição
+**Proposto por:** Victor Leonardo Arimatea Queiroz
+**Tópico afetado:** Novo workflow W05
+**Exposição de motivos:** Criação do W05 wkf-auditoria-consistencia —
+resposta estrutural ao GAP 1 identificado no exercício de engenharia reversa
+de 2026-06-05. Primeiro processo genuinamente independente da S04: audita
+o estado real do ecossistema em 5 camadas sem executar operações.
+
+### Alterações realizadas
+- `sumario.md`: W05 adicionado na tabela de Workflows e na tabela de links
+- `CONTEXTO.md` v2.9 → v3.0: W05 adicionado na tabela de Workflows
+
+---
+
 ## v0.29 — 2026-06-05
 
 **Tipo de alteração:** Atualização
