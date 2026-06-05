@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v2.9 — 2026-06-05
+**Versão:** v3.0 — 2026-06-05
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing estrutural para inicialização de sessões de trabalho.
 Leia este arquivo antes de qualquer ação. Para onboarding externo, leia ONBOARDING.md.
@@ -105,6 +105,8 @@ com mínima intervenção manual do mantenedor.
 | W01 | wkf-transcricao-documental | Processo completo de transcrição de PDFs regulatórios |
 | W02 | wkf-registro-reuniao | Processo de registro institucional de reunião (privado) |
 | W03 | wkf-registro-sessao | v1.2 — Registro estruturado de sessões; inclui reconciliação com ROADMAP (Etapa 2-A) |
+| W04 | wkf-roadmap-geral | v1.0 — Gestão de roadmap: ciclo semanal, staging area, três camadas de curadoria |
+| W05 | wkf-auditoria-consistencia | v1.0 — Auditoria de consistência em 5 camadas; independente da S04; sem token; apenas detecta e reporta |
 | W04 | wkf-roadmap-geral | v1.0 — Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico, três camadas de curadoria |
 
 ### Agendas (A) — acervos cronológicos
