@@ -1,3 +1,19 @@
+## v0.25 — 2026-06-05
+
+**Tipo de alteração:** Atualização
+**Proposto por:** Victor Leonardo Arimatea Queiroz
+**Tópico afetado:** Referências à versão da S04 (skl-github-orquestracao)
+**Exposição de motivos:** Sincronização de referências após diagnóstico de drift
+identificado na abertura de sessão de 2026-06-05. sumario.md registrava S04 em v2.1
+e CONTEXTO.md em v2.3; versão real do SKILL.md era v2.4. Ambos atualizados para v2.4.
+Operação classificada como OP-E/OP-C com registro de Erro #013 na S04.
+
+### Alterações realizadas
+- `sumario.md` v2.0 → v2.1: S04 v2.3 → v2.4
+- `CONTEXTO.md` v2.4 → v2.5: S04 v2.3 → v2.4
+
+---
+
 ## v2.5 — 2026-06-05
 
 **Tipo de alteração:** Correção
