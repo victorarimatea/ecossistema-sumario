@@ -1,3 +1,27 @@
+## v2.5 — 2026-06-05
+
+**Tipo de alteração:** Correção
+**Autorizado por:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
+**Exposição de motivos:** Correção de drifts de nomenclatura legada em três arquivos
+operacionais do M01. Os arquivos ONBOARDING.md, INDICE.md e README.md ainda
+referenciavam o nome `ecossistema-sumario` (nome anterior do repositório, renomeado
+para `hub-fonte`) em campos de metadados e URLs. O conteúdo funcional dos três
+arquivos estava correto. Causa raiz: o ONBOARDING.md foi criado durante ou
+imediatamente após a refatoração de nomenclatura, e o README.md/INDICE.md nunca
+receberam atualização de título após o renomeio. A S04 não cobria o ONBOARDING.md
+em suas verificações — gap corrigido simultaneamente na v2.4 da S04.
+Nota de princípio: registros históricos em backlog-versoes.md e CHANGELOG.md que
+referenciam `ecossistema-sumario` ou `dtd-setis` pela nomenclatura da época são
+preservados integralmente — representam o estado real do sistema no momento em que
+foram escritos e não devem ser alterados.
+
+### Alterações realizadas
+- `ONBOARDING.md` v1.0 → v1.1: campo `**Repositório:**` corrigido de `ecossistema-sumario` para `hub-fonte`
+- `INDICE.md`: título corrigido de `Índice — ecossistema-sumario` para `Índice — hub-fonte`; data atualizada para 2026-06-05; contagem corrigida de 8 para 10 arquivos
+- `README.md` v0.10 → v0.11: título, versão, tabela de arquivos (ONBOARDING.md e GLOSSARIO.md adicionados) e URL de sessão corrigidos
+
+---
+
 ## v2.4 — 2026-06-04
 
 **Tipo de alteração:** Atualização
