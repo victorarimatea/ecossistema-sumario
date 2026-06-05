@@ -14,6 +14,12 @@
 |---|---|---|---|
 | — | hub-entrada | v0.9 | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, DECISOES, monitoramento de projetos |
 
+### Infraestrutura de conhecimento
+
+| ID | Nome | Versão | Descrição |
+|---|---|---|---|
+| — | hub-aprendizagem | v1.0 | Memória intelectual do ecossistema — boas práticas, benchmarks e lições aprendidas |
+
 ### Matrizes (M)
 
 | ID | Nome | Versão | Descrição |
