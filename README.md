@@ -1,7 +1,7 @@
-# ecossistema-sumario
+# hub-fonte
 
-**Tipo:** Matriz Central (M)
-**Versão:** v0.10 — 2026-05-29
+**Tipo:** Matriz Central (M01)
+**Versão:** v0.11 — 2026-06-05
 **Mantenedor:** victorarimatea
 **Status:** Ativo
 
@@ -13,11 +13,13 @@
 
 | Arquivo | Função |
 |---|---|
+| `ONBOARDING.md` | Porta de entrada para agentes e colaboradores externos — roteamento por propósito |
 | `CONTEXTO.md` | Briefing completo do ecossistema — leia primeiro em novas sessões |
 | `sumario.md` | Índice vivo de todos os repositórios do ecossistema |
 | `nomenclatura.md` | Regras de nomes, versões, estrutura de arquivos e modelo IAC |
+| `GLOSSARIO.md` | Definições formais de todos os termos do ecossistema |
 | `backlog-versoes.md` | Histórico auditável de todas as alterações neste repositório |
-| `protocolo-atualizacoes.md` | Protocolo obrigatório de encerramento de operações |
+| `protocolo-atualizacoes.md` | ~~Protocolo de operações~~ DESCONTINUADO — substituído pela S04 |
 | `backlog-acoes-dtd.md` | Histórico retrospectivo de ações e produtos da DTD |
 
 ## Como iniciar uma nova sessão de trabalho
@@ -25,7 +27,7 @@
 Cole no início de qualquer conversa com o Claude:
 
 ```
-Leia https://raw.githubusercontent.com/victorarimatea/ecossistema-sumario/main/CONTEXTO.md
+Leia https://raw.githubusercontent.com/victorarimatea/hub-fonte/main/CONTEXTO.md
 e me diga o que entendeu sobre o ecossistema antes de começarmos.
 ```
 
@@ -41,4 +43,3 @@ explícita do mantenedor e devem ser registradas em `backlog-versoes.md`.
 ## Navegação rápida
 
 → **[INDICE.md](./INDICE.md)** — mapa completo de todos os arquivos deste repositório
-
