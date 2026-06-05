@@ -1,3 +1,19 @@
+## v0.26 — 2026-06-05
+
+**Tipo de alteração:** Atualização
+**Proposto por:** Victor Leonardo Arimatea Queiroz
+**Tópico afetado:** Referências à versão da S04 (skl-github-orquestracao)
+**Exposição de motivos:** Sincronização após Execução 1 da sessão de 2026-06-05.
+S04 atualizada para v2.5 com escala de severidade SEV1–SEV4 e classificação
+retroativa dos Erros #001–#013. sumario.md e CONTEXTO.md atualizados
+para refletir v2.5.
+
+### Alterações realizadas
+- `sumario.md`: S04 v2.4 → v2.5
+- `CONTEXTO.md` v2.5 → v2.6: S04 v2.4 → v2.5, descrição atualizada
+
+---
+
 ## v0.25 — 2026-06-05
 
 **Tipo de alteração:** Atualização
