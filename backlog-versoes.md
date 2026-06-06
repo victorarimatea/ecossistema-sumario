@@ -1,4 +1,18 @@
 
+## v0.27 — 2026-06-06
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Registro do W06 (wkf-sessao-agente) no ecossistema
+após criação do repositório e aprovação do WORKFLOW.md v1.0.
+
+### Alterações realizadas
+- `sumario.md` v2.4 → v2.5: W06 adicionado à tabela de Workflows
+- `CONTEXTO.md` v3.2 → v3.3: W06 adicionado à tabela de Workflows
+- `README.md` hub-entrada: W06 adicionado à tabela de Workflows
+
+---
+
 ## v0.26 — 2026-06-06
 
 **Tipo de alteração:** Correção
