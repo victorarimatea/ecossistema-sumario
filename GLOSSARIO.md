@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.9 — 2026-06-06
+**Versão:** v2.0 — 2026-06-06
 **Repositório:** hub-fonte (M01)
 **Mantenedor:** victorarimatea
 
@@ -998,3 +998,16 @@ sessão W06 em chat separado com contexto limpo. Introduzido em 2026-06-05.
 
 *Última revisão: 2026-06-04 — victorarimatea*
 *Para propor novos termos: abrir issue ou atualizar diretamente via S04.*
+
+- **Commander's Intent / Intenção do Comandante** → Categoria 17
+- **D02 / mat-cadastro-ses-setis-dtd** → Categoria 17
+- **D03 / hub-aprendizagem** → Categoria 17
+- **engenharia reversa** → Categoria 17
+- **Handoff** → Categoria 17
+- **SEV1 / SEV2 / SEV3 / SEV4** → Categoria 17
+- **separação executor/auditor** → Categoria 17
+- **staging area** → Categoria 17
+- **W05 / wkf-auditoria-consistencia** → Categoria 17
+- **W06 / wkf-sessao-agente** → Categoria 17
+- **Workflow (tipo W)** → Categoria 1
+
