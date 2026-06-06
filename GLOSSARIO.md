@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.8 — 2026-06-06
+**Versão:** v1.9 — 2026-06-06
 **Repositório:** hub-fonte (M01)
 **Mantenedor:** victorarimatea
 
@@ -133,12 +133,13 @@ ou inválidas. MINOR é incrementado para melhorias, adições e correções
 compatíveis com a versão anterior. Exemplo: v1.0 → v1.1 (MINOR);
 v1.3 → v2.0 (MAJOR).
 
-**OP-A, OP-B, OP-C, OP-D, OP-E, OP-F, OP-P**
+**OP-A, OP-B, OP-C, OP-D, OP-E, OP-F, OP-P, OP-W, OP-AG**
 Códigos de classificação de operações no ecossistema, definidos na S04:
 OP-A (criação de repositório), OP-B (atualização de skill), OP-C
 (atualização de matriz), OP-D (geração de documento), OP-E (correção
 pontual), OP-F (atualização de planejamento), OP-P (atualização de
-projeto). Cada tipo tem checklist própria de arquivos a atualizar.
+projeto), OP-W (atualização de workflow), OP-AG (atualização de agenda).
+Cada tipo tem checklist própria de arquivos a atualizar.
 
 ---
 
@@ -877,6 +878,19 @@ sistemas distribuídos e orquestração de agentes, em amadurecimento no
 ecossistema como padrão para articulação entre múltiplos workflows, chats
 e agentes. O termo "passagem de bastão" é usado como equivalente coloquial
 em português. Formalizado no W06 (wkf-sessao-agente) em 2026-06-06.
+
+
+### wkf-auditoria-consistencia (W05)
+Workflow de Auditoria de Consistência do Ecossistema DTD/SETIS. Processo
+independente da S04 que verifica sistematicamente se o estado declarado
+do ecossistema corresponde ao estado real — percorrendo o grafo completo
+de dependências em 5 camadas (versões, arquivos obrigatórios, hub-entrada,
+backlogs, glossário) e classificando cada divergência por severidade
+SEV1–SEV4. Por princípio de design, nunca solicita token, nunca altera
+repositórios e nunca é executado pelo mesmo agente no mesmo fluxo que
+vai corrigir as divergências encontradas (ver: separação executor/auditor).
+Subprocesso filho do W06. Acionado obrigatoriamente no fechamento de toda
+sessão W06 em chat separado com contexto limpo. Introduzido em 2026-06-05.
 
 ## Índice Alfabético Unificado
 
