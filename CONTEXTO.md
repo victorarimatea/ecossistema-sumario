@@ -108,6 +108,7 @@ com mínima intervenção manual do mantenedor.
 | W03 | wkf-registro-sessao | v1.2 — Registro estruturado de sessões; inclui reconciliação com ROADMAP (Etapa 2-A) |
 | W04 | wkf-roadmap-geral | v1.0 — Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico, três camadas de curadoria |
 | W05 | wkf-auditoria-consistencia | v1.1 — Auditoria de consistência em 5 camadas; independente da S04; sem token; apenas detecta e reporta
+| W06 | wkf-sessao-agente | v1.0 — Protocolo de Sessão Assistida por Agente; processo pai do W03 e W05; governa abertura, trabalho e fechamento |
 
 ### Agendas (A) — acervos cronológicos
 
