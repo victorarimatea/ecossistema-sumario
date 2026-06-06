@@ -51,6 +51,15 @@ tarefa específica de forma padronizada e repetível. O arquivo principal é
 o `SKILL.md`. Exemplo: `skill-github-orquestracao` (S04). Identificado
 pela letra S no sumário.
 
+**Workflow (tipo W)**
+Repositório que codifica um processo institucional completo com etapas,
+responsáveis, entradas, saídas e critérios de conclusão. Estrutura obrigatória:
+WORKFLOW.md (processo completo em 8+ seções), README.md, INDICE.md,
+backlog-versoes.md, pasta execucoes/. Nomenclatura: `wkf-[nome]`. Identificador
+de série: W01, W02, W03… Exemplos: wkf-registro-sessao (W03),
+wkf-auditoria-consistencia (W05), wkf-sessao-agente (W06). Identificado
+pela letra W no sumário.
+
 ---
 
 ## Categoria 2 — Arquivos obrigatórios
