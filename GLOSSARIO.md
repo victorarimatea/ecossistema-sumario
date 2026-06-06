@@ -767,6 +767,43 @@ DTD/SETIS está construindo progressivamente.
 
 ---
 
+
+### SEV1 — Severidade 1 (Crítica)
+Nível mais alto da escala de severidade de divergências do ecossistema DTD/SETIS,
+baseada no padrão ITIL/ISO 20000. Indica uma inconsistência que compromete a
+integridade operacional do ecossistema ou impede a execução de operações críticas.
+Requer correção imediata antes de qualquer outra ação. Exemplo: repositório âncora
+inacessível, sumario.md corrompido.
+
+### SEV2 — Severidade 2 (Alta)
+Segundo nível da escala de severidade. Indica dados incorretos em arquivos de
+referência central (sumario.md, CONTEXTO.md, README do hub-entrada) que produzem
+divergência entre o estado declarado e o estado real do ecossistema. Requer
+correção na mesma sessão em que foi identificado. Exemplo: versão incorreta de
+repositório registrada no sumario.md.
+
+### SEV3 — Severidade 3 (Médio)
+Terceiro nível da escala de severidade. Indica inconsistências detectáveis por
+auditoria — arquivos obrigatórios ausentes, campos incompletos, entradas de
+backlog faltando. Não impede operação imediata mas compromete rastreabilidade
+e conformidade estrutural. Deve ser corrigido na próxima sessão disponível.
+
+### SEV4 — Severidade 4 (Baixo)
+Nível mais baixo da escala de severidade. Indica oportunidades de melhoria ou
+candidatos ao glossário identificados durante auditoria. Não compromete operação
+nem rastreabilidade. Pode ser agendado para sessão futura ou aceito como estado
+tolerado pelo mantenedor.
+
+### Auditoria de Consistência (W05)
+Processo independente de verificação do ecossistema DTD/SETIS, executado em
+5 camadas (versões, arquivos obrigatórios, hub-entrada, backlogs, glossário),
+que confronta o estado declarado nos arquivos de referência com o estado real
+dos repositórios. Por princípio de design, é separado do executor (S04) —
+nunca solicita token, nunca altera arquivos, nunca é executado pelo mesmo agente
+no mesmo fluxo que vai corrigir as divergências encontradas. Sua única saída é
+um relatório classificado por severidade SEV1–SEV4. Acionado obrigatoriamente
+no início de toda sessão de trabalho e como pré-condição do W04.
+
 ## Índice Alfabético Unificado
 
 > Lista de todos os termos definidos neste glossário, com referência à categoria.
