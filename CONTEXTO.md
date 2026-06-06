@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v3.1 — 2026-06-06
+**Versão:** v3.2 — 2026-06-06
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing estrutural para inicialização de sessões de trabalho.
 Leia este arquivo antes de qualquer ação. Para onboarding externo, leia ONBOARDING.md.
@@ -97,6 +97,7 @@ com mínima intervenção manual do mantenedor.
 |---|---|---|
 | D01 | doc-governanca-ses-df | 28 documentos transcritos: legislação, portarias, resoluções e referências internacionais |
 | D02 | mat-cadastro-ses-setis-dtd | Matriz de cadastros de referência da DTD/SETIS/SES-DF |
+| D03 | hub-aprendizagem | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da construção do ecossistema DTD/SETIS |
 
 ### Workflows (W) — memória organizacional de processos
 
@@ -105,9 +106,8 @@ com mínima intervenção manual do mantenedor.
 | W01 | wkf-transcricao-documental | Processo completo de transcrição de PDFs regulatórios |
 | W02 | wkf-registro-reuniao | Processo de registro institucional de reunião (privado) |
 | W03 | wkf-registro-sessao | v1.2 — Registro estruturado de sessões; inclui reconciliação com ROADMAP (Etapa 2-A) |
-| W04 | wkf-roadmap-geral | v1.0 — Gestão de roadmap: ciclo semanal, staging area, três camadas de curadoria |
-| W05 | wkf-auditoria-consistencia | v1.0 — Auditoria de consistência em 5 camadas; independente da S04; sem token; apenas detecta e reporta |
 | W04 | wkf-roadmap-geral | v1.0 — Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico, três camadas de curadoria |
+| W05 | wkf-auditoria-consistencia | v1.1 — Auditoria de consistência em 5 camadas; independente da S04; sem token; apenas detecta e reporta
 
 ### Agendas (A) — acervos cronológicos
 
