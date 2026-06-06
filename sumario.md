@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v2.6 — 2026-06-06
+**Versão:** v2.7 — 2026-06-06
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -12,7 +12,7 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| — | hub-entrada | v0.9 | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, DECISOES, monitoramento de projetos |
+| — | hub-entrada | v2.0 | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, DECISOES, monitoramento de projetos |
 
 ### Matrizes (M)
 
@@ -49,7 +49,7 @@
 | W02 | wkf-registro-reuniao | v1.0 | ativo | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI |
 | W03 | wkf-registro-sessao | v1.2 | ativo | Registro estruturado de sessões de trabalho intensivo — preserva história da construção do ecossistema |
 | W04 | wkf-roadmap-geral | v1.0 | ativo | Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico e três camadas de curadoria |
-| W05 | wkf-auditoria-consistencia | v1.1 | ativo | Auditoria de consistência do ecossistema — verifica estado declarado vs real em 5 camadas; independente da S04 |
+| W05 | wkf-auditoria-consistencia | v1.2 | ativo | Auditoria de consistência do ecossistema — verifica estado declarado vs real em 5 camadas; independente da S04 |
 | W06 | wkf-sessao-agente | v1.0 | ativo | Protocolo de Sessão Assistida por Agente — padroniza abertura, trabalho e fechamento; processo pai do W03 e W05 |
 
 ### Agendas (A)
