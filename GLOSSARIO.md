@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.7 — 2026-06-06
+**Versão:** v1.8 — 2026-06-06
 **Repositório:** hub-fonte (M01)
 **Mantenedor:** victorarimatea
 
