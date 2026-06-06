@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v3.0 — 2026-06-05
+**Versão:** v3.1 — 2026-06-06
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing estrutural para inicialização de sessões de trabalho.
 Leia este arquivo antes de qualquer ação. Para onboarding externo, leia ONBOARDING.md.
@@ -70,7 +70,7 @@ com mínima intervenção manual do mantenedor.
 | Nome | Descrição |
 |---|---|
 | hub-entrada | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, monitoramento de projetos |
-| hub-aprendizagem | Memória intelectual: boas práticas, benchmarks e lições aprendidas da jornada de construção |
+| hub-aprendizagem | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da jornada de construção |
 
 ### Matrizes (M) — fontes de verdade estruturais
 
