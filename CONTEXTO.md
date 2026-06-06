@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v3.2 — 2026-06-06
+**Versão:** v3.3 — 2026-06-06
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing estrutural para inicialização de sessões de trabalho.
 Leia este arquivo antes de qualquer ação. Para onboarding externo, leia ONBOARDING.md.
