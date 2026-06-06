@@ -552,3 +552,33 @@ de palavras sem acentuação.
 ### Skills que implementam este padrão
 - `skill-criador-de-skills` (S01) — garante que novas skills nasçam com a regra
 - `skill-iac-pdtic` (S02) — aplica nas gerações IAC-V e IAC-H
+
+
+---
+
+## Convenção de versionamento em Skills com Front Matter YAML
+
+Algumas Skills do ecossistema DTD/SETIS utilizam Front Matter YAML como bloco
+de abertura do arquivo SKILL.md (herdado do formato de skills do Claude/Anthropic).
+Nesse caso, a declaração `**Versão:**` em Markdown fica após o bloco YAML e não
+é detectada por varredura automatizada de cabeçalho.
+
+**Regra:** toda SKILL.md com Front Matter YAML deve duplicar a versão dentro
+do bloco YAML como campo `version:`, usando o mesmo valor da declaração Markdown.
+
+**Exemplo:**
+```yaml
+---
+name: nome-da-skill
+description: >
+  Descrição da skill...
+version: "v1.0"
+---
+```
+
+A declaração Markdown `**Versão:** v1.0` permanece no corpo do documento
+como referência humana. O campo `version:` no YAML serve para leitura
+automatizada pelo W05 e pela S04.
+
+**Aplicável a:** skl-poc-saude-digital (S03), skl-briefing-saude-digital (S07),
+e qualquer skill futura que use Front Matter YAML.
