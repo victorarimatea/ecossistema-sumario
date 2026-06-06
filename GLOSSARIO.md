@@ -1,7 +1,7 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v1.6 — 2026-06-04
-**Repositório:** ecossistema-sumario (M01)
+**Versão:** v1.7 — 2026-06-06
+**Repositório:** hub-fonte (M01)
 **Mantenedor:** victorarimatea
 
 > Definições formais dos termos utilizados no ecossistema DTD/SETIS.
@@ -36,8 +36,8 @@ formais. Exemplo: `pdtic-historico`. Identificado pela letra D no sumário.
 **Matriz (tipo M)**
 Repositório que contém conhecimento estrutural do ecossistema — convenções,
 taxonomias, sumários, protocolos. É fonte de verdade consultada por skills
-e por qualquer instância do Claude antes de agir. Exemplo: `ecossistema-sumario`
-(M01), `saude-digital-taxonomia` (M02). Identificado pela letra M no sumário.
+e por qualquer instância do Claude antes de agir. Exemplo: `hub-fonte`
+(M01), `mat-saude-digital-taxonomia` (M02). Identificado pela letra M no sumário.
 
 **Projeto (tipo P)**
 Repositório privado que registra e acompanha o desenvolvimento de um projeto
@@ -62,7 +62,7 @@ de decisões e motivações por trás de cada alteração — responde à pergun
 o quê foi mudado. Ver distinção completa em `CHANGELOG.md` abaixo.
 
 **CHANGELOG.md**
-Arquivo presente exclusivamente no repositório `dtd-setis` (portfólio público).
+Arquivo presente exclusivamente no repositório `hub-entrada` (portfólio público).
 Registra o histórico de entregas e versões do ecossistema como um todo —
 responde à pergunta "o que foi construído e quando?". Não substitui o
 `backlog-versoes.md`: o changelog registra o resultado; o backlog registra
@@ -181,19 +181,19 @@ insuficiente (Erro #005), e leitura de trecho em vez do conteúdo completo
 (Erro #006). A S04 incorpora correções para cada caso identificado.
 
 **Porta de entrada**
-O repositório `dtd-setis` — ponto de acesso público ao ecossistema
+O repositório `hub-entrada` — ponto de acesso público ao ecossistema
 DTD/SETIS. Contém o README com diagrama geral, lista de repositórios,
 skills disponíveis, instrução obrigatória de inicialização para o Claude
 e link para o monitoramento de projetos. Qualquer pessoa ou ferramenta
 que acesse o ecossistema deve começar aqui.
 
 **Repositório âncora**
-O repositório `ecossistema-sumario` (M01) — repositório que contém as
+O repositório `hub-fonte` (M01) — repositório que contém as
 matrizes de conhecimento que regem todo o ecossistema. É a fonte de
 verdade para convenções (nomenclatura), estrutura (sumário), contexto
 (CONTEXTO.md) e terminologia (GLOSSARIO.md). Toda skill lê o repositório
 âncora antes de executar qualquer tarefa. Distinto da "porta de entrada"
-(`dtd-setis`): a porta de entrada é pública e orientada ao humano; o
+(`hub-entrada`): a porta de entrada é pública e orientada ao humano; o
 repositório âncora é técnico e orientado ao Claude.
 
 ---
