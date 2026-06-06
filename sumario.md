@@ -50,6 +50,7 @@
 | W03 | wkf-registro-sessao | v1.2 | ativo | Registro estruturado de sessões de trabalho intensivo — preserva história da construção do ecossistema |
 | W04 | wkf-roadmap-geral | v1.0 | ativo | Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico e três camadas de curadoria |
 | W05 | wkf-auditoria-consistencia | v1.1 | ativo | Auditoria de consistência do ecossistema — verifica estado declarado vs real em 5 camadas; independente da S04 |
+| W06 | wkf-sessao-agente | v1.0 | ativo | Protocolo de Sessão Assistida por Agente — padroniza abertura, trabalho e fechamento; processo pai do W03 e W05 |
 
 ### Agendas (A)
 
