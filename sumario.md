@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v2.3 — 2026-06-06
+**Versão:** v2.4 — 2026-06-06
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -48,8 +48,8 @@
 | W01 | wkf-transcricao-documental | v1.0 | ativo | Processo completo de transcrição de PDFs regulatórios em Markdown — memória organizacional do pipeline DTD/SETIS/SES-DF |
 | W02 | wkf-registro-reuniao | v1.0 | ativo | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI |
 | W03 | wkf-registro-sessao | v1.2 | ativo | Registro estruturado de sessões de trabalho intensivo — preserva história da construção do ecossistema |
-| W04 | wkf-roadmap-geral | v1.0 | ativo | Registro estruturado de sessões de trabalho intensivo — preserva história da construção do ecossistema |
-| W05 | wkf-auditoria-consistencia | v1.0 | ativo | Auditoria de consistência do ecossistema — verifica estado declarado vs real em 5 camadas; independente da S04 |
+| W04 | wkf-roadmap-geral | v1.0 | ativo | Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico e três camadas de curadoria |
+| W05 | wkf-auditoria-consistencia | v1.1 | ativo | Auditoria de consistência do ecossistema — verifica estado declarado vs real em 5 camadas; independente da S04 |
 
 ### Agendas (A)
 
