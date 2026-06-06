@@ -1,4 +1,29 @@
 
+## v0.30 — 2026-06-06
+
+**Tipo de alteração:** Correção + Melhoria
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Quinta e última rodada de correções da sessão
+2026-06-06, identificadas pela terceira rodada de auditoria W05 independente.
+
+**Causas raiz:**
+- Campo Versão do hub-entrada inserido na linha 148 em vez das primeiras linhas
+  (erro de posicionamento na operação anterior)
+- Skills com Front Matter YAML sem declaração de versão legível por varredura
+  automatizada — convenção não existia; criada agora
+- Índice Alfabético do GLOSSARIO.md não atualizado desde v1.6 (11 termos ausentes)
+- Tipo W ausente da Categoria 1 do GLOSSARIO.md desde a formalização do tipo W
+
+### Alterações realizadas
+- `README.md` hub-entrada: campo Versão movido para linha 2 (após título)
+- `SKILL.md` skl-poc-saude-digital: `version: "v1.0"` adicionado ao Front Matter
+- `SKILL.md` skl-briefing-saude-digital: `version: "v1.0"` adicionado ao Front Matter
+- `GLOSSARIO.md` v1.9 → v2.0: Tipo W na Cat.1; 11 termos no Índice Alfabético
+- `nomenclatura.md`: convenção de versão em Skills com Front Matter YAML registrada
+- `sumario.md` v2.7 → v2.8
+
+---
+
 ## v0.29 — 2026-06-06
 
 **Tipo de alteração:** Correção
