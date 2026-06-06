@@ -1,4 +1,25 @@
 
+## v0.28 — 2026-06-06
+
+**Tipo de alteração:** Correção + Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Terceira rodada de correções da sessão 2026-06-06,
+identificadas por auditoria W05 de fechamento executada em chat separado.
+
+**Causa raiz:** README.md do hub-fonte nunca foi sincronizado com a versão
+do repositório como unidade (ficou em v0.11 desde criação). GLOSSARIO.md
+não tinha entradas para 8 termos em uso ativo nos documentos operacionais.
+
+### Alterações realizadas
+- `README.md` hub-fonte: v0.11 → v0.25 (alinhado ao sumario.md)
+- `README.md` hub-entrada: campo Versão v0.9 adicionado
+- `GLOSSARIO.md` v1.7 → v1.8: 8 novos termos adicionados — Commander's Intent,
+  staging area, W06/wkf-sessao-agente, hub-aprendizagem (D03),
+  mat-cadastro-ses-setis-dtd (D02), engenharia reversa,
+  separação executor/auditor, Handoff
+
+---
+
 ## v0.27 — 2026-06-06
 
 **Tipo de alteração:** Adição
