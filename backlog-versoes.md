@@ -1,4 +1,30 @@
 
+## v0.26 — 2026-06-06
+
+**Tipo de alteração:** Correção
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Segunda rodada de correções identificadas pela auditoria
+W05 independente executada em sessão separada em 2026-06-06. A auditoria independente
+encontrou 11 divergências, incluindo 3 introduzidas pela própria operação anterior
+desta sessão — confirmando o princípio de separação executor/auditor.
+
+**Causa raiz geral:** propagação incompleta na operação anterior (hub-entrada README
+não verificado contra sumario.md); erro de substituição que copiou descrição do W03
+para W04; linha W04 duplicada no CONTEXTO.md por replace parcial; nomes legados
+no GLOSSARIO.md não corrigidos desde renomeação do repositório âncora.
+
+### Alterações realizadas
+- `sumario.md` v2.3 → v2.4: W04 com descrição correta; W05 v1.0 → v1.1
+- `CONTEXTO.md` v3.1 → v3.2: linha W04 duplicada removida; W05 v1.1;
+  hub-aprendizagem movido para seção Documentos com ID D03
+- `GLOSSARIO.md` v1.6 → v1.7: cabeçalho e corpo com nomenclatura atual
+  (hub-fonte, mat-saude-digital-taxonomia, hub-entrada)
+- `README.md` hub-entrada: W04, W05 e D03 adicionados às tabelas
+- `INDICE.md` prj-telessaude-poc-prisional: criado (arquivo obrigatório ausente)
+- `execucoes/.gitkeep` wkf-roadmap-geral: pasta obrigatória criada
+
+---
+
 ## v0.25 — 2026-06-06
 
 **Tipo de alteração:** Correção
