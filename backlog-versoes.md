@@ -1,4 +1,28 @@
 
+## v0.29 — 2026-06-06
+
+**Tipo de alteração:** Correção
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Quarta rodada de correções da sessão 2026-06-06,
+identificadas pela segunda rodada de auditoria W05 independente de fechamento.
+
+**Causas raiz:**
+- W05 atualizado para v1.2 nesta sessão sem propagação imediata para sumario.md
+  e CONTEXTO.md
+- hub-entrada com versão ambígua (v0.9 retroalimentada vs v2.0 operacional) —
+  decisão do mantenedor: v2.0 é a versão canônica desde a refatoração de 2026-06-02
+- P01 README sem campo Versão desde a criação
+- OP-W e OP-AG e W05 ausentes do GLOSSARIO.md
+
+### Alterações realizadas
+- `sumario.md` v2.6 → v2.7: W05 v1.2; hub-entrada v2.0
+- `CONTEXTO.md` v3.3 → v3.4: W05 v1.2
+- `README.md` hub-entrada: v0.9 → v2.0
+- `README.md` P01: campo Versão v0.1 adicionado
+- `GLOSSARIO.md` v1.8 → v1.9: W05 entrada dedicada; OP-W e OP-AG adicionados
+
+---
+
 ## v0.28 — 2026-06-06
 
 **Tipo de alteração:** Correção + Adição
