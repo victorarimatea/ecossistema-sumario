@@ -1,3 +1,28 @@
+
+## v0.25 — 2026-06-06
+
+**Tipo de alteração:** Correção
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Correção de divergências identificadas pela auditoria W05
+na sessão de abertura de 2026-06-06. Três problemas corrigidos:
+(1) linha W03 no sumario.md estava truncada — faltavam campos `status` e `descrição`;
+(2) versão do M01 no sumario.md estava em v0.24 sem ter sido incrementada após
+as sessões de 2026-06-05 que alteraram múltiplos arquivos do repositório;
+(3) hub-aprendizagem não tinha ID formal — classificado como D03 após decisão
+do mantenedor (repositório documental reflexivo; não cria nova categoria de tipo).
+
+**Causa raiz:** falha de sequência lógica na execução — mapa de dependências
+percorrido antes de atualizar o documento-núcleo; e ausência de decisão explícita
+documentada sobre a taxonomia do hub-aprendizagem no momento de sua criação.
+
+### Alterações realizadas
+- `sumario.md` v2.2 → v2.3: linha W03 completada; M01 v0.24 → v0.25;
+  hub-aprendizagem movido de "Infraestrutura de conhecimento" para Documentos (D)
+  com ID D03
+- `CONTEXTO.md` v3.0 → v3.1: hub-aprendizagem atualizado para D03
+
+---
+
 ## v0.30 — 2026-06-05
 
 **Tipo de alteração:** Adição
