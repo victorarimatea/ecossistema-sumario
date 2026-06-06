@@ -804,6 +804,80 @@ no mesmo fluxo que vai corrigir as divergências encontradas. Sua única saída 
 um relatório classificado por severidade SEV1–SEV4. Acionado obrigatoriamente
 no início de toda sessão de trabalho e como pré-condição do W04.
 
+
+### Commander's Intent (Intenção do Comandante)
+Princípio de design originado na doutrina militar e adaptado ao ecossistema
+DTD/SETIS. Cada skill e workflow deve declarar explicitamente seu estado final
+desejado — o resultado que o processo existe para produzir. Quando uma situação
+não coberta pelas instruções escritas surgir, a decisão correta é aquela que
+mais se aproxima desse estado desejado. Garante que lacunas nos procedimentos
+escritos tenham um árbitro principiado, não apenas um gap. Introduzido na S04
+v2.4 e adotado como padrão universal do ecossistema. Também referenciado como
+"Intenção do Comandante" em português.
+
+### staging area
+Camada de governança que separa ideias brutas de fatos operacionais no
+ecossistema DTD/SETIS. Toda ideia emergente — independentemente do destino
+final (ROADMAP, hub-aprendizagem, nova skill, novo workflow) — passa
+obrigatoriamente pela staging antes de ser registrada como fato operacional.
+Implementada no arquivo `staging.md` do hub-entrada, organizada em seções:
+A (ideias em avaliação), B (decisões pendentes do mantenedor), C (ideias
+brutas mineradas em sessão). Nenhuma ideia avança sem aprovação explícita
+do mantenedor. Não há atalho que bypasse essa camada.
+
+### wkf-sessao-agente (W06)
+Workflow que governa o processo completo de uma sessão de trabalho assistida
+por agente de IA no ecossistema DTD/SETIS. Processo pai do W03 (registro de
+sessão) e do W05 (auditoria de consistência). Estruturado em três fases:
+Abertura (leitura de contexto + Handoff da sessão anterior), Trabalho
+(execução da missão via S04), e Fechamento (W03 + mineração de ideias +
+auditoria W05 iterativa). Introduzido em 2026-06-06. Ver também: Handoff,
+separação executor/auditor, staging area.
+
+### hub-aprendizagem (D03)
+Repositório documental de natureza reflexiva do ecossistema DTD/SETIS.
+Registra boas práticas, benchmarks e lições aprendidas da construção do
+ecossistema em formato de capítulos — destinado a preservar o conhecimento
+acumulado de forma narrativa e explicativa. Classificado como Tipo D
+(Documento) por decisão do mantenedor em 2026-06-06, com anotação de
+natureza reflexiva: documenta o próprio ecossistema, não o ambiente externo.
+
+### mat-cadastro-ses-setis-dtd (D02)
+Repositório do tipo Documento (D) que contém a Matriz de Cadastros de
+referência validada para uso interno da DTD/SETIS/SES-DF. Consolida os
+cadastros institucionais relevantes para as operações da Diretoria de
+Transformação Digital.
+
+### engenharia reversa (no contexto do ecossistema)
+Técnica aplicada em sessão de 2026-06-05 para mapear retrospectivamente
+os erros e falhas estruturais acumuladas no ecossistema DTD/SETIS desde
+sua fundação. Resultou na identificação de 13 pontos de falha e 4 GAPs
+estruturais, que orientaram a criação do W05 e a evolução da S04 para
+versões v2.5 e v2.6. No contexto do ecossistema, refere-se à análise
+sistemática de causas raiz a partir de artefatos existentes, sem acesso
+aos registros originais de decisão.
+
+### separação executor/auditor
+Princípio de design do ecossistema DTD/SETIS que estabelece que o agente
+que executa uma operação não deve auditar o próprio trabalho. Fundamentado
+na observação empírica de que agentes de IA operam com viés de confirmação
+estrutural — ao auditar o próprio trabalho no mesmo contexto em que o
+executaram, tendem a não detectar erros introduzidos pela própria operação.
+Implementado operacionalmente pelo W05, que é sempre executado em chat
+separado, com contexto limpo, por instância independente do agente. Demonstrado
+empiricamente em 2026-06-06: auditoria independente encontrou 3 erros
+introduzidos pela operação de correção anterior, invisíveis para o executor.
+
+### Handoff
+Protocolo de passagem de bastão entre sessões de trabalho no ecossistema
+DTD/SETIS. O relatório W05 zerado do fechamento de uma sessão é a
+pré-condição de abertura da sessão seguinte — garantindo que cada sessão
+começa sabendo exatamente o estado que herdou. Conceito originado em
+sistemas distribuídos e orquestração de agentes, em amadurecimento no
+ecossistema como padrão para articulação entre múltiplos workflows, chats
+e agentes. O termo "passagem de bastão" é usado como equivalente coloquial
+em português. Formalizado no W06 (wkf-sessao-agente) em 2026-06-06.
+
 ## Índice Alfabético Unificado
 
 > Lista de todos os termos definidos neste glossário, com referência à categoria.
