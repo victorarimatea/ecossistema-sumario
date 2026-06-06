@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v2.2 — 2026-06-04
+**Versão:** v2.3 — 2026-06-06
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -14,17 +14,11 @@
 |---|---|---|---|
 | — | hub-entrada | v0.9 | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, DECISOES, monitoramento de projetos |
 
-### Infraestrutura de conhecimento
-
-| ID | Nome | Versão | Descrição |
-|---|---|---|---|
-| — | hub-aprendizagem | v1.0 | Memória intelectual do ecossistema — boas práticas, benchmarks e lições aprendidas |
-
 ### Matrizes (M)
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | hub-fonte | v0.24 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
+| M01 | hub-fonte | v0.25 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
 | M02 | mat-saude-digital-taxonomia | v1.0 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
@@ -45,6 +39,7 @@
 |---|---|---|---|
 | D01 | doc-governanca-ses-df | v1.0 | Transcrições estruturadas em Markdown de legislações, portarias, resoluções e referências internacionais de saúde digital — 28 documentos |
 | D02 | mat-cadastro-ses-setis-dtd | v1.0 | Matriz de Cadastros de referência validada para uso interno da DTD/SETIS/SES-DF |
+| D03 | hub-aprendizagem | v1.0 | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da construção do ecossistema DTD/SETIS |
 
 ### Workflows (W)
 
@@ -52,7 +47,7 @@
 |---|---|---|---|---|
 | W01 | wkf-transcricao-documental | v1.0 | ativo | Processo completo de transcrição de PDFs regulatórios em Markdown — memória organizacional do pipeline DTD/SETIS/SES-DF |
 | W02 | wkf-registro-reuniao | v1.0 | ativo | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI |
-| W03 | wkf-registro-sessao | v1.2 |
+| W03 | wkf-registro-sessao | v1.2 | ativo | Registro estruturado de sessões de trabalho intensivo — preserva história da construção do ecossistema |
 | W04 | wkf-roadmap-geral | v1.0 | ativo | Registro estruturado de sessões de trabalho intensivo — preserva história da construção do ecossistema |
 | W05 | wkf-auditoria-consistencia | v1.0 | ativo | Auditoria de consistência do ecossistema — verifica estado declarado vs real em 5 camadas; independente da S04 |
 
