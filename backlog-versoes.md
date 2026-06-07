@@ -41,6 +41,19 @@ conforme registrado no sumario.md.
 
 ---
 
+## v0.32 — 2026-06-06
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Propagação da atualização do W06 para v1.1 (novo
+critério de convergência de auditoria por integridade operacional).
+
+### Alterações realizadas
+- `sumario.md` v2.9 → v3.0: W06 v1.0 → v1.1
+- `CONTEXTO.md` v3.4 → v3.5: W06 v1.0 → v1.1
+
+---
+
 ## v0.31 — 2026-06-06
 
 **Tipo de alteração:** Correção + Melhoria
