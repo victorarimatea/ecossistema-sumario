@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v2.8 — 2026-06-06
+**Versão:** v2.9 — 2026-06-06
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -18,14 +18,14 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | hub-fonte | v0.25 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
+| M01 | hub-fonte | v0.30 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
 | M02 | mat-saude-digital-taxonomia | v1.0 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| S01 | skl-criador-de-skills | v1.0 | Cria novos repositórios de skill via API GitHub |
+| S01 | skl-criador-de-skills | v1.1 | Cria novos repositórios de skill via API GitHub |
 | S02 | skl-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skl-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
 | S04 | skl-github-orquestracao | v2.7 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
@@ -63,7 +63,7 @@
 | ID | Nome | Versão | Status | Descrição |
 |---|---|---|---|---|
 | P01 | prj-telessaude-poc-prisional | v0.1 | em_execucao | PoC de totem de telemedicina multiparâmetros no Sistema Prisional do DF — DTD/SETIS/SES-DF |
-| P02 | hub-memoria | v0.2 | em_execucao | Projeto do Ecossistema — preserva história da construção, decisões de design e relatórios de sessão (privado) |
+| P02 | hub-memoria | v0.3 | em_execucao | Projeto do Ecossistema — preserva história da construção, decisões de design e relatórios de sessão (privado) |
 
 ---
 
