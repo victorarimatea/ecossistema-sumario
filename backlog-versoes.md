@@ -41,6 +41,31 @@ conforme registrado no sumario.md.
 
 ---
 
+## v0.33 — 2026-06-06
+
+**Tipo de alteração:** Correção + Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Sétima rodada de correções da sessão 2026-06-06,
+identificadas pela quinta rodada de auditoria W05 (Opus 4.8). Validação final
+contra o novo critério de convergência do W06 v1.1 (zero SEV1/SEV2).
+
+**Causa raiz dos SEV2:** Erro #013 recorrente — os incrementos de M01 (v0.30)
+e W06 (v1.1) foram registrados no sumario.md e WORKFLOW.md na operação anterior
+sem propagação para os respectivos READMEs. A reincidência do mesmo erro durante
+sua própria correção reforça empiricamente a necessidade estrutural da separação
+executor/auditor e do protocolo de Handoff.
+
+### Alterações realizadas
+- `README.md` hub-fonte: v0.25 → v0.30 (SEV2)
+- `README.md` wkf-sessao-agente: v1.0 → v1.1 (SEV2)
+- `sumario.md` v3.0 → v3.1: Links rápidos completados com D03, W04, W05, W06 (SEV3)
+- `GLOSSARIO.md` v2.0 → v2.1: backlog-acoes-dtd, protocolo-atualizacoes, ONBOARDING (SEV4)
+
+### Divergências SEV4 descartadas (não proprietárias)
+- SHA e base64: termos técnicos genéricos, não específicos do ecossistema
+
+---
+
 ## v0.32 — 2026-06-06
 
 **Tipo de alteração:** Adição
