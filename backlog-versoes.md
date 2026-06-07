@@ -1,3 +1,45 @@
+# Backlog de Versões — hub-fonte (M01)
+
+**Repositório:** https://github.com/victorarimatea/hub-fonte
+**Mantenedor:** victorarimatea
+
+> Este documento registra o histórico de versões do repositório hub-fonte
+> como unidade. Cada entrada inclui versão, data, tipo de alteração,
+> exposição de motivos e alterações realizadas.
+
+---
+
+## ⚠️ Nota de Reconciliação — 2026-06-06
+
+Este backlog acumulou, ao longo de sua história, inconsistências estruturais
+que são aqui **documentadas** (não corrigidas) em respeito ao princípio de
+imutabilidade histórica do ecossistema. Uma reorganização completa e cuidadosa
+do arquivo está registrada como missão futura na staging area.
+
+**Inconsistências conhecidas neste arquivo:**
+
+1. **Duplicação de numeração v0.25–v0.30:** existem dois blocos de entradas
+   com os mesmos números de versão — um datado 2026-06-06 (inserido na sessão
+   de correções de auditoria W05) e outro datado 2026-06-05. **O bloco 2026-06-06
+   é o canônico** para as versões v0.25–v0.30. O bloco 2026-06-05 representa
+   entradas anteriores cuja numeração colidiu por erro de propagação.
+
+2. **Séries de versão entrelaçadas:** o arquivo contém entradas de séries de
+   versão de documentos internos (ex.: v2.5, v2.4, v1.6, datadas 06-04/06-05)
+   misturadas com a série do repositório como unidade (v0.X). Essas entradas
+   referem-se a versionamentos de documentos específicos (sumario.md, GLOSSARIO.md)
+   registrados historicamente neste backlog antes da separação clara de
+   versionamento por documento.
+
+3. **Título legado embutido:** há um segundo título H1 com o nome legado
+   `ecossistema-sumario` em ponto intermediário do arquivo (resquício de
+   concatenação de dois backlogs durante a renomeação do repositório).
+   Preservado por imutabilidade histórica.
+
+**Versão canônica atual do repositório hub-fonte (M01):** v0.30 (2026-06-06),
+conforme registrado no sumario.md.
+
+---
 
 ## v0.30 — 2026-06-06
 
