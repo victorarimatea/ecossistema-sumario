@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v2.0 — 2026-06-06
+**Versão:** v2.1 — 2026-06-06
 **Repositório:** hub-fonte (M01)
 **Mantenedor:** victorarimatea
 
@@ -901,6 +901,25 @@ vai corrigir as divergências encontradas (ver: separação executor/auditor).
 Subprocesso filho do W06. Acionado obrigatoriamente no fechamento de toda
 sessão W06 em chat separado com contexto limpo. Introduzido em 2026-06-05.
 
+
+### backlog-acoes-dtd
+Arquivo do hub-fonte que registra cronologicamente as ações executadas no
+ecossistema — distinto do backlog-versoes.md (que registra mudanças de versão
+de um repositório). O backlog-acoes-dtd é o registro operacional de atividades
+da Diretoria de Transformação Digital, mantido no repositório âncora.
+
+### protocolo-atualizacoes
+Arquivo do hub-fonte que define o protocolo formal de atualização de documentos
+e repositórios do ecossistema — a sequência de passos que toda operação de
+modificação deve seguir. Documento operacional central referenciado pela S04
+e pela nomenclatura.md.
+
+### ONBOARDING
+Arquivo do hub-fonte destinado a integrar uma nova instância de agente (ou um
+novo colaborador humano) ao ecossistema DTD/SETIS — apresenta a estrutura, as
+convenções e os pontos de partida para operar com contexto adequado. Referenciado
+no CONTEXTO.md e na S04 como material de entrada.
+
 ## Índice Alfabético Unificado
 
 > Lista de todos os termos definidos neste glossário, com referência à categoria.
@@ -1019,4 +1038,6 @@ sessão W06 em chat separado com contexto limpo. Introduzido em 2026-06-05.
 - **W05 / wkf-auditoria-consistencia** → Categoria 17
 - **W06 / wkf-sessao-agente** → Categoria 17
 - **Workflow (tipo W)** → Categoria 1
-
+- **backlog-acoes-dtd** → Categoria 17
+- **ONBOARDING** → Categoria 17
+- **protocolo-atualizacoes** → Categoria 17
