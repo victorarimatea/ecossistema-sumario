@@ -582,3 +582,18 @@ automatizada pelo W05 e pela S04.
 
 **Aplicável a:** skl-poc-saude-digital (S03), skl-briefing-saude-digital (S07),
 e qualquer skill futura que use Front Matter YAML.
+
+
+---
+
+## Exceção formalizada — pasta `sessoes/` no P02 (hub-memoria)
+
+A nomenclatura padrão para repositórios tipo P (Projeto) prevê a pasta
+`reunioes/` para registros de reunião. O P02 (hub-memoria) usa `sessoes/`
+em vez de `reunioes/` — exceção **intencional e formalizada**.
+
+**Justificativa:** o hub-memoria não documenta reuniões institucionais, mas
+sim sessões de trabalho de construção do ecossistema (sessões assistidas por
+agente, governadas pelo W06). A pasta `sessoes/` reflete corretamente a
+natureza do conteúdo. Esta exceção é específica do P02 e não se generaliza
+a outros repositórios tipo P.
