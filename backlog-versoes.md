@@ -41,6 +41,32 @@ conforme registrado no sumario.md.
 
 ---
 
+## v0.34 — 2026-06-06
+
+**Tipo de alteração:** Correção
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Oitava rodada de correções da sessão 2026-06-06,
+identificadas pela sexta rodada de auditoria W05 (Opus 4.8). Divergências
+remanescentes de representação visual e formatação.
+
+**Causa raiz:** Erro #009 — drift entre representações paralelas do mesmo dado
+(diagrama ASCII vs tabela autoritativa no README do hub-entrada). W06 e D03
+foram adicionados às tabelas em operações anteriores mas não ao diagrama.
+Cabeçalho do ROADMAP defasado por valores escritos antes das operações seguintes.
+Glitch de formatação Markdown no CONTEXTO (linhas W05/W06 sem | de fechamento).
+
+### Alterações realizadas
+- `README.md` hub-entrada: diagrama ASCII com W06 e D03 (SEV2 + SEV4)
+- `ROADMAP.md` hub-entrada: cabeçalho atualizado — sumario v3.1, W06 v1.1 (SEV3)
+- `CONTEXTO.md` v3.5 → v3.6: | de fechamento nas linhas W05/W06 (SEV4)
+
+### Diferido para Handoff (SEV4 não-bloqueantes)
+- ID W04 reutilizado em item prospectivo do ROADMAP (wkf-iac-conformidade)
+- Inconsistência terminológica: "perguntas orientadoras" (S04) vs "ordenadoras" (ROADMAP)
+- Candidatos ao glossário: versionamento independente, conhecimento consolidado
+
+---
+
 ## v0.33 — 2026-06-06
 
 **Tipo de alteração:** Correção + Adição
