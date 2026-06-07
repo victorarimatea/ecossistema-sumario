@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.0 — 2026-06-06
+**Versão:** v3.1 — 2026-06-06
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -92,9 +92,13 @@
 | S07 | skl-briefing-saude-digital | Skill | Público | https://github.com/victorarimatea/skl-briefing-saude-digital |
 | D01 | doc-governanca-ses-df | Documento | Público | https://github.com/victorarimatea/doc-governanca-ses-df |
 | D02 | mat-cadastro-ses-setis-dtd | Documento | Público | https://github.com/victorarimatea/mat-cadastro-ses-setis-dtd |
+| D03 | hub-aprendizagem | Documento | Público | https://github.com/victorarimatea/hub-aprendizagem |
 | W01 | wkf-transcricao-documental | Workflow | Público | https://github.com/victorarimatea/wkf-transcricao-documental |
 | W02 | wkf-registro-reuniao | Workflow | Privado | https://github.com/victorarimatea/wkf-registro-reuniao |
 | W03 | wkf-registro-sessao | Workflow | Público | https://github.com/victorarimatea/wkf-registro-sessao |
+| W04 | wkf-roadmap-geral | Workflow | Público | https://github.com/victorarimatea/wkf-roadmap-geral |
+| W05 | wkf-auditoria-consistencia | Workflow | Público | https://github.com/victorarimatea/wkf-auditoria-consistencia |
+| W06 | wkf-sessao-agente | Workflow | Público | https://github.com/victorarimatea/wkf-sessao-agente |
 | A01 | agd-dtd | Agenda | Privado | https://github.com/victorarimatea/agd-dtd |
 | P01 | prj-telessaude-poc-prisional | Projeto | Privado | https://github.com/victorarimatea/prj-telessaude-poc-prisional |
 | P02 | hub-memoria | Projeto | Privado | https://github.com/victorarimatea/hub-memoria |
