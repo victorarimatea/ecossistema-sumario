@@ -41,6 +41,38 @@ conforme registrado no sumario.md.
 
 ---
 
+## v0.31 — 2026-06-06
+
+**Tipo de alteração:** Correção + Melhoria
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Sexta rodada de correções da sessão 2026-06-06,
+identificadas pela quarta rodada de auditoria W05 independente (executada com
+modelo Opus 4.8, que produziu auditoria mais detalhada — 13 divergências).
+
+**Causa raiz central:** padrão recorrente de incrementos registrados em backlogs
+sem propagação para README/SKILL/sumario (Erro #013). Duplicação no próprio
+backlog do M01 causada por inserções sem verificação de entradas pré-existentes.
+
+### Alterações realizadas
+- `README.md` skl-github-orquestracao: v1.0 → v2.7
+- `README.md` wkf-registro-sessao: v1.0 → v1.2
+- `README.md` wkf-auditoria-consistencia: v1.0 → v1.2
+- `README.md` + `SKILL.md` skl-criador-de-skills: v1.0 → v1.1
+- `README.md` hub-memoria: v0.2 → v0.3
+- `taxonomia.md` M02: nome legado corrigido
+- `backlog-versoes.md` M02: entrada v1.1 reposicionada; URL legada corrigida
+- `README.md` S01/S02/S03: rótulo "Versão atual:" → "Versão:"
+- `backlog-versoes.md` M01: título H1 + nota de reconciliação (inconsistências
+  históricas documentadas, não corrigidas — reorganização completa adiada para
+  missão futura)
+- `nomenclatura.md`: exceção pasta sessoes/ do P02 formalizada
+- `sumario.md` v2.8 → v2.9: M01 v0.30, S01 v1.1, P02 v0.3
+
+### Itens registrados para missão futura (staging)
+- Reorganização completa do backlog do M01 (séries de versão entrelaçadas)
+
+---
+
 ## v0.30 — 2026-06-06
 
 **Tipo de alteração:** Correção + Melhoria
