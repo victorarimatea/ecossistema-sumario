@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.1 — 2026-06-06
+**Versão:** v3.2 — 2026-06-06
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
