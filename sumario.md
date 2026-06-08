@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.3 — 2026-06-07
+**Versão:** v3.4 — 2026-06-08
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -18,7 +18,7 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | hub-fonte | v0.30 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
+| M01 | hub-fonte | v0.31 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
 | M02 | mat-saude-digital-taxonomia | v1.0 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
