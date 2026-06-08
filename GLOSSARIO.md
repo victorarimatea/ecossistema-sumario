@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v2.1 — 2026-06-06
+**Versão:** v2.2 — 2026-06-08
 **Repositório:** hub-fonte (M01)
 **Mantenedor:** victorarimatea
 
@@ -920,6 +920,66 @@ novo colaborador humano) ao ecossistema DTD/SETIS — apresenta a estrutura, as
 convenções e os pontos de partida para operar com contexto adequado. Referenciado
 no CONTEXTO.md e na S04 como material de entrada.
 
+
+### versionamento independente
+Princípio de design do ecossistema DTD/SETIS segundo o qual cada arquivo dentro
+de um repositório possui seu próprio número de versão, independente da versão
+do repositório como um todo. Um repositório do tipo W pode estar em v1.2 no
+sumario.md enquanto seu WORKFLOW.md está em v1.1 e seu backlog-versoes.md
+registra entradas até v0.8 — cada um representando a versão daquele documento
+específico, não do repositório. Isso permite rastreabilidade granular de
+alterações sem forçar incrementos de versão em cascata a cada mudança em
+qualquer arquivo do repositório.
+
+### conhecimento consolidado
+Aprendizado que passou pelo crivo da prática, foi confrontado com benchmarks
+externos e resultou em uma lição que muda como o ecossistema opera. Distinto
+de ideia embrionária (que é uma hipótese sobre algo que poderia existir) e de
+registro operacional (que documenta o que foi feito): o conhecimento consolidado
+documenta o que foi aprendido, por que importa e como se compara com o que
+o mundo já sabe. No ecossistema, é produzido na Etapa 6-A da S04 e no W03
+(Etapa 2-B), depositado na Seção E da staging.md e formalizado como capítulo
+no hub-aprendizagem (D03). Elegível quando atende pelo menos dois critérios:
+resolveu problema recorrente, revelou causa raiz não óbvia, produziu decisão
+arquitetural documentável, chegou a algo validado por benchmarks externos, ou
+gerou lição que muda operações futuras.
+
+### Padrão CONFIRMAR
+Protocolo obrigatório de verificação read-after-write do ecossistema DTD/SETIS.
+Toda operação de escrita (PUT) em um repositório deve ser imediatamente seguida
+de uma leitura (GET) que confirme que o campo crítico foi gravado corretamente
+antes de prosseguir para a próxima operação. Não é uma instrução de atenção
+genérica — é um protocolo estrutural que distingue uma operação verificada de
+uma operação que assume sucesso pela ausência de erro. Implementado como
+sub-etapa obrigatória em todas as checklists OP-X da S04 a partir da v2.6,
+em resposta ao Erro #013 (SEV2), onde a ausência de verificação pós-escrita
+causou drift de versão por múltiplas sessões. A palavra CONFIRMAR em maiúsculas,
+quando encontrada em instruções do ecossistema, sempre denota este padrão.
+
+### context mining / mineração de contexto
+Prática de varredura sistemática do histórico de uma sessão de trabalho em
+busca de manifestações que têm características de ideia embrionária ou
+aprendizado consolidado — capturando o que não foi dito como decisão formal
+mas tem potencial estratégico para o ecossistema. No ecossistema DTD/SETIS,
+é executada pelo agente de IA ao final de cada sessão (Etapa 6-A da S04 e
+Etapa 2-B do W03), antes do relatório de encerramento, ainda com o contexto
+completo disponível. Opera com 7 perguntas orientadoras de elegibilidade e
+requer aprovação explícita do mantenedor antes de qualquer registro. O termo
+inglês "context mining" e o português "mineração de contexto" são equivalentes
+e intercambiáveis no ecossistema.
+
+### perguntas orientadoras
+Conjunto estruturado de perguntas utilizadas como instrumento de instrução
+no ecossistema DTD/SETIS para guiar o raciocínio de agentes de IA em etapas
+que requerem julgamento — como identificação de ideias embrionárias, avaliação
+de elegibilidade de aprendizados consolidados ou diagnóstico de divergências.
+Distinto de "perguntas ordenadoras" (termo incorreto, jamais usar): as perguntas
+são orientadoras porque guiam o raciocínio sem determinar a resposta, não porque
+impõem uma sequência obrigatória. Quando uma instrução especificar que a ordem
+deve ser seguida, isso será declarado explicitamente no texto. O termo canônico
+no ecossistema é sempre "perguntas orientadoras".
+
+
 ## Índice Alfabético Unificado
 
 > Lista de todos os termos definidos neste glossário, com referência à categoria.
@@ -1021,6 +1081,11 @@ no CONTEXTO.md e na S04 como material de entrada.
 | Tomada de Decisão Baseada em Evidências | Cat. 15 |
 | Tratamento de Dados | Cat. 10 |
 | Workflow | Cat. 7 |
+| context mining / mineração de contexto | Cat. 17 |
+| conhecimento consolidado | Cat. 17 |
+| Padrão CONFIRMAR | Cat. 17 |
+| perguntas orientadoras | Cat. 17 |
+| versionamento independente | Cat. 17 |
 
 
 
