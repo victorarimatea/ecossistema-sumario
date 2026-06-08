@@ -1,3 +1,24 @@
+## v0.31 — 2026-06-08
+
+**Tipo:** Atualização
+**Arquivo alterado:** GLOSSARIO.md (v2.1 → v2.2)
+**Operação S04:** OP-C (atualização de matriz)
+**Sessão:** W04 — primeira sessão de roadmapping
+
+**O que mudou:**
+- 5 novos termos adicionados à Categoria 17 (Conceitos Proprietários do Ecossistema):
+  `versionamento independente`, `conhecimento consolidado`, `Padrão CONFIRMAR`,
+  `context mining / mineração de contexto`, `perguntas orientadoras`
+- Índice alfabético unificado atualizado com os 5 novos termos
+
+**Por que foi feito:**
+Termos candidatos acumulados em múltiplas sessões (SEV4 no W05). Aprovados
+em curadoria na primeira sessão W04 de 2026-06-08. O termo "Padrão CONFIRMAR"
+recebeu tratamento especial: o qualificador "Padrão" foi adicionado para
+distingui-lo de instrução genérica e sinalizar que carrega protocolo específico.
+
+---
+
 # Backlog de Versões — hub-fonte (M01)
 
 **Repositório:** https://github.com/victorarimatea/hub-fonte
