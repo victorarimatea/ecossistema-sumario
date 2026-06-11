@@ -1,3 +1,26 @@
+## v0.32 — 2026-06-10
+
+**Tipo:** Correção (OP-E)
+**Arquivos alterados:** README.md, CONTEXTO.md
+**Operação S04:** OP-E (correção pontual)
+**Sessão:** W06 — correção de divergências SEV2
+
+**O que mudou:**
+- `README.md`: versão atualizada de v0.30 para v0.31 (SEV2-01) e instrução
+  de sessão substituída — raw.githubusercontent.com → GitHub Contents API
+- `CONTEXTO.md`: seção "Como iniciar uma nova sessão de trabalho" corrigida
+  — URLs raw.githubusercontent.com substituídas por instruções via
+  GitHub Contents API (SEV2-03)
+
+**Por que foi feito:**
+Divergências SEV2 identificadas pelo W05 em auditoria de 2026-06-09.
+README.md declarava v0.30 enquanto sumario.md e backlog já registravam v0.31.
+CONTEXTO.md e README.md instruíam leitura via raw.githubusercontent.com,
+contradizendo o protocolo API-only estabelecido em 2026-06-06 (alerta de
+cache CDN). Correção aplicada na abertura da sessão de 2026-06-10.
+
+---
+
 ## v0.31 — 2026-06-08
 
 **Tipo:** Atualização
