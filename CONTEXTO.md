@@ -267,16 +267,18 @@ que nenhum arquivo fique desatualizado por esquecimento.
 
 ## Como iniciar uma nova sessão de trabalho
 
-Cole no início da conversa:
+Leia os arquivos obrigatórios via GitHub Contents API (nunca via raw.githubusercontent.com — risco de cache CDN):
 
 ```
-Leia https://raw.githubusercontent.com/victorarimatea/hub-fonte/main/CONTEXTO.md
-e me diga o que entendeu sobre o ecossistema antes de começarmos.
+GET https://api.github.com/repos/victorarimatea/hub-fonte/contents/CONTEXTO.md
+GET https://api.github.com/repos/victorarimatea/hub-fonte/contents/sumario.md
+GET https://api.github.com/repos/victorarimatea/skl-github-orquestracao/contents/SKILL.md
 ```
+
+Decodifique o campo `content` de base64 em cada resposta.
 
 Para onboarding de novos colaboradores ou agentes externos:
 
 ```
-Leia https://raw.githubusercontent.com/victorarimatea/hub-fonte/main/ONBOARDING.md
-e me diga qual é o seu propósito antes de começarmos.
+GET https://api.github.com/repos/victorarimatea/hub-fonte/contents/ONBOARDING.md
 ```
