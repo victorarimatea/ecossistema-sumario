@@ -1,7 +1,7 @@
 # hub-fonte
 
 **Tipo:** Matriz Central (M01)
-**Versão:** v0.30 — 2026-06-06
+**Versão:** v0.31 — 2026-06-08
 **Mantenedor:** victorarimatea
 **Status:** Ativo
 
@@ -24,11 +24,20 @@
 
 ## Como iniciar uma nova sessão de trabalho
 
-Cole no início de qualquer conversa com o Claude:
+Leia os arquivos obrigatórios via GitHub Contents API (nunca via raw.githubusercontent.com — risco de cache CDN):
 
 ```
-Leia https://raw.githubusercontent.com/victorarimatea/hub-fonte/main/CONTEXTO.md
-e me diga o que entendeu sobre o ecossistema antes de começarmos.
+GET https://api.github.com/repos/victorarimatea/hub-fonte/contents/CONTEXTO.md
+GET https://api.github.com/repos/victorarimatea/hub-fonte/contents/sumario.md
+GET https://api.github.com/repos/victorarimatea/skl-github-orquestracao/contents/SKILL.md
+```
+
+Decodifique o campo `content` de base64 em cada resposta.
+
+Para onboarding de novos colaboradores ou agentes externos:
+
+```
+GET https://api.github.com/repos/victorarimatea/hub-fonte/contents/ONBOARDING.md
 ```
 
 ## Como este repositório é usado
