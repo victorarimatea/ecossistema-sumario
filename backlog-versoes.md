@@ -1,3 +1,33 @@
+## v0.33 — 2026-06-12
+
+**Tipo:** Atualização (OP-F / propagação de OP-W)
+**Arquivos alterados:** sumario.md (v3.4 → v3.5), CONTEXTO.md (v3.7 → v3.8)
+**Operação S04:** propagação de duas atualizações de workflow (OP-W) para os
+arquivos de referência central do M01
+**Sessão:** W06 — Formalização do ciclo de sessão (metas 1, 2 e 3 do ROADMAP)
+
+**O que mudou:**
+- `sumario.md`: versão do W03 atualizada v1.2 → v1.3 e do W06 v1.1 → v1.2,
+  com descrições revisadas; cabeçalho do sumario v3.4 → v3.5
+- `CONTEXTO.md`: tabela de workflows — mesmas versões propagadas;
+  cabeçalho v3.7 → v3.8
+
+**Por que foi feito:**
+Sessão de formalização do ciclo de sessão executou as três metas fechadas na
+sessão de design de 2026-06-11:
+- **Meta 1+3 (W03 v1.3):** estrutura do relatório reorganizada em três blocos
+  (narrativa, ciclo de qualidade, handoff) e frontmatter expandido com os
+  campos `convergencia` e `residuo_tolerado`
+- **Meta 2 (W06 v1.2):** handoff passa a ser lido automaticamente pelo agente
+  a partir do último relatório de sessão no hub-memoria, eliminando a cola
+  manual; adicionada regra de fallback (falha na extração → auditoria W05 nova
+  do zero, nunca reverter ao processo manual)
+
+As versões no sumario.md e no CONTEXTO.md são mantidas sincronizadas — o
+sumario.md é a fonte de verdade e o CONTEXTO.md deriva dele.
+
+---
+
 ## v0.32 — 2026-06-10
 
 **Tipo:** Correção (OP-E)
