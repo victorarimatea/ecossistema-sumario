@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.4 — 2026-06-08
+**Versão:** v3.5 — 2026-06-12
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -47,10 +47,10 @@
 |---|---|---|---|---|
 | W01 | wkf-transcricao-documental | v1.0 | ativo | Processo completo de transcrição de PDFs regulatórios em Markdown — memória organizacional do pipeline DTD/SETIS/SES-DF |
 | W02 | wkf-registro-reuniao | v1.0 | ativo | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI |
-| W03 | wkf-registro-sessao | v1.2 | ativo | Registro estruturado de sessões de trabalho intensivo — preserva história da construção do ecossistema |
+| W03 | wkf-registro-sessao | v1.3 | ativo | Registro estruturado de sessões de trabalho intensivo — relatório em três blocos (narrativa, ciclo de qualidade, handoff); preserva história da construção do ecossistema |
 | W04 | wkf-roadmap-geral | v1.0 | ativo | Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico e três camadas de curadoria |
 | W05 | wkf-auditoria-consistencia | v1.2 | ativo | Auditoria de consistência do ecossistema — verifica estado declarado vs real em 5 camadas; independente da S04 |
-| W06 | wkf-sessao-agente | v1.1 | ativo | Protocolo de Sessão Assistida por Agente — padroniza abertura, trabalho e fechamento; processo pai do W03 e W05 |
+| W06 | wkf-sessao-agente | v1.2 | ativo | Protocolo de Sessão Assistida por Agente — padroniza abertura, trabalho e fechamento; handoff lido automaticamente do hub-memoria; processo pai do W03 e W05 |
 
 ### Agendas (A)
 
