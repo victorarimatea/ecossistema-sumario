@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.5 — 2026-06-12
+**Versão:** v3.6 — 2026-06-13
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -12,13 +12,13 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| — | hub-entrada | v2.0 | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, DECISOES, monitoramento de projetos |
+| — | hub-entrada | v2.1 | Porta de entrada pública: MANIFESTO, ROADMAP, CHANGELOG, DECISOES, PROTOCOLO-SESSAO (ritos de sessão), monitoramento de projetos |
 
 ### Matrizes (M)
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | hub-fonte | v0.31 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
+| M01 | hub-fonte | v0.34 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
 | M02 | mat-saude-digital-taxonomia | v1.0 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
@@ -28,7 +28,7 @@
 | S01 | skl-criador-de-skills | v1.1 | Cria novos repositórios de skill via API GitHub |
 | S02 | skl-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skl-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
-| S04 | skl-github-orquestracao | v2.7 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação |
+| S04 | skl-github-orquestracao | v2.8 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação; ETAPA 0 com doutrina de dois tokens |
 | S05 | skl-transcricao-documental | v1.0 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
 | S06 | skl-registro-reuniao | v1.0 | Transforma resumos de reunião (PLAUD NOTE ou texto) em registros institucionais padronizados para o SEI |
 | S07 | skl-briefing-saude-digital | v1.0 | Briefing periódico de saúde digital — monitoramento de notícias, regulações, mercado e tecnologia com classificação taxonômica |
