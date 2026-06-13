@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v3.8 — 2026-06-12
+**Versão:** v3.9 — 2026-06-13
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing estrutural para inicialização de sessões de trabalho.
 Leia este arquivo antes de qualquer ação. Para onboarding externo, leia ONBOARDING.md.
@@ -267,7 +267,18 @@ que nenhum arquivo fique desatualizado por esquecimento.
 
 ## Como iniciar uma nova sessão de trabalho
 
-Leia os arquivos obrigatórios via GitHub Contents API (nunca via raw.githubusercontent.com — risco de cache CDN):
+O ecossistema é lido e escrito exclusivamente via GitHub Contents API,
+autenticada, segundo a **doutrina de dois tokens** (ritos completos em
+`hub-entrada/PROTOCOLO-SESSAO.md`):
+
+- **Token de leitura ampla** — carregado na abertura de toda sessão. Alcança
+  repositórios privados (ex.: o handoff no `hub-memoria`), eleva o teto para
+  5000 req/h e elimina o risco de SHA obsoleto por cache CDN.
+- **Token de edição** — carregado apenas quando a sessão converte para
+  escrita. Habilita PUT; revogado ao fim da sessão.
+
+O `raw.githubusercontent.com` está aposentado como canal de sessão. Leia os
+arquivos obrigatórios via API:
 
 ```
 GET https://api.github.com/repos/victorarimatea/hub-fonte/contents/CONTEXTO.md
