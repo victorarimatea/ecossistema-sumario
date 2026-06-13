@@ -1,3 +1,29 @@
+## v0.34 — 2026-06-13
+
+**Tipo:** Atualização (OP-F + propagação de OP-B)
+**Arquivos alterados:** CONTEXTO.md (v3.8 → v3.9), sumario.md (v3.5 → v3.6)
+**Operação S04:** registro da doutrina de dois tokens no CONTEXTO; propagação
+ao sumario (hub-entrada v2.0 → v2.1 pelo novo PROTOCOLO-SESSAO.md; S04 v2.7 →
+v2.8; versão do M01 reconciliada v0.31 → v0.34)
+**Sessão:** Operação — criação do PROTOCOLO-SESSAO.md canônico (2026-06-13)
+
+**O que mudou:**
+- `CONTEXTO.md`: seção "Como iniciar uma nova sessão de trabalho" reescrita
+  para o modelo de dois tokens (leitura ampla na abertura; edição na conversão
+  para escrita); raw aposentado como canal de sessão. Cabeçalho v3.8 → v3.9
+- `sumario.md`: hub-entrada v2.0 → v2.1 (novo artefato PROTOCOLO-SESSAO.md);
+  S04 v2.7 → v2.8 (ETAPA 0 dois tokens); linha do M01 reconciliada de v0.31
+  para v0.34 (propagação atrasada desde v0.32 — fechada agora usando este
+  backlog como fonte primária). Cabeçalho v3.5 → v3.6
+
+**Por que foi feito:**
+A sessão criou o PROTOCOLO-SESSAO.md como lar canônico dos ritos de sessão e,
+com ele, adotou a doutrina de dois tokens, alinhando o S04 (ETAPA 0) e o
+CONTEXTO. A reconciliação da versão do M01 no sumario (v0.31 → v0.34) corrige
+uma defasagem de propagação herdada, usando este backlog como fonte primária.
+
+---
+
 ## v0.33 — 2026-06-12
 
 **Tipo:** Atualização (OP-F / propagação de OP-W)
