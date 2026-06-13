@@ -33,8 +33,8 @@ permitindo triagem visual imediata e agrupamento alfabético natural por tipo.
 | `prj` | Projetos | Iniciativas formais da DTD |
 
 **Exemplos corretos:**
-- `hub-fonte` (ecossistema-sumario — âncora)
-- `hub-entrada` (dtd-setis — porta de entrada pública)
+- `hub-fonte` (antes: ecossistema-sumario)
+- `hub-entrada` (antes: dtd-setis)
 - `mat-saude-digital-taxonomia`
 - `skl-github-orquestracao`
 - `wkf-transcricao-documental`
@@ -138,7 +138,7 @@ ideia → planejado → em_execucao → entregue
 ### Visibilidade e monitoramento público
 
 Repositórios de projeto são **sempre privados**. A visibilidade pública
-de um projeto é gerenciada exclusivamente pelo repositório `dtd-setis`,
+de um projeto é gerenciada exclusivamente pelo repositório `hub-entrada`,
 na pasta `projetos/monitoramento.md`, mediante autorização explícita do
 Diretor de Transformação Digital. A documentação interna do projeto
 (linguagem técnica, siglas, deliberações em curso) não é exposta
