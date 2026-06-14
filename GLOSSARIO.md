@@ -980,6 +980,31 @@ deve ser seguida, isso será declarado explicitamente no texto. O termo canônic
 no ecossistema é sempre "perguntas orientadoras".
 
 
+### Convergência
+Estado de fechamento de sessão em que a reauditoria W05 independente retorna
+zero divergências SEV1 e SEV2. Divergências SEV3/SEV4 remanescentes são
+toleradas, declaradas e levadas via Handoff. Convergência é um estado
+verificável na escala SEV — não um rótulo. (Ver separação executor/auditor; SEV1–SEV4.)
+
+### Doutrina de dois tokens
+Modelo de acesso do ecossistema (lar canônico: `hub-entrada/PROTOCOLO-SESSAO.md`).
+Toda sessão abre com um **token de leitura ampla** (alcança repositórios privados,
+eleva o teto a 5000 req/h, elimina o cache de CDN) e introduz o **token de edição**
+apenas na conversão para escrita (Modo 1), revogado ao fim. O `raw.githubusercontent.com`
+fica aposentado como canal de sessão. Supera a antiga regra "API/raw".
+
+### Grafo de dependências de versão
+Ordem obrigatória de propagação quando uma versão muda: arquivo principal
+(`SKILL.md`/`WORKFLOW.md`) -> `INDICE.md` -> `backlog-versoes.md` -> `sumario.md`
+-> `CONTEXTO.md`. O `README.md` declara a versão do repositório como unidade,
+alinhada ao `sumario.md`, e é nó explícito do grafo (Erro #014 da S04).
+
+### Defense in Depth (defesa em profundidade)
+Princípio de SRE/segurança baseado em múltiplas camadas independentes de
+verificação, de modo que a falha de uma camada não comprometa o todo. Fundamenta
+a separação executor/auditor: a S04 verifica o próprio trabalho (Etapa 6) e o
+W05 verifica de fora, independente.
+
 ## Índice Alfabético Unificado
 
 > Lista de todos os termos definidos neste glossário, com referência à categoria.
@@ -1089,7 +1114,7 @@ no ecossistema é sempre "perguntas orientadoras".
 
 
 
-*Última revisão: 2026-06-04 — victorarimatea*
+*Última revisão: 2026-06-14 — victorarimatea*
 *Para propor novos termos: abrir issue ou atualizar diretamente via S04.*
 
 - **Commander's Intent / Intenção do Comandante** → Categoria 17
@@ -1106,3 +1131,7 @@ no ecossistema é sempre "perguntas orientadoras".
 - **backlog-acoes-dtd** → Categoria 17
 - **ONBOARDING** → Categoria 17
 - **protocolo-atualizacoes** → Categoria 17
+- **Convergência** → Categoria 5
+- **Doutrina de dois tokens** → Categoria 4
+- **Grafo de dependências de versão** → Categoria 4
+- **Defense in Depth** → Categoria 5
