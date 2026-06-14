@@ -86,7 +86,7 @@ com mínima intervenção manual do mantenedor.
 | S01 | skl-criador-de-skills | Cria novos repositórios de skill via API GitHub |
 | S02 | skl-iac-pdtic | Gera IAC-V e IAC-H do PDTIC da SES-DF (privado) |
 | S03 | skl-poc-saude-digital | Gera documentos de PoC em saúde digital no padrão SES-DF |
-| S04 | skl-github-orquestracao | v2.7 — Garante consistência; verificações CONFIRMAR; escala SEV1–SEV4; 6-A expandida (ideias + conhecimento consolidado) |
+| S04 | skl-github-orquestracao | v2.8 — Garante consistência; verificações CONFIRMAR; escala SEV1–SEV4; 6-A expandida (ideias + conhecimento consolidado); ETAPA 0 com doutrina de dois tokens |
 | S05 | skl-transcricao-documental | Converte PDFs regulatórios em Markdown estruturado |
 | S06 | skl-registro-reuniao | Transforma resumos de reunião em registros institucionais para o SEI |
 | S07 | skl-briefing-saude-digital | Briefing periódico de saúde digital com classificação taxonômica |
@@ -107,7 +107,7 @@ com mínima intervenção manual do mantenedor.
 | W02 | wkf-registro-reuniao | Processo de registro institucional de reunião (privado) |
 | W03 | wkf-registro-sessao | v1.3 — Registro estruturado de sessões; relatório em três blocos (narrativa, ciclo de qualidade, handoff) e campos de convergência no frontmatter |
 | W04 | wkf-roadmap-geral | v1.0 — Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico, três camadas de curadoria |
-| W05 | wkf-auditoria-consistencia | v1.2 — Auditoria de consistência em 5 camadas; independente da S04; sem token; apenas detecta e reporta |
+| W05 | wkf-auditoria-consistencia | v1.2 — Auditoria de consistência em 5 camadas; independente da S04; sem token de edição; apenas detecta e reporta |
 | W06 | wkf-sessao-agente | v1.2 — Protocolo de Sessão Assistida por Agente; handoff lido automaticamente do hub-memoria na abertura; processo pai do W03 e W05; governa abertura, trabalho e fechamento |
 
 ### Agendas (A) — acervos cronológicos
