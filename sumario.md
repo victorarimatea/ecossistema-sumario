@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.7 — 2026-06-14
+**Versão:** v3.8 — 2026-06-14
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -18,8 +18,8 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | hub-fonte | v0.35 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
-| M02 | mat-saude-digital-taxonomia | v1.0 | Taxonomia estruturada de saúde digital |
+| M01 | hub-fonte | v0.36 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
+| M02 | mat-saude-digital-taxonomia | v1.1 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
 
@@ -28,7 +28,7 @@
 | S01 | skl-criador-de-skills | v1.1 | Cria novos repositórios de skill via API GitHub |
 | S02 | skl-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skl-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
-| S04 | skl-github-orquestracao | v2.8 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação; ETAPA 0 com doutrina de dois tokens |
+| S04 | skl-github-orquestracao | v2.9 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação; ETAPA 0 com doutrina de dois tokens |
 | S05 | skl-transcricao-documental | v1.0 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
 | S06 | skl-registro-reuniao | v1.0 | Transforma resumos de reunião (PLAUD NOTE ou texto) em registros institucionais padronizados para o SEI |
 | S07 | skl-briefing-saude-digital | v1.0 | Briefing periódico de saúde digital — monitoramento de notícias, regulações, mercado e tecnologia com classificação taxonômica |
@@ -63,7 +63,7 @@
 | ID | Nome | Versão | Status | Descrição |
 |---|---|---|---|---|
 | P01 | prj-telessaude-poc-prisional | v0.1 | em_execucao | PoC de totem de telemedicina multiparâmetros no Sistema Prisional do DF — DTD/SETIS/SES-DF |
-| P02 | hub-memoria | v0.3 | em_execucao | Projeto do Ecossistema — preserva história da construção, decisões de design e relatórios de sessão (privado) |
+| P02 | hub-memoria | v0.4 | em_execucao | Projeto do Ecossistema — preserva história da construção, decisões de design e relatórios de sessão (privado) |
 
 ---
 
