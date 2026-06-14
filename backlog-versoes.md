@@ -1,3 +1,27 @@
+## v0.35 — 2026-06-14
+
+**Tipo:** Atualização (propagação de OP-W)
+**Arquivos alterados:** sumario.md (v3.6 -> v3.7), CONTEXTO.md (v3.9 -> v3.10)
+**Operação S04:** propagação ao M01 da conclusão do I1 — doutrina de dois
+tokens propagada ao W05 (v1.2 -> v1.3) e ao W06 (v1.2 -> v1.3)
+**Sessão:** Operação — propagação da doutrina de dois tokens ao W05/W06 (2026-06-14)
+
+**O que mudou:**
+- `sumario.md`: W05 v1.2 -> v1.3 (descrição: "opera só com token de leitura,
+  sem token de edição"); W06 v1.2 -> v1.3; linha do M01 v0.34 -> v0.35;
+  cabeçalho v3.6 -> v3.7
+- `CONTEXTO.md`: tabela de workflows — W05 v1.2 -> v1.3, W06 v1.2 -> v1.3;
+  cabeçalho v3.9 -> v3.10
+
+**Por que foi feito:**
+Conclusão do item I1 do ROADMAP. A doutrina de dois tokens, antes restrita ao
+S04/ETAPA 0 e ao CONTEXTO, foi propagada ao W05/WORKFLOW.md (auditor opera só
+sob token de leitura; Etapa 8 redesenhada — log depositado pela sessão
+executora, Opção A do mantenedor) e aos Pacotes 1/2 do W06/WORKFLOW.md.
+Fecha o SEV3 de acesso herdado no W05.
+
+---
+
 ## v0.34 — 2026-06-13
 
 **Tipo:** Atualização (OP-F + propagação de OP-B)
