@@ -1,3 +1,22 @@
+## v0.37 — 2026-06-14
+
+**Tipo:** Atualização (propagação de depósito de relatório — OP-P)
+**Arquivos alterados:** sumario.md (v3.8 -> v3.9), README.md (v0.36 -> v0.37)
+**Operação S04:** o depósito do relatório de sessão no hub-memoria elevou o P02 a v0.5; propagação ao registro de versões do M01
+**Sessão:** Operação — fechamento (2026-06-14)
+
+**O que mudou:**
+- `sumario.md`: P02 v0.4 -> v0.5 (depósito do relatório); cabeçalho v3.8 -> v3.9
+- `README.md` (hub-fonte): v0.36 -> v0.37 (alinhamento ao sumario)
+
+**Por que foi feito:**
+Último ato da sessão (W06): depósito do relatório W03, com propagação completa
+ao grafo de versões para não recriar o drift de propagação parcial observado no
+depósito anterior (W04). Custo de cascade registrado como evidência para a
+decisão de reclassificação do W03.
+
+---
+
 ## v0.36 — 2026-06-14
 
 **Tipo:** Atualização (OP-C glossário + reconciliações pós-auditoria W05)
