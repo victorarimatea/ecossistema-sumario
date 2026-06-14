@@ -1,7 +1,7 @@
 ## v0.36 — 2026-06-14
 
 **Tipo:** Atualização (OP-C glossário + reconciliações pós-auditoria W05)
-**Arquivos alterados:** GLOSSARIO.md (+4 termos), sumario.md (v3.7 -> v3.8), README.md (v0.31 -> v0.36)
+**Arquivos alterados:** GLOSSARIO.md (+4 termos), sumario.md (v3.7 -> v3.8), CONTEXTO.md (v3.10 -> v3.11), README.md (v0.31 -> v0.36)
 **Operação S04:** correção das divergências da reauditoria W05 de 2026-06-14
 **Sessão:** Operação — correção pós-auditoria (2026-06-14)
 
@@ -12,6 +12,9 @@
   declarada no backlog da taxonomia desde 2026-06-04); P02 v0.3 -> v0.4
   (reconciliação — v0.4 já commitada no backlog do hub-memoria desde 2026-06-08);
   S04 v2.8 -> v2.9; cabeçalho v3.7 -> v3.8
+- `CONTEXTO.md`: tabela de skills — S04 v2.8 -> v2.9; cabeçalho v3.10 -> v3.11
+  (incremento que acompanhou a Parte 2 desta operação; registro completado após
+  detecção como SEV3 na reauditoria W05 de 2026-06-14)
 - `README.md` (hub-fonte): v0.31 -> v0.36 (alinhamento ao sumario; README filiado
   ao grafo de versões)
 
