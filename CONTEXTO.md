@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v3.10 — 2026-06-14
+**Versão:** v3.11 — 2026-06-14
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing estrutural para inicialização de sessões de trabalho.
 Leia este arquivo antes de qualquer ação. Para onboarding externo, leia ONBOARDING.md.
@@ -86,7 +86,7 @@ com mínima intervenção manual do mantenedor.
 | S01 | skl-criador-de-skills | Cria novos repositórios de skill via API GitHub |
 | S02 | skl-iac-pdtic | Gera IAC-V e IAC-H do PDTIC da SES-DF (privado) |
 | S03 | skl-poc-saude-digital | Gera documentos de PoC em saúde digital no padrão SES-DF |
-| S04 | skl-github-orquestracao | v2.8 — Garante consistência; verificações CONFIRMAR; escala SEV1–SEV4; 6-A expandida (ideias + conhecimento consolidado); ETAPA 0 com doutrina de dois tokens |
+| S04 | skl-github-orquestracao | v2.9 — Garante consistência; verificações CONFIRMAR; escala SEV1–SEV4; 6-A expandida (ideias + conhecimento consolidado); ETAPA 0 com doutrina de dois tokens |
 | S05 | skl-transcricao-documental | Converte PDFs regulatórios em Markdown estruturado |
 | S06 | skl-registro-reuniao | Transforma resumos de reunião em registros institucionais para o SEI |
 | S07 | skl-briefing-saude-digital | Briefing periódico de saúde digital com classificação taxonômica |
