@@ -22,6 +22,8 @@ com ele, adotou a doutrina de dois tokens, alinhando o S04 (ETAPA 0) e o
 CONTEXTO. A reconciliação da versão do M01 no sumario (v0.31 → v0.34) corrige
 uma defasagem de propagação herdada, usando este backlog como fonte primária.
 
+> **Anotação (pós-W05, 2026-06-13):** a propagação do número do S04 (v2.8) para a célula do S04 na tabela do CONTEXTO.md ficou incompleta nesta operação — SEV2 detectado pela auditoria W05 independente. Completada na correção pós-auditoria da mesma data (ver CHANGELOG). Instância empírica do item de staging "simplificar o modelo de propagação de versões".
+
 ---
 
 ## v0.33 — 2026-06-12
