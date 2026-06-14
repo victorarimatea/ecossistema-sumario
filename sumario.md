@@ -18,7 +18,7 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | hub-fonte | v0.36 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
+| M01 | hub-fonte | v0.37 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
 | M02 | mat-saude-digital-taxonomia | v1.1 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
