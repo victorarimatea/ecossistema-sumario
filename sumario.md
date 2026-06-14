@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.8 — 2026-06-14
+**Versão:** v3.9 — 2026-06-14
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -63,7 +63,7 @@
 | ID | Nome | Versão | Status | Descrição |
 |---|---|---|---|---|
 | P01 | prj-telessaude-poc-prisional | v0.1 | em_execucao | PoC de totem de telemedicina multiparâmetros no Sistema Prisional do DF — DTD/SETIS/SES-DF |
-| P02 | hub-memoria | v0.4 | em_execucao | Projeto do Ecossistema — preserva história da construção, decisões de design e relatórios de sessão (privado) |
+| P02 | hub-memoria | v0.5 | em_execucao | Projeto do Ecossistema — preserva história da construção, decisões de design e relatórios de sessão (privado) |
 
 ---
 
