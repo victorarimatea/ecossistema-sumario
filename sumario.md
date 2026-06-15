@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.10 — 2026-06-16
+**Versão:** v3.11 — 2026-06-15
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -28,7 +28,7 @@
 | S01 | skl-criador-de-skills | v1.1 | Cria novos repositórios de skill via API GitHub |
 | S02 | skl-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skl-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
-| S04 | skl-github-orquestracao | v2.9 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação; ETAPA 0 com doutrina de dois tokens |
+| S04 | skl-github-orquestracao | v2.10 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação; ETAPA 0 com doutrina de dois tokens |
 | S05 | skl-transcricao-documental | v1.0 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
 | S06 | skl-registro-reuniao | v1.0 | Transforma resumos de reunião (PLAUD NOTE ou texto) em registros institucionais padronizados para o SEI |
 | S07 | skl-briefing-saude-digital | v1.0 | Briefing periódico de saúde digital — monitoramento de notícias, regulações, mercado e tecnologia com classificação taxonômica |
@@ -39,7 +39,7 @@
 |---|---|---|---|
 | D01 | doc-governanca-ses-df | v1.0 | Transcrições estruturadas em Markdown de legislações, portarias, resoluções e referências internacionais de saúde digital — 28 documentos |
 | D02 | mat-cadastro-ses-setis-dtd | v1.0 | Matriz de Cadastros de referência validada para uso interno da DTD/SETIS/SES-DF |
-| D03 | hub-aprendizagem | v1.2 | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da construção do ecossistema DTD/SETIS |
+| D03 | hub-aprendizagem | v1.3 | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da construção do ecossistema DTD/SETIS |
 
 ### Workflows (W)
 
@@ -47,10 +47,10 @@
 |---|---|---|---|---|
 | W01 | wkf-transcricao-documental | v1.0 | ativo | Processo completo de transcrição de PDFs regulatórios em Markdown — memória organizacional do pipeline DTD/SETIS/SES-DF |
 | W02 | wkf-registro-reuniao | v1.0 | ativo | Processo de registro institucional de reunião — PLAUD NOTE Pro → Markdown → SEI |
-| W03 | wkf-registro-sessao | v1.3 | ativo | Registro estruturado de sessões de trabalho intensivo — relatório em três blocos (narrativa, ciclo de qualidade, handoff); preserva história da construção do ecossistema |
-| W04 | wkf-roadmap-geral | v1.0 | ativo | Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico e três camadas de curadoria |
+| W03 | wkf-registro-sessao | v1.4 | ativo | Registro estruturado de sessões de trabalho intensivo — relatório em três blocos (narrativa, ciclo de qualidade, handoff); preserva história da construção do ecossistema |
+| W04 | wkf-roadmap-geral | v1.1 | ativo | Gestão de roadmap: ciclo semanal, staging area, diálogo estratégico e três camadas de curadoria |
 | W05 | wkf-auditoria-consistencia | v1.3 | ativo | Auditoria de consistência em 5 camadas; independente da S04; opera só com token de leitura, sem token de edição |
-| W06 | wkf-sessao-agente | v1.3 | ativo | Protocolo de Sessão Assistida por Agente — padroniza abertura, trabalho e fechamento; handoff lido automaticamente do hub-memoria; processo pai do W03 e W05 |
+| W06 | wkf-sessao-agente | v1.4 | ativo | Protocolo de Sessão Assistida por Agente — padroniza abertura, trabalho e fechamento; handoff lido automaticamente do hub-memoria; processo pai do W03 e W05 |
 
 ### Agendas (A)
 
