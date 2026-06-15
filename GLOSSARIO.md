@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v2.2 — 2026-06-08
+**Versão:** v2.3 — 2026-06-15
 **Repositório:** hub-fonte (M01)
 **Mantenedor:** victorarimatea
 
@@ -491,6 +491,40 @@ que realiza essas funções sem fazer parte do hardware de um dispositivo médic
 ---
 
 ## Categoria 12 — Estratégia, Gestão e Governança Digital
+
+
+**CIG/SES — Comitê de Inovação e Governança da Saúde**
+Colegiado consultivo do Secretário de Estado de Saúde do Distrito Federal,
+instituído pela Portaria nº 193/2024. Responsável por assessorar a gestão
+em temas de inovação, governança de TIC e transformação digital na SES-DF.
+O CIG/SES é formado por subcomitês temáticos (Subcomitês I a VIII), entre os
+quais o Subcomitê VI (SGTD), presidido pelo Diretor de Transformação Digital.
+
+**Fórum de Subsecretários**
+Instância colegiada da SES-DF que delibera sobre planos, programas e
+instrumentos de gestão de abrangência institucional, nos termos do Art. 7º,
+inciso I, da Portaria nº 193/2024. É a instância competente para deliberar
+sobre o PDTIC 2024-2027 após manifestação do SGTD. Distinto do CIG/SES
+(consultivo) e do SGTD (revisor e encaminhador): o Fórum de Subsecretários
+**delibera**. O SGTD revisa, manifesta, recomenda e encaminha — nunca delibera.
+
+**PTD-SES — Plano de Transformação Digital da Secretaria de Estado de Saúde**
+Instrumento de planejamento estratégico da SES-DF que define as ações e metas
+de transformação digital com impacto assistencial para o período 2024-2027.
+Distinto do PDTIC (que abrange a infraestrutura de TIC): o PTD-SES foca na
+digitalização dos processos assistenciais e na maturidade digital dos serviços
+de saúde. Aprovação competente: CGTD/SEEC (nível GDF — Portaria 718/2024),
+não o Fórum de Subsecretários. Também referenciado como PTD ou PTD/PTD-SES
+quando mencionado em conjunto com o instrumento genérico de PTD de outros órgãos.
+
+**SGTD — Subcomitê de Gestão de Tecnologia e Dados**
+Subcomitê VI do CIG/SES, presidido pelo Diretor de Transformação Digital da
+DTD/SETIS/SES-DF, nos termos do Art. 34 da Portaria nº 193/2024. Responsável
+por revisar o PDTIC e o PTD-SES, emitir manifestação técnica e encaminhar ao
+Fórum de Subsecretários para deliberação. Regra crítica de linguagem institucional:
+o SGTD **revisa, manifesta, recomenda e encaminha** — **nunca delibera**.
+A deliberação sobre planos compete ao Fórum de Subsecretários (Art. 7º, I).
+Documentos institucionais que atribuam deliberação ao SGTD contêm erro técnico-jurídico.
 
 **Governança em Saúde Digital**
 Conjunto de lideranças, estratégias, políticas e regras para promover, orientar,
@@ -1046,6 +1080,10 @@ W05 verifica de fora, independente.
 | Falso positivo | Cat. 5 |
 | Fonte de Dados | Cat. 16 |
 | Front Matter YAML | Cat. 6 |
+| CIG/SES — Comitê de Inovação e Governança da Saúde | Cat. 12 |
+| Fórum de Subsecretários | Cat. 12 |
+| PTD-SES — Plano de Transformação Digital da SES | Cat. 12 |
+| SGTD — Subcomitê de Gestão de Tecnologia e Dados | Cat. 12 |
 | Gestão por Exceção | Cat. 13 |
 | Gestão Orientada a Dados (Data-Driven Management) | Cat. 15 |
 | GLOSSARIO.md | Cat. 2 |
@@ -1114,7 +1152,7 @@ W05 verifica de fora, independente.
 
 
 
-*Última revisão: 2026-06-14 — victorarimatea*
+*Última revisão: 2026-06-15 — victorarimatea*
 *Para propor novos termos: abrir issue ou atualizar diretamente via S04.*
 
 - **Commander's Intent / Intenção do Comandante** → Categoria 17
