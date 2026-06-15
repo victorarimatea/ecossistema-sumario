@@ -1,3 +1,12 @@
+## v3.10 — 2026-06-16
+
+**Tipo:** Atualização
+**Repositório afetado:** D03 (hub-aprendizagem) — v1.1 → v1.2
+**Motivo:** cap-04 adicionado (API vs raw.githubusercontent.com); benchmarks atualizado;
+fila I2/I3/I4/I5 fechada no ROADMAP; D007 adicionado ao DECISOES.md (modelo APPEND W03)
+
+---
+
 ## v0.37 — 2026-06-14
 
 **Tipo:** Atualização (propagação de depósito de relatório — OP-P)
