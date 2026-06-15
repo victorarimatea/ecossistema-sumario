@@ -1,3 +1,20 @@
+
+## v0.38 — 2026-06-15
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Depósito das 4 definições formais aprovadas na curadoria
+W04 de 2026-06-15 (Seção B: B1–B4). Termos de governança normativa da SES-DF que
+vinham sendo utilizados nos documentos institucionais sem definição formal no glossário.
+A formalização resolve a ambiguidade de linguagem detectada especialmente para SGTD
+(que não delibera — revisa, manifesta, recomenda e encaminha) e PTD-SES (distinto
+do PDTIC em escopo e instância de aprovação).
+
+### Alterações realizadas
+- `GLOSSARIO.md` Categoria 12: 4 definições adicionadas (CIG/SES, Fórum de Subsecretários, PTD-SES, SGTD)
+- `GLOSSARIO.md` Índice Alfabético: 4 entradas adicionadas
+- `GLOSSARIO.md` cabeçalho: versão atualizada v2.2 → v2.3
+
 ## v3.10 — 2026-06-16
 
 **Tipo:** Atualização
