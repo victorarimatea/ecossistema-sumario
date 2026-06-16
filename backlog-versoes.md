@@ -1,3 +1,19 @@
+## v0.42 — 2026-06-16
+
+**Tipo:** fix (reauditoria W05)
+**Sessão:** Correções SEV2-C1 + SEV3-C2/C3/C4/C5 — reauditoria W05 2026-06-16
+**Arquivos alterados:** sem alteração no sumario.md (v3.15 mantido)
+
+### Alterações
+
+- `hub-fonte/backlog-versoes.md`: entrada v0.41 consolidada — gap v3.13→v3.14 rastreado (SEV2-C1)
+- `hub-aprendizagem/backlog-versoes.md`: reordenado — v1.4 ao topo (SEV3-C2)
+- `hub-entrada/ROADMAP.md`: cabeçalho sumario v3.14→v3.15 (SEV3-C3)
+- `hub-entrada/ROADMAP.md`: Última atualização 2026-06-15→2026-06-16 (SEV3-C4)
+- `hub-entrada/CHANGELOG.md`: entrada das correções v0.41 + reauditoria adicionada (SEV3-C5)
+
+---
+
 ## v0.41 — 2026-06-16
 
 **Tipo:** fix (W05 — correções pós-auditoria)
