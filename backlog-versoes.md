@@ -1,3 +1,21 @@
+## v0.41 — 2026-06-16
+
+**Tipo:** fix (W05 — correções pós-auditoria)
+**Sessão:** Correções SEV2-B1/B2/B3 + SEV3-B4/B5 — auditoria W05 2026-06-16
+**Arquivos alterados:** sumario.md (v3.14 → v3.15)
+
+### Alterações
+
+- `hub-fonte/sumario.md`: M01 v0.38 → v0.39 (SEV2-B1 — Erro #013)
+- `hub-fonte/sumario.md`: S08 hub-client-side adicionado a Links rápidos (SEV3-B5)
+- `hub-fonte/sumario.md`: D03 hub-aprendizagem v1.3 → v1.4 (SEV2-B3 propagação)
+- `hub-entrada/ROADMAP.md`: hub-client-side marcado ✅ no Médio Prazo (SEV2-B2)
+- `hub-entrada/ROADMAP.md`: cabeçalho sumario v3.11 → v3.14 (SEV3-B4)
+- `hub-aprendizagem/backlog-versoes.md`: cap-04 reclassificado v1.2 → v1.4 (SEV2-B3 — inversão temporal)
+- `hub-aprendizagem/README.md`: v1.3 → v1.4
+
+---
+
 ## v0.40 — 2026-06-16
 
 **Tipo:** chore
