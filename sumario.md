@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.13 — 2026-06-16
+**Versão:** v3.14 — 2026-06-16
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -18,7 +18,7 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| M01 | hub-fonte | v0.38 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
+| M01 | hub-fonte | v0.39 | Âncora: sumário, nomenclatura, glossário, contexto, protocolo de atualizações, histórico de ações |
 | M02 | mat-saude-digital-taxonomia | v1.1 | Taxonomia estruturada de saúde digital |
 
 ### Skills (S)
@@ -91,6 +91,7 @@
 | S05 | skl-transcricao-documental | Skill | Público | https://github.com/victorarimatea/skl-transcricao-documental |
 | S06 | skl-registro-reuniao | Skill | Público | https://github.com/victorarimatea/skl-registro-reuniao |
 | S07 | skl-briefing-saude-digital | Skill | Público | https://github.com/victorarimatea/skl-briefing-saude-digital |
+| S08 | hub-client-side | Skill | Público | https://github.com/victorarimatea/hub-client-side |
 | D01 | doc-governanca-ses-df | Documento | Público | https://github.com/victorarimatea/doc-governanca-ses-df |
 | D02 | mat-cadastro-ses-setis-dtd | Documento | Público | https://github.com/victorarimatea/mat-cadastro-ses-setis-dtd |
 | D03 | hub-aprendizagem | Documento | Público | https://github.com/victorarimatea/hub-aprendizagem |
