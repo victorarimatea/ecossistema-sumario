@@ -1,7 +1,7 @@
 # hub-fonte
 
 **Tipo:** Matriz Central (M01)
-**Versão:** v0.38 — 2026-06-14
+**Versão:** v0.39 — 2026-06-16
 **Mantenedor:** victorarimatea
 **Status:** Ativo
 
