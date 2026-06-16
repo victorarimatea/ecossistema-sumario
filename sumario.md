@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.11 — 2026-06-15
+**Versão:** v3.12 — 2026-06-16
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -32,6 +32,7 @@
 | S05 | skl-transcricao-documental | v1.0 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
 | S06 | skl-registro-reuniao | v1.0 | Transforma resumos de reunião (PLAUD NOTE ou texto) em registros institucionais padronizados para o SEI |
 | S07 | skl-briefing-saude-digital | v1.0 | Briefing periódico de saúde digital — monitoramento de notícias, regulações, mercado e tecnologia com classificação taxonômica |
+| S08 | hub-client-side | v0.1 | Repositório de pacotes instaláveis (client-side) do ecossistema ATLAS — skills e workflows portáteis; primeiro pacote: S06-CS (registro de reunião) + meta-skill S-CSC 🧪 (proto) |
 
 ### Documentos (D)
 
