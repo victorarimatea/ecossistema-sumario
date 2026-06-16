@@ -1,3 +1,15 @@
+## v0.40 — 2026-06-16
+
+**Tipo:** chore
+**Sessão:** Operacional — revisão S01 skl-criador-de-skills
+**Arquivos alterados:** sumario.md (v3.12 → v3.13)
+
+### Alterações
+
+- `hub-fonte/sumario.md`: S01 skl-criador-de-skills v1.1 → v2.0; descrição atualizada para refletir bifurcação server-side/client-side
+
+---
+
 ## v0.39 — 2026-06-16
 
 **Tipo:** feat
