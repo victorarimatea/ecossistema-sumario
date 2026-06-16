@@ -1,3 +1,15 @@
+## v0.43 — 2026-06-16
+
+**Tipo:** fix (3ª rodada W05)
+**Sessão:** Correção SEV3-D1 — 3ª reauditoria W05 2026-06-16
+**Arquivos alterados:** sem alteração no sumario.md
+
+### Alterações
+
+- `hub-entrada/CHANGELOG.md`: marcador de lista duplicado corrigido (`- -` → `-`) na entrada das correções W05 (SEV3-D1)
+
+---
+
 ## v0.42 — 2026-06-16
 
 **Tipo:** fix (reauditoria W05)
