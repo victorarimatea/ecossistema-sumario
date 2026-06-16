@@ -1,3 +1,16 @@
+## v0.39 — 2026-06-16
+
+**Tipo:** feat
+**Sessão:** Operacional Frente 2 — criação hub-client-side
+**Arquivos alterados:** sumario.md (v3.11 → v3.12)
+
+### Alterações
+
+- Criação do repositório `hub-client-side` (S08) no GitHub
+- Estrutura inicial: `README.md`, `INDICE.md`, `SKILL-registro-reuniao-clientside.md` (S06-CS), `SKILL-criador-skill-clientside.md` (S-CSC 🧪 proto)
+- `hub-fonte/sumario.md`: adicionada entrada S08 hub-client-side v0.1 (v3.11 → v3.12)
+
+---
 
 ## v0.37-patch — 2026-06-15
 
