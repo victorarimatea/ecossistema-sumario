@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.14 — 2026-06-16
+**Versão:** v3.15 — 2026-06-16
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -40,7 +40,7 @@
 |---|---|---|---|
 | D01 | doc-governanca-ses-df | v1.0 | Transcrições estruturadas em Markdown de legislações, portarias, resoluções e referências internacionais de saúde digital — 28 documentos |
 | D02 | mat-cadastro-ses-setis-dtd | v1.0 | Matriz de Cadastros de referência validada para uso interno da DTD/SETIS/SES-DF |
-| D03 | hub-aprendizagem | v1.3 | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da construção do ecossistema DTD/SETIS |
+| D03 | hub-aprendizagem | v1.4 | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da construção do ecossistema DTD/SETIS |
 
 ### Workflows (W)
 
