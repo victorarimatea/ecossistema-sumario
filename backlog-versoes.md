@@ -2,17 +2,22 @@
 
 **Tipo:** fix (W05 — correções pós-auditoria)
 **Sessão:** Correções SEV2-B1/B2/B3 + SEV3-B4/B5 — auditoria W05 2026-06-16
-**Arquivos alterados:** sumario.md (v3.14 → v3.15)
+**Arquivos alterados:** sumario.md (v3.13 → v3.15) — duas operações lógicas consolidadas
 
 ### Alterações
 
-- `hub-fonte/sumario.md`: M01 v0.38 → v0.39 (SEV2-B1 — Erro #013)
-- `hub-fonte/sumario.md`: S08 hub-client-side adicionado a Links rápidos (SEV3-B5)
-- `hub-fonte/sumario.md`: D03 hub-aprendizagem v1.3 → v1.4 (SEV2-B3 propagação)
+- `hub-fonte/sumario.md`: M01 v0.38 → v0.39 (SEV2-B1 — Erro #013) → sumario v3.13 → v3.14
+- `hub-fonte/sumario.md`: S08 hub-client-side adicionado a Links rápidos (SEV3-B5) → incluído no mesmo PUT v3.14
+- `hub-fonte/sumario.md`: D03 hub-aprendizagem v1.3 → v1.4 (SEV2-B3 propagação) → sumario v3.14 → v3.15
 - `hub-entrada/ROADMAP.md`: hub-client-side marcado ✅ no Médio Prazo (SEV2-B2)
 - `hub-entrada/ROADMAP.md`: cabeçalho sumario v3.11 → v3.14 (SEV3-B4)
 - `hub-aprendizagem/backlog-versoes.md`: cap-04 reclassificado v1.2 → v1.4 (SEV2-B3 — inversão temporal)
 - `hub-aprendizagem/README.md`: v1.3 → v1.4
+
+> **Nota de rastreabilidade (SEV2-C1 reauditoria):** a transição v3.13→v3.14 ocorreu no mesmo
+> conjunto de correções que v3.14→v3.15. Ambas estão discriminadas acima. O campo
+> "Arquivos alterados" foi corrigido de "v3.14→v3.15" para "v3.13→v3.15" para eliminar
+> o gap aparente detectado pela reauditoria W05.
 
 ---
 
