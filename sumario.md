@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.12 — 2026-06-16
+**Versão:** v3.13 — 2026-06-16
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -25,7 +25,7 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| S01 | skl-criador-de-skills | v1.1 | Cria novos repositórios de skill via API GitHub |
+| S01 | skl-criador-de-skills | v2.0 | Cria skills no ecossistema ATLAS — server-side (repositório GitHub) ou client-side (pacote instalável hub-client-side); garante conformidade com nomenclatura e propagação ao sumário |
 | S02 | skl-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skl-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
 | S04 | skl-github-orquestracao | v2.10 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação; ETAPA 0 com doutrina de dois tokens |
