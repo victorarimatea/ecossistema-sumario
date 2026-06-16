@@ -1,4 +1,17 @@
 
+## v0.37-patch — 2026-06-15
+
+**Tipo de alteração:** Correção de rastreabilidade (dívida de registro)
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Auditoria W05 de 2026-06-15 (SEV3-B3) identificou que
+CONTEXTO.md declara v3.12 sem entrada correspondente no backlog. A atualização
+ocorreu em sessão anterior mas o registro de motivos não foi criado. Esta entrada
+sana a lacuna de rastreabilidade — o versionamento independente exige que toda
+versão declarada em um arquivo tenha entrada correspondente no backlog.
+
+### Alterações registradas retroativamente
+- `CONTEXTO.md`: versão atualizada para v3.12 em sessão anterior (data exata não recuperável do histórico de commits); conteúdo: atualização de contexto operacional do ecossistema
+
 ## v0.38 — 2026-06-15
 
 **Tipo de alteração:** Adição
@@ -14,6 +27,8 @@ do PDTIC em escopo e instância de aprovação).
 - `GLOSSARIO.md` Categoria 12: 4 definições adicionadas (CIG/SES, Fórum de Subsecretários, PTD-SES, SGTD)
 - `GLOSSARIO.md` Índice Alfabético: 4 entradas adicionadas
 - `GLOSSARIO.md` cabeçalho: versão atualizada v2.2 → v2.3
+- `sumario.md`: versão atualizada v3.10 → v3.11, propagando versões da sessão operacional de 2026-06-15: hub-aprendizagem v1.3, W06 v1.4, W03 v1.4, W04 v1.1, S04 v2.10, PROTOCOLO-SESSAO v1.1
+
 
 ## v3.10 — 2026-06-16
 
