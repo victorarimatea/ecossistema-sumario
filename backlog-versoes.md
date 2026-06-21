@@ -1,3 +1,42 @@
+## v0.44 — 2026-06-21
+
+**Tipo:** feat (atualização S05 + adição D01)
+**Sessão:** Atualização da skill de transcrição (S05 v1.1) e adição da PAS SES-DF 2026 ao D01 (categoria nova)
+**Arquivos alterados:** sumario.md v3.15 → v3.16
+
+### Alterações
+
+- `skl-transcricao-documental` (S05): v1.0 → v1.1 — consolidação de aprimoramentos
+  (§LOA, §DESIGN, ETAPA 7.5 de revisão estrutural externa, ETAPA 8 de mineração,
+  §BACKLOG); correções de nomenclatura (skill- → skl-, governanca → doc-governanca,
+  ecossistema-sumario → hub-fonte); remoção da seção `## Histórico de Versões`
+  embutida no SKILL.md (fonte de drift — histórico é responsabilidade do
+  backlog-versoes.md)
+- `doc-governanca-ses-df` (D01): v1.0 → v1.1 — adição da PAS SES-DF 2026 em nova
+  categoria `07-instrumentos-planejamento`; total 28 → 29 documentos
+- `sumario.md`: v3.15 → v3.16 — versões e descrições de S05 e D01 atualizadas
+- `CONTEXTO.md`: v3.12 → v3.13 — descrições de S05 e D01 atualizadas
+
+### Observações para auditoria (não defeitos desta sessão)
+
+- **Divergência de série CONTEXTO.md × sumario.md:** o CONTEXTO.md está em v3.13
+  e o sumario.md em v3.16. Essa defasagem é pré-existente (o CONTEXTO já estava em
+  v3.12 quando o sumario estava em v3.15, na abertura desta sessão) e parece
+  indicar que as duas séries v3.x evoluem de forma independente. Não foi
+  "alinhada" artificialmente nesta sessão porque isso exigiria decidir se as
+  séries devem ou não ser idênticas — decisão de design que cabe a uma auditoria
+  W05/sessão dedicada, não a uma operação de conteúdo. **Sinalizado para W05
+  classificar (provável SEV3).**
+- **Numeração de pastas do D01:** inconsistência histórica (duas pastas `03`)
+  registrada como SEV4 no backlog do próprio D01; a nova categoria foi criada
+  como `07` para reservar a posição correta da futura renumeração.
+- **9ª correção no SKILL.md (não prevista no plano original):** a remoção da
+  seção Histórico de Versões deixou uma menção textual órfã na ETAPA 8
+  ("registrar no Histórico de Versões"), reapontada para o `backlog-versoes.md`.
+  Decorrência direta e necessária da remoção aprovada.
+
+---
+
 ## v0.43 — 2026-06-16
 
 **Tipo:** fix (3ª rodada W05)
