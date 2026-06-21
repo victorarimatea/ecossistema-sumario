@@ -1,6 +1,6 @@
 # Sumário do Ecossistema DTD/SETIS
 
-**Versão:** v3.15 — 2026-06-16
+**Versão:** v3.16 — 2026-06-21
 **Repositório âncora:** hub-fonte
 **Mantenedor:** victorarimatea
 
@@ -29,7 +29,7 @@
 | S02 | skl-iac-pdtic | v2.0 | Gera IAC-V e IAC-H do PDTIC da SES-DF |
 | S03 | skl-poc-saude-digital | v1.0 | Gera documentos de PoC em saúde digital no padrão SES-DF/DTD |
 | S04 | skl-github-orquestracao | v2.10 | Garante consistência do ecossistema a cada operação — plano, aprovação, execução, verificação; ETAPA 0 com doutrina de dois tokens |
-| S05 | skl-transcricao-documental | v1.0 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF (7 etapas, auto-verificação) |
+| S05 | skl-transcricao-documental | v1.1 | Converte documentos PDF em Markdown estruturado seguindo o padrão DTD/SETIS/SES-DF — 10 etapas (incl. 7.5 revisão estrutural externa e 8 mineração de aprimoramentos); seções §LOA, §DESIGN, §BACKLOG |
 | S06 | skl-registro-reuniao | v1.0 | Transforma resumos de reunião (PLAUD NOTE ou texto) em registros institucionais padronizados para o SEI |
 | S07 | skl-briefing-saude-digital | v1.0 | Briefing periódico de saúde digital — monitoramento de notícias, regulações, mercado e tecnologia com classificação taxonômica |
 | S08 | hub-client-side | v0.1 | Repositório de pacotes instaláveis (client-side) do ecossistema ATLAS — skills e workflows portáteis; primeiro pacote: S06-CS (registro de reunião) + meta-skill S-CSC 🧪 (proto) |
@@ -38,7 +38,7 @@
 
 | ID | Nome | Versão | Descrição |
 |---|---|---|---|
-| D01 | doc-governanca-ses-df | v1.0 | Transcrições estruturadas em Markdown de legislações, portarias, resoluções e referências internacionais de saúde digital — 28 documentos |
+| D01 | doc-governanca-ses-df | v1.1 | Transcrições estruturadas em Markdown de legislações, portarias, resoluções, referências internacionais e instrumentos de planejamento — 29 documentos |
 | D02 | mat-cadastro-ses-setis-dtd | v1.0 | Matriz de Cadastros de referência validada para uso interno da DTD/SETIS/SES-DF |
 | D03 | hub-aprendizagem | v1.4 | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da construção do ecossistema DTD/SETIS |
 
