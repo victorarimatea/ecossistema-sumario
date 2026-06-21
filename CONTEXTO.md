@@ -1,6 +1,6 @@
 # CONTEXTO.md — Ecossistema DTD/SETIS
 
-**Versão:** v3.12 — 2026-06-16
+**Versão:** v3.13 — 2026-06-21
 **Mantenedor:** victorarimatea
 **Propósito:** Briefing estrutural para inicialização de sessões de trabalho.
 Leia este arquivo antes de qualquer ação. Para onboarding externo, leia ONBOARDING.md.
@@ -87,7 +87,7 @@ com mínima intervenção manual do mantenedor.
 | S02 | skl-iac-pdtic | Gera IAC-V e IAC-H do PDTIC da SES-DF (privado) |
 | S03 | skl-poc-saude-digital | Gera documentos de PoC em saúde digital no padrão SES-DF |
 | S04 | skl-github-orquestracao | v2.9 — Garante consistência; verificações CONFIRMAR; escala SEV1–SEV4; 6-A expandida (ideias + conhecimento consolidado); ETAPA 0 com doutrina de dois tokens |
-| S05 | skl-transcricao-documental | Converte PDFs regulatórios em Markdown estruturado |
+| S05 | skl-transcricao-documental | Converte PDFs em Markdown estruturado — 10 etapas (incl. revisão estrutural externa e mineração de aprimoramentos); §LOA, §DESIGN, §BACKLOG |
 | S06 | skl-registro-reuniao | Transforma resumos de reunião em registros institucionais para o SEI |
 | S07 | skl-briefing-saude-digital | Briefing periódico de saúde digital com classificação taxonômica |
 
@@ -95,7 +95,7 @@ com mínima intervenção manual do mantenedor.
 
 | ID | Nome | Descrição |
 |---|---|---|
-| D01 | doc-governanca-ses-df | 28 documentos transcritos: legislação, portarias, resoluções e referências internacionais |
+| D01 | doc-governanca-ses-df | 29 documentos transcritos: legislação, portarias, resoluções, referências internacionais e instrumentos de planejamento |
 | D02 | mat-cadastro-ses-setis-dtd | Matriz de cadastros de referência da DTD/SETIS/SES-DF |
 | D03 | hub-aprendizagem | Repositório documental reflexivo — boas práticas, benchmarks e lições aprendidas da construção do ecossistema DTD/SETIS |
 
