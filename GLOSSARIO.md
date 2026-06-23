@@ -1,6 +1,6 @@
 # Glossário — Ecossistema DTD/SETIS
 
-**Versão:** v2.3 — 2026-06-15
+**Versão:** v2.4 — 2026-06-23
 **Repositório:** hub-fonte (M01)
 **Mantenedor:** victorarimatea
 
@@ -60,6 +60,9 @@ de série: W01, W02, W03… Exemplos: wkf-registro-sessao (W03),
 wkf-auditoria-consistencia (W05), wkf-sessao-agente (W06). Identificado
 pela letra W no sumário.
 
+**hub-client-side (S08)**
+Repositório agregador de pacotes instaláveis do ecossistema ATLAS — skills e workflows portáteis que operam no lado do cliente (dentro do projeto Claude.ai ou ambiente equivalente), sem depender de repositório GitHub para execução. Identificado como S08 no sumário. Distinto dos repositórios de skill server-side (tipo S): enquanto estes vivem no GitHub e são lidos via API a cada sessão, os pacotes client-side são instalados no ambiente do cliente e operam de forma autônoma. Pacotes client-side não têm papel de escrita no ecossistema — são somente leitura em relação aos repositórios canônicos. Primeiro pacote: S06-CS (registro de reunião) + meta-skill S-CSC (proto, 🧪).
+
 ---
 
 ## Categoria 2 — Arquivos obrigatórios
@@ -106,6 +109,9 @@ Arquivo exclusivo do M01. Índice geral do ecossistema: lista todos os
 repositórios ativos com tipo, versão, status e descrição. É o ponto de
 entrada para saber o que existe no ecossistema. Ver também: repositório âncora.
 
+**bloco-para-agentes**
+Seção obrigatória no `README.md` de todo repositório do ecossistema ATLAS, voltada a instâncias de agentes de IA. Contém a legenda das marcações do sistema (🔒 📊 🌐 🧪) e as instruções de comportamento esperado para cada uma, especialmente para elementos em estado `em teste` (🧪). Garante que qualquer agente que acesse um repositório tenha, no ponto de entrada natural (o README), as convenções ativas do ecossistema sem depender de leitura prévia do CONTEXTO.md ou da nomenclatura.md. Auditado pelo W05 como arquivo obrigatório. Formalizado na `nomenclatura.md` do M01.
+
 ---
 
 ## Categoria 3 — Instrumentos institucionais
@@ -149,6 +155,15 @@ OP-A (criação de repositório), OP-B (atualização de skill), OP-C
 pontual), OP-F (atualização de planejamento), OP-P (atualização de
 projeto), OP-W (atualização de workflow), OP-AG (atualização de agenda).
 Cada tipo tem checklist própria de arquivos a atualizar.
+
+**kebab-case**
+Convenção de formatação de nomes em que todas as palavras são escritas em letras minúsculas e separadas por hífens, sem espaços ou underscores. Exemplo: `hub-fonte`, `skl-github-orquestracao`, `wkf-registro-sessao`. É a convenção obrigatória para nomenclatura de repositórios, arquivos e identificadores do ecossistema ATLAS, conforme definido na `nomenclatura.md` do M01.
+
+**Estado em teste (🧪)**
+Categoria formal de experimentação reversível do ecossistema ATLAS. Um elemento marcado com 🧪 está ativo e observável, mas não é vinculante: não bloqueia operações, não é gravado como artefato permanente e não integra o rito canônico até validação formal. O token 🧪 é greppável por varredura, garantindo rastreabilidade de todos os elementos em experimentação. Rito em dois tempos: leve no W06 (listar elementos 🧪 e registrar comportamento observado) e formal no W04 (veredito: `validar` → promove a definitivo; `ajustar` → mantém em teste com mudança; `descartar` → remove). Critério de saída: comportamento observado em sessões reais, sem prazo fixo. O próprio mecanismo foi inaugurado marcado 🧪.
+
+**Versionamento source-only**
+Modelo de versionamento adotado pelo ecossistema ATLAS a partir da decisão de design de 2026-06-15, segundo o qual a versão de um arquivo vive exclusivamente na ficha técnica do próprio arquivo (campo `**Versão:**` no cabeçalho). Arquivos de referência derivados — como o `sumario.md` e o `CONTEXTO.md` — não participam da cadeia de propagação de versões: não há coluna Versão no sumário, e o CONTEXTO.md não precisa ser atualizado a cada incremento de versão de outros arquivos. Elimina a classe de drift causada pela propagação incompleta em cascata. Distinto do versionamento independente (cada arquivo tem sua própria série): o source-only define *onde* a versão vive, não *como* as séries se relacionam.
 
 ---
 
@@ -1039,6 +1054,16 @@ verificação, de modo que a falha de uma camada não comprometa o todo. Fundame
 a separação executor/auditor: a S04 verifica o próprio trabalho (Etapa 6) e o
 W05 verifica de fora, independente.
 
+
+**ATLAS**
+Nome fantasia de uma metodologia de gestão do conhecimento institucional desenvolvida por Victor Leonardo Arimatea Queiroz, Diretor de Transformação Digital da DTD/SETIS/SES-DF. O ATLAS identifica a metodologia estruturada em torno de uma arquitetura de repositórios, matrizes de conhecimento, skills de automação e workflows institucionais versionados e auditáveis. Internamente, o termo operacional permanece "ecossistema". Formulação canônica: "o ecossistema ATLAS, no qual a DTD/SETIS/SES-DF é a primeira instância." A separação entre núcleo (portável) e instância (específica de uma organização) é o fundamento arquitetural que torna o ATLAS generalizável para além da DTD.
+
+**base64 (no contexto de operações GitHub)**
+Esquema de codificação binário-para-texto utilizado pela API GitHub Contents para transmitir o conteúdo de arquivos. Todo arquivo retornado pela API tem seu conteúdo no campo `content` codificado em base64, com quebras de linha (`\n`) inseridas a cada 60 caracteres. Para decodificar corretamente, é obrigatório remover as quebras de linha antes de decodificar — `d['content'].replace('\n', '')` — caso contrário a decodificação falha silenciosamente ou produz conteúdo truncado. No sentido inverso, todo conteúdo enviado via PUT deve ser codificado em base64 antes de ser incluído no payload JSON.
+
+**SHA (no contexto de operações GitHub)**
+Identificador criptográfico único que a API GitHub associa a cada versão de um arquivo. Necessário como parâmetro obrigatório em toda operação de escrita (PUT) — garante que a escrita incide sobre a versão conhecida do arquivo, prevenindo sobrescritas acidentais de alterações concorrentes (erro HTTP 409 — conflict). No ecossistema ATLAS, o SHA deve ser obtido imediatamente antes de cada PUT via GET, nunca reutilizado de leituras anteriores na mesma sessão. Regra operacional crítica formalizada na S04: SHA obsoleto é causa direta de falha de escrita.
+
 ## Índice Alfabético Unificado
 
 > Lista de todos os termos definidos neste glossário, com referência à categoria.
@@ -1144,6 +1169,14 @@ W05 verifica de fora, independente.
 | Tomada de Decisão Baseada em Evidências | Cat. 15 |
 | Tratamento de Dados | Cat. 10 |
 | Workflow | Cat. 7 |
+| ATLAS | Cat. 17 |
+| base64 (no contexto de operações GitHub) | Cat. 17 |
+| bloco-para-agentes | Cat. 2 |
+| Estado em teste (🧪) | Cat. 4 |
+| hub-client-side (S08) | Cat. 1 |
+| kebab-case | Cat. 4 |
+| SHA (no contexto de operações GitHub) | Cat. 17 |
+| Versionamento source-only | Cat. 4 |
 | context mining / mineração de contexto | Cat. 17 |
 | conhecimento consolidado | Cat. 17 |
 | Padrão CONFIRMAR | Cat. 17 |
@@ -1152,7 +1185,7 @@ W05 verifica de fora, independente.
 
 
 
-*Última revisão: 2026-06-15 — victorarimatea*
+*Última revisão: 2026-06-23 — victorarimatea*
 *Para propor novos termos: abrir issue ou atualizar diretamente via S04.*
 
 - **Commander's Intent / Intenção do Comandante** → Categoria 17
