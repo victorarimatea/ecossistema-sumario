@@ -37,6 +37,19 @@
 
 ---
 
+
+## v0.45 — 2026-06-23
+**Tipo:** Atualização (OP-C)
+**Arquivo:** GLOSSARIO.md
+**Resumo:** Adição de 8 termos ao GLOSSARIO.md (v2.3 → v2.4).
+**Termos adicionados:**
+- Categoria 1: hub-client-side (S08)
+- Categoria 2: bloco-para-agentes
+- Categoria 4: kebab-case, Estado em teste (🧪), Versionamento source-only
+- Categoria 17: ATLAS, base64 (no contexto de operações GitHub), SHA (no contexto de operações GitHub)
+**Contexto:** Zera o resíduo SEV4-B6 acumulado desde 2026-06-15 (8 candidatos pendentes de formalização).
+**Sessão:** 2026-06-23
+
 ## v0.43 — 2026-06-16
 
 **Tipo:** fix (3ª rodada W05)
